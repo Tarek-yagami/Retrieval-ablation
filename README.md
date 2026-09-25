@@ -12,7 +12,7 @@ There is no configuration that's safe to assume by default, including the
 ones that sound more sophisticated. Every added piece has to prove it earns
 its cost on your own data.
 
-**Live demo:** _(deployed link goes here once published to Streamlit Community Cloud)_
+**Live demo:** https://retrieval-ablation.streamlit.app/
 
 ## The problem
 
