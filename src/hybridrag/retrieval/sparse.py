@@ -15,5 +15,5 @@ class SparseRetriever:
 
     def search(self, query: str, top_k: int) -> list[tuple[str, float]]:
         scores = self._bm25.get_scores(query.lower().split())
-        ranked = sorted(zip(self._doc_ids, scores), key=lambda x: x[1], reverse=True)
+        ranked = sorted(zip(self._doc_ids, scores, strict=True), key=lambda x: x[1], reverse=True)
         return ranked[:top_k]

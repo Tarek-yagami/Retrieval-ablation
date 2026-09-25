@@ -64,7 +64,7 @@ def render_ablation_page() -> None:
     datasets = list(results.keys())
 
     cols = st.columns(len(METRICS))
-    for col, (metric_key, metric_label) in zip(cols, METRICS):
+    for col, (metric_key, metric_label) in zip(cols, METRICS, strict=True):
         fig = go.Figure()
         for config in CONFIGS:
             fig.add_bar(
@@ -95,7 +95,7 @@ def render_ablation_page() -> None:
             by_config.setdefault(r["config"], []).append(r)
 
         aq_cols = st.columns(len(by_config))
-        for col, (config, rows) in zip(aq_cols, by_config.items()):
+        for col, (config, rows) in zip(aq_cols, by_config.items(), strict=True):
             n = len(rows)
             mean_faith = sum(r["faithfulness"] for r in rows) / n
             mean_rel = sum(r["relevance"] for r in rows) / n
@@ -127,7 +127,7 @@ def render_playground_page() -> None:
     st.subheader("Retrieved passages per config")
     cols = st.columns(len(CONFIGS))
     top_passages: dict[str, list[str]] = {}
-    for col, config in zip(cols, CONFIGS):
+    for col, config in zip(cols, CONFIGS, strict=True):
         col.markdown(f"**{config}**")
         hits = pipeline.search(query, config, top_k=3)
         passages = []

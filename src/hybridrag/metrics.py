@@ -6,7 +6,8 @@ Hand-rolling nDCG/Recall/MRR is a well-known way to get subtly wrong numbers
 
 from __future__ import annotations
 
-from ranx import Qrels, Run, evaluate as ranx_evaluate
+from ranx import Qrels, Run
+from ranx import evaluate as ranx_evaluate
 
 _MEASURES = ["ndcg@10", "recall@100", "mrr@10"]
 

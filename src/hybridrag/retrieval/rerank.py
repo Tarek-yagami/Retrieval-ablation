@@ -24,7 +24,8 @@ class CrossEncoderReranker:
         corpus: dict[str, dict[str, str]],
         top_k: int,
     ) -> list[tuple[str, float]]:
-        pairs = [(query, doc_text(corpus[doc_id])) for doc_id, _ in candidates]
+        doc_ids = [doc_id for doc_id, _ in candidates]
+        pairs = [(query, doc_text(corpus[doc_id])) for doc_id in doc_ids]
         scores = self._model.predict(pairs)
-        reranked = sorted(zip((doc_id for doc_id, _ in candidates), scores), key=lambda x: x[1], reverse=True)
+        reranked = sorted(zip(doc_ids, scores, strict=True), key=lambda x: x[1], reverse=True)
         return [(doc_id, float(score)) for doc_id, score in reranked[:top_k]]
