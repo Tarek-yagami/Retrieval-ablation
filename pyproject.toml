@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retrieval-ablation"
+version = "0.1.0"
+description = "An ablation study of retrieval strategies (BM25, dense, RRF fusion, cross-encoder reranking) against real relevance judgments, testing whether each added piece of complexity actually earns its cost."
+requires-python = ">=3.10"
+dependencies = [
+    "rank-bm25>=0.2.2",
+    "sentence-transformers>=3.0",
+    "beir>=2.0",
+    "ranx>=0.3.16",
+    "litellm>=1.50",
+    "json-repair>=0.30",
+    "numpy>=1.26",
+    "streamlit>=1.38",
+    "plotly>=5.22",
+]
+
+[dependency-groups]
+dev = ["pytest>=8.0", "ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

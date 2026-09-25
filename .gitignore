@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+.env
+
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.claude/
+
+# Raw BEIR corpora are large and re-downloadable from the loader — keep the
+# derived experiments/*/results/*.json instead of the raw source.
+data/beir/
+
+# Intermediate resume-cache between the answer_quality experiment's two
+# phases — regenerable, not part of the reported result.
+retrieval_cache.json
