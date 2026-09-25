@@ -19,6 +19,9 @@ dependencies = [
     "plotly>=5.22",
 ]
 
+[project.scripts]
+build-playground-cache = "hybridrag.data.playground_cache:main"
+
 [dependency-groups]
 dev = ["pytest>=8.0", "ruff>=0.6"]
 

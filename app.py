@@ -1,8 +1,11 @@
 """Streamlit demo: the ablation dashboard (headline result) plus a query
 playground where retrieval actually runs live. Heavy computation (the
 ablation itself, judged-answer scoring) happens offline in experiments/ and
-is only read here from cached JSON; the playground indexes one small
-dataset (scifact) live so it stays fast enough to deploy for free.
+is only read here from cached JSON. The playground's dense embeddings are
+also precomputed offline (see hybridrag.data.playground_cache); a deployed
+instance that embedded scifact live on every cold start got CPU-throttled
+by the host, so only sparse indexing (cheap) and query-time search happen
+at runtime here.
 
 Run locally:
     streamlit run app.py
@@ -16,6 +19,7 @@ from pathlib import Path
 import plotly.graph_objects as go
 import streamlit as st
 
+from hybridrag.data import playground_cache
 from hybridrag.data.beir_loader import load_beir_dataset
 from hybridrag.generation import generate_answer
 from hybridrag.judge import judge_answer
@@ -25,7 +29,7 @@ st.set_page_config(page_title="Retrieval Ablation", layout="wide")
 
 ABLATION_RESULTS = Path("experiments/retrieval_ablation/results/results.json")
 ANSWER_QUALITY_RESULTS = Path("experiments/answer_quality/results/results.json")
-PLAYGROUND_DATASET = "scifact"
+PLAYGROUND_DATASET = playground_cache.PLAYGROUND_DATASET
 
 # Fixed categorical color per config, in a colorblind-safe order (Okabe-Ito),
 # reused identically across every chart so a config's color never shifts.
@@ -43,7 +47,8 @@ METRICS = [("ndcg@10", "nDCG@10"), ("recall@100", "Recall@100"), ("mrr@10", "MRR
 @st.cache_resource
 def get_pipeline(dataset_name: str) -> tuple[RetrievalPipeline, dict]:
     dataset = load_beir_dataset(dataset_name)
-    return RetrievalPipeline(dataset.corpus), dataset
+    dense_precomputed = playground_cache.load(dataset_name)
+    return RetrievalPipeline(dataset.corpus, dense_precomputed=dense_precomputed), dataset
 
 
 def render_ablation_page() -> None:

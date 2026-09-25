@@ -21,6 +21,8 @@ every query and every config, since it's the expensive part.
 
 from __future__ import annotations
 
+import numpy as np
+
 from hybridrag.retrieval.dense import DenseRetriever
 from hybridrag.retrieval.fusion import reciprocal_rank_fusion
 from hybridrag.retrieval.rerank import CrossEncoderReranker
@@ -36,10 +38,14 @@ _RERANK_SHORTLIST_MIN = 20  # rerank at least this many candidates, whatever top
 class RetrievalPipeline:
     """Indexes one corpus, then answers a query under any of CONFIGS."""
 
-    def __init__(self, corpus: dict[str, dict[str, str]]) -> None:
+    def __init__(
+        self,
+        corpus: dict[str, dict[str, str]],
+        dense_precomputed: tuple[list[str], np.ndarray] | None = None,
+    ) -> None:
         self._corpus = corpus
         self._sparse = SparseRetriever(corpus)
-        self._dense = DenseRetriever(corpus)
+        self._dense = DenseRetriever(corpus, precomputed=dense_precomputed)
         self._reranker: CrossEncoderReranker | None = None
 
     def _rerank_lazy(self) -> CrossEncoderReranker:

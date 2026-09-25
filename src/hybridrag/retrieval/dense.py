@@ -16,13 +16,38 @@ _DEFAULT_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 class DenseRetriever:
-    def __init__(self, corpus: dict[str, dict[str, str]], model_name: str = _DEFAULT_MODEL) -> None:
+    def __init__(
+        self,
+        corpus: dict[str, dict[str, str]],
+        model_name: str = _DEFAULT_MODEL,
+        precomputed: tuple[list[str], np.ndarray] | None = None,
+    ) -> None:
+        """precomputed lets a caller hand over embeddings computed ahead of
+        time (see build_playground_cache.py), instead of re-embedding the
+        whole corpus on every process start. That one-time cost is cheap
+        for the ablation experiments (run offline, once), but too heavy for
+        a deployed demo's shared, limited CPU, where it happens on every
+        cold start.
+        """
         self._doc_ids = list(corpus.keys())
-        texts = [doc_text(corpus[d]) for d in self._doc_ids]
 
         self._model = SentenceTransformer(model_name)
-        embeddings = self._model.encode(texts, show_progress_bar=False, normalize_embeddings=True)
-        self._embeddings = np.asarray(embeddings, dtype=np.float32)
+        if precomputed is not None:
+            cached_ids, embeddings = precomputed
+            if cached_ids != self._doc_ids:
+                raise ValueError("precomputed embeddings don't match this corpus's document order")
+            self._embeddings = embeddings
+        else:
+            texts = [doc_text(corpus[d]) for d in self._doc_ids]
+            embeddings = self._model.encode(texts, show_progress_bar=False, normalize_embeddings=True)
+            self._embeddings = np.asarray(embeddings, dtype=np.float32)
+
+    @property
+    def precomputed(self) -> tuple[list[str], np.ndarray]:
+        """This retriever's (doc_ids, embeddings), in the format __init__'s
+        precomputed argument expects. Used to cache embeddings to disk once
+        instead of re-embedding the corpus on every process start."""
+        return self._doc_ids, self._embeddings
 
     def search(self, query: str, top_k: int) -> list[tuple[str, float]]:
         query_vec = self._model.encode([query], show_progress_bar=False, normalize_embeddings=True)[0]
