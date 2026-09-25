@@ -1,0 +1,722 @@
+[
+  {
+    "query_id": "10034",
+    "question": "Tax implications of holding EWU (or other such UK ETFs) as a US citizen?",
+    "config": "sparse",
+    "answer": "As a US citizen holding EWU (or other such UK ETFs), you should be aware that these ETFs contain PFICs (Passive Foreign Investment Companies). As a result, you may be subject to additional tax obligations. Specifically, you may need to report the income from these ETFs on your US tax return and pay any applicable taxes, including any withholding taxes that may have been withheld by the ETF manager. Additionally, you may be required to make estimated tax payments if your income from these ETFs exceeds certain thresholds. It's important to consult with a tax professional to understand the specific tax implications of holding these ETFs as a US citizen.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is mostly faithful and relevant, but it does not mention the specific context provided about EWU and PFICs."
+  },
+  {
+    "query_id": "10034",
+    "question": "Tax implications of holding EWU (or other such UK ETFs) as a US citizen?",
+    "config": "dense_rerank",
+    "answer": "As a US citizen, holding EWU (or other such UK ETFs) can have tax implications due to the presence of PFICs (Passive Foreign Investment Companies) within the ETFs. The ETFs themselves are not classified as PFICs, but they contain PFICs, which means iShares (the fund manager) is responsible for handling the PFICs and making necessary adjustments. These adjustments are typically made in December, and the fund will handle paying the necessary tax as an expense of the fund. It's important to note that this information is based on the understanding that EWU and EWUS are traded on US stock markets (NYSE & BATS) and that iShares takes responsibility for handling the PFICs they contain.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer accurately addresses the tax implications of holding EWU (or other such UK ETFs) as a US citizen, mentioning PFICs, iShares' responsibility, and tax adjustments. It is faithful to the context provided and relevant to the question asked."
+  },
+  {
+    "query_id": "10039",
+    "question": "Do individual investors use Google to obtain stock quotes?",
+    "config": "sparse",
+    "answer": "No, individual investors do not use Google to obtain stock quotes.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer contradicts the context, which does not mention Google or individual investors using it for stock quotes."
+  },
+  {
+    "query_id": "10039",
+    "question": "Do individual investors use Google to obtain stock quotes?",
+    "config": "dense_rerank",
+    "answer": "Yes, individual investors use Google to obtain stock quotes.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which mentions that individual investors are likely to have their own habits and may use Google for stock quotes."
+  },
+  {
+    "query_id": "10109",
+    "question": "Why does Charles Schwab have a Mandatory Settlement Period after selling stocks?",
+    "config": "sparse",
+    "answer": "Charles Schwab, like other brokers, has a mandatory settlement period after selling stocks to ensure that both parties in a transaction receive their funds and securities simultaneously. This three-day settlement period (T+3) is mandated by the Securities and Exchange Commission (SEC) to protect investors and ensure fair transactions. During this period, Schwab must receive the funds from the buyer and deliver the securities to the seller. This prevents any potential fraud or manipulation of the market.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is mostly faithful to the context, explaining the mandatory settlement period and its purpose. It is relevant to the question asked."
+  },
+  {
+    "query_id": "10109",
+    "question": "Why does Charles Schwab have a Mandatory Settlement Period after selling stocks?",
+    "config": "dense_rerank",
+    "answer": "Charles Schwab has a Mandatory Settlement Period after selling stocks because it needs to receive the funds from the other side of the transaction. If Schwab gave you access to the funds immediately, it would essentially be a loan until the transaction settles after funds and securities change hands. The other side also has three days, so guaranteed one-day settlement is not possible.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question and is fully supported by the context provided."
+  },
+  {
+    "query_id": "10122",
+    "question": "Why diversify stocks/investments?",
+    "config": "sparse",
+    "answer": "Diversifying stocks/investments helps to reduce risk. If you invest all your money in one stock, you are at risk of losing all your money if that stock performs poorly. By spreading your investments across multiple stocks or asset classes, you can reduce the impact of any one stock's performance on your overall portfolio. This can help to protect your investments from market volatility and economic downturns.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question and is supported by the context provided."
+  },
+  {
+    "query_id": "10122",
+    "question": "Why diversify stocks/investments?",
+    "config": "dense_rerank",
+    "answer": "Diversification is used to reduce risk when bad investments are made. It does not help you make more profits but instead averages down your profits. There is no way one can tell whether a stock or portfolio of stocks will go up or down once they are purchased.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the key points from the context about diversification reducing risk and averaging down profits."
+  },
+  {
+    "query_id": "10136",
+    "question": "How to minimise the risk of a reduction in purchase power in case of Brexit for money held in a bank account?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information on how to minimize the risk of a reduction in purchase power in case of Brexit for money held in a bank account.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10136",
+    "question": "How to minimise the risk of a reduction in purchase power in case of Brexit for money held in a bank account?",
+    "config": "dense_rerank",
+    "answer": "To minimize the risk of a reduction in purchase power in case of Brexit for money held in a bank account, you could consider the following strategies:\n\n1. **Use Other Currencies**: If available, consider using other currencies that might offer better protection against inflation or currency devaluation. For example, holding some funds in Canadian dollars or other major currencies like the Euro or British Pound could provide some level of protection.\n\n2. **Short the Currency**: If banks allow you to short the currency (e.g., the South African Rand), you can use this as a form of protection. This involves borrowing the currency and selling it, with the expectation that its value will decrease.\n\n3. **Use Bitcoin**: Bitcoin can be used as a temporary medium of exchange for swaps. For instance, you can convert your funds to Bitcoin and then swap them for other assets. Bitcoin's strength lies in its ability to facilitate remittances and swaps, making it a potentially useful tool during times of uncertainty.\n\n4. **Invest in Commodities**: While commodities are generally considered higher risk, some commodities like food that doesn't expire can provide stability during periods of uncertainty. Buying such commodities can help mitigate the risk of rising costs in the future.\n\n5. **Consider Alternative Investments**: Depending on your risk tolerance, you might consider alternative investments that can provide better returns over the long term. This could include stocks, bonds, or other financial instruments that have historically provided better protection against inflation.\n\n6. **Stay Informed**: Keep yourself informed about economic trends and geopolitical events that could impact the value of your currency. This can help you make informed decisions about how to protect your savings.\n\nBy diversifying your investments and considering these strategies, you can potentially mitigate the risk of a reduction in purchase power in case of Brexit.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer provides relevant strategies to minimize the risk of a reduction in purchase power in case of Brexit, and most of the claims are supported by the context, though it doesn't directly address the impact of Brexit on banks' costs and capital requirements."
+  },
+  {
+    "query_id": "10137",
+    "question": "F-1 student investing in foreign markets",
+    "config": "sparse",
+    "answer": "As an F-1 student, you are considered an \"exempt individual\" for the first 5 calendar years that you've been on F-1 status. During this time, you would not be an \"exempt individual\" for any part of the year, so you would meet the Substantial Presence Test for the year and be a resident alien for all of it. Therefore, you would be able to invest in foreign markets as a resident alien.",
+    "faithfulness": 3,
+    "relevance": 3,
+    "reasoning": "The answer is partially correct but lacks detail and clarity."
+  },
+  {
+    "query_id": "10137",
+    "question": "F-1 student investing in foreign markets",
+    "config": "dense_rerank",
+    "answer": "F-1 students are generally not allowed to have off-campus employment in their first year, but investments are considered passive income. It's important to stay enrolled full-time and maintain good academic standing to avoid missing classes or diverting attention from your education. If the foreign market is in a different time zone, it can help manage time effectively. However, completing your degree is often more likely to build wealth than stock market trades.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer accurately reflects the key points from the context about F-1 students and investments, including the restrictions on off-campus employment, the nature of investments as passive income, the importance of academic standing, and the potential benefits of investing in foreign markets due to time zone differences."
+  },
+  {
+    "query_id": "10152",
+    "question": "What does a high operating margin but a small but positive ROE imply about a company?",
+    "config": "sparse",
+    "answer": "A high operating margin but a small but positive ROE implies that the company is making significant profits from its operations relative to its sales, but it is not generating enough income to cover its shareholder's equity. This could indicate that the company is reinvesting its profits back into the business or that it has a high level of debt.",
+    "faithfulness": 3,
+    "relevance": 3,
+    "reasoning": "The answer is partially correct but lacks the depth and detail provided in the context."
+  },
+  {
+    "query_id": "10152",
+    "question": "What does a high operating margin but a small but positive ROE imply about a company?",
+    "config": "dense_rerank",
+    "answer": "A high operating margin but a small but positive ROE implies that the company is generating significant profits from its operations relative to its sales, but it is not reinvesting those profits back into the business to grow. This could indicate that the company is not utilizing its profits efficiently or that it is facing challenges in reinvesting in its core business.",
+    "faithfulness": 3,
+    "relevance": 3,
+    "reasoning": "The answer is partially correct but not fully supported by the context. The context does not mention the relationship between a high operating margin and a small but positive ROE."
+  },
+  {
+    "query_id": "10183",
+    "question": "How are various types of income taxed differently in the USA?",
+    "config": "sparse",
+    "answer": "In the USA, various types of income are taxed differently. Earned income, such as wages, salaries, tips, and cash bonuses, is subject to both payroll taxes and income taxes. The income tax rate is progressive, meaning it increases as the amount of income rises. There are seven tax rates, with the highest rate being 39.6% for income above $470,700.\n\nOrdinary income, which includes dividends and interest, is taxed at the same rate as earned income, with the exception that social security taxes do not apply. This is referred to as \"pure taxable income.\"\n\nLong-term capital gains, which are income from assets held for more than a year, are taxed at a single rate that is often substantially below the marginal rate for ordinary income, particularly for wealthy individuals. The tax rate for long-term capital gains is 15% for most individuals, up to almost half a million dollars total AGI. Short-term capital gains, which are income from assets held for less than a year, are taxed as ordinary income.\n\nRetirement income, such as pensions and distributions from tax-deferred accounts, is also taxed as ordinary income. Unemployment benefits, worker's compensation, alimony, and child support are generally not taxable. Income earned while in prison and non-taxable military pay are also not taxable.\n\nReal estate income, such as rental income, is generally taxable, but property taxes are not. S-Corp passthrough income is also taxable.\n\nThe Net Investment Tax, which is a Medicare tax applied to investment income for higher-income taxpayers, is also a form of taxation on investment income.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer accurately summarizes the key points about different types of income and their tax treatments in the USA, as described in the context."
+  },
+  {
+    "query_id": "10183",
+    "question": "How are various types of income taxed differently in the USA?",
+    "config": "dense_rerank",
+    "answer": "In the USA, various types of income are taxed differently. Earned income, such as wages, salaries, tips, and cash bonuses, is subject to both payroll taxes and income taxes. The income tax rates are progressive, meaning they increase as income rises. There are seven tax rates, ranging from 10% to 39.6%, depending on the income bracket. Earned income is also subject to payroll taxes, which include Social Security and Medicare taxes. Additionally, there are specific tax rates for long-term capital gains and dividends, which are taxed at different rates depending on the income level. For example, long-term capital gains are taxed at 0%, 15%, or 20%, depending on the income bracket. Short-term capital gains, which are realized from the sale of assets held for less than a year, are taxed as ordinary income.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer accurately reflects the information provided in the context, covering different types of income and their respective tax treatments in the USA."
+  },
+  {
+    "query_id": "10213",
+    "question": "Looking for good investment vehicle for seasonal work and savings",
+    "config": "sparse",
+    "answer": "Based on the context provided, there is no specific information about looking for a good investment vehicle for seasonal work and savings. The context does not address this particular question.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10213",
+    "question": "Looking for good investment vehicle for seasonal work and savings",
+    "config": "dense_rerank",
+    "answer": "The context provided does not contain information specifically about good investment vehicles for seasonal work and savings.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10246",
+    "question": "Understanding the T + 3 settlement days rule",
+    "config": "sparse",
+    "answer": "The T + 3 settlement days rule means that transactions in the financial markets are settled three business days after the trade date. This period allows for the transfer of funds and securities between parties involved in the transaction. During this time, the trade is considered to be pending and cannot be reversed. The SEC page related to this rule can be found at [About Settling Trades in Three Days](https://www.sec.gov/answers/settle.htm).",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context and directly addresses the question about the T + 3 settlement days rule."
+  },
+  {
+    "query_id": "10246",
+    "question": "Understanding the T + 3 settlement days rule",
+    "config": "dense_rerank",
+    "answer": "The T+3 settlement days rule is a standard set by most securities exchanges, which means that trades complete three days after the bargain has been struck. This rule ensures that both parties have sufficient time to settle their transactions, including the transfer of funds and securities.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context, addressing the T+3 settlement days rule and its purpose."
+  },
+  {
+    "query_id": "10267",
+    "question": "How should I prepare for the next financial crisis?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information on how to prepare for the next financial crisis.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10267",
+    "question": "How should I prepare for the next financial crisis?",
+    "config": "dense_rerank",
+    "answer": "To prepare for the next financial crisis, you should:\n\n1. **Have Savings**: If you need your savings during a crisis, it's better to wait it out. Historically, the market always recovers and goes over its original value after a crisis. Investing even more during a crisis can be the best way to make money.\n\n2. **Avoid Selling Investments**: Selling your investments during a crisis, either because you have to or because you think you should, is what causes people to lose money. Instead, consider holding off until the market stabilizes.\n\n3. **Be Aggressive**: Debt can amplify both losses and gains. If you have a lot of debt and a good sales year, you will outperform a company with no debt and excellent sales. Be hyper-aggressive in your approach.\n\n4. **Focus on Innovation and Marketing**: A company's success is largely dependent on innovation and marketing. The rest of the business is just cost.\n\n5. **Maintain a Balanced Asset Mix**: Your asset mix should reflect your own risk tolerance. It requires good timing, not once, but twice. Consider your risk tolerance and adjust your investments accordingly.\n\n6. **Prepare for Long-Term Investing**: If a crisis hits, you should have enough savings to last 5-6 years. This will allow the market to recover. If a long-term decline occurs, Social Security can provide financial support.\n\n7. **Use Credit Wisely**: Credit cards can be a reasonable tool to gain liquidity, but they come with high interest rates. Consider using them as a motivational tool, but be aware of the costs.\n\n8. **Stay Informed**: Read the rules and understand the market. If you're unsure, consider creating a model or spreadsheet to help you make informed decisions.\n\n9. **Coordinate with Team Members**: If you're part of a team, coordinate rigorously to ensure everyone is on the same page and working towards the same goals.\n\n10. **Stay Positive**: The key to surviving and thriving during a crisis is to stay positive and focused on your goals.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is mostly faithful to the context and relevant to the question, but it includes some additional points not directly supported by the given context."
+  },
+  {
+    "query_id": "104",
+    "question": "Investing/business with other people's money: How does it work?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information on how investing with other people's money works.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "104",
+    "question": "Investing/business with other people's money: How does it work?",
+    "config": "dense_rerank",
+    "answer": "Investing with other people's money typically involves borrowing money or attracting investors to fund a business or investment venture. Investors provide capital, which can be in the form of loans or equity (stock), in exchange for a share of the business or investment's potential profits. This method allows individuals to pool resources and potentially increase their investment opportunities beyond what they could achieve on their own. However, it also comes with risks, as the success of the investment depends on the performance of the business or project. Investors expect a return on their investment, which may include a share of profits or interest on loans.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer accurately reflects the key points from the context about borrowing money, attracting investors, and the associated risks, while also addressing the question about how investing with other people's money works."
+  },
+  {
+    "query_id": "10414",
+    "question": "What is considered high or low when talking about volume?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information about what is considered high or low when talking about volume.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10414",
+    "question": "What is considered high or low when talking about volume?",
+    "config": "dense_rerank",
+    "answer": "High volume is usually considered to be 2 or more times the average daily volume over the last 50 days for that stock.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question and is fully supported by the context."
+  },
+  {
+    "query_id": "10447",
+    "question": "Is there an advantage to a traditional but non-deductable IRA over a taxable account? [duplicate]",
+    "config": "sparse",
+    "answer": "Yes, there is an advantage to a traditional but non-deductable IRA over a taxable account. If you are unable to directly contribute to a Roth IRA due to income limits, you can make a non-deductable contribution to a Traditional IRA and then immediately convert it to a Roth IRA. This process, known as a \"backdoor Roth IRA contribution,\" is a tax-free process that achieves the same result as a regular Roth IRA contribution except that there are no income limits.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context and directly addresses the question asked."
+  },
+  {
+    "query_id": "10447",
+    "question": "Is there an advantage to a traditional but non-deductable IRA over a taxable account? [duplicate]",
+    "config": "dense_rerank",
+    "answer": "Yes, there is an advantage to a traditional but non-deductable IRA over a taxable account. The advantage lies in the tax deferral of investment earnings. Unlike a taxable account where interest earned incurs taxes every year, the earnings in a non-deductible Traditional IRA grow tax-free until withdrawal. This allows for compounding to occur without immediate tax implications, potentially leading to higher returns over time.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context, addressing the advantages of a traditional but non-deductable IRA over a taxable account in terms of tax deferral and potential higher returns."
+  },
+  {
+    "query_id": "10462",
+    "question": "Is it okay to be married, 30 years old and have no retirement?",
+    "config": "sparse",
+    "answer": "No, it is not okay to be married, 30 years old, and have no retirement savings.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10462",
+    "question": "Is it okay to be married, 30 years old and have no retirement?",
+    "config": "dense_rerank",
+    "answer": "No, it is not okay to be married, 30 years old, and have no retirement savings.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10482",
+    "question": "Rollover into bond fund to do dollar cost averaging [duplicate]",
+    "config": "sparse",
+    "answer": "The context does not provide information on rolling over into a bond fund to do dollar cost averaging.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10482",
+    "question": "Rollover into bond fund to do dollar cost averaging [duplicate]",
+    "config": "dense_rerank",
+    "answer": "The context does not contain information about rolling over into a bond fund to do dollar cost averaging.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10497",
+    "question": "Why would you elect to apply a refund to next year's tax bill?",
+    "config": "sparse",
+    "answer": "You would elect to apply a refund to next year's tax bill if you think you will have a tax liability in the current year.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question and is fully supported by the context provided."
+  },
+  {
+    "query_id": "10497",
+    "question": "Why would you elect to apply a refund to next year's tax bill?",
+    "config": "dense_rerank",
+    "answer": "You would elect to apply a refund to next year's tax bill if you think you will have a tax liability in the current year, especially if you are a Schedule \"C\" filer. This can provide protection against potentially high liabilities from events like selling a commercial building or winning a large sum in the lottery. Additionally, if you qualify for the ACA and realize you will have to pay at the end of the current year, applying the refund can help cover part or all of the liability.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context, addressing the reasons for applying a refund to next year's tax bill."
+  },
+  {
+    "query_id": "10526",
+    "question": "What extra information might be obtained from the next highest bids in an order book?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information about obtaining extra information from the next highest bids in an order book.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10526",
+    "question": "What extra information might be obtained from the next highest bids in an order book?",
+    "config": "dense_rerank",
+    "answer": "The next highest bids in an order book might provide information about the willingness of potential buyers to pay more for a stock, which can help in understanding market sentiment and potential price movements.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the context provided, which discusses how the order book can show information about market participants' intentions and potential price movements."
+  },
+  {
+    "query_id": "10547",
+    "question": "How much do brokerages pay exchanges per trade?",
+    "config": "sparse",
+    "answer": "The context does not provide specific information on how much brokerages pay exchanges per trade.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question and is fully supported by the context."
+  },
+  {
+    "query_id": "10547",
+    "question": "How much do brokerages pay exchanges per trade?",
+    "config": "dense_rerank",
+    "answer": "The context does not provide information on how much brokerages pay exchanges per trade.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10558",
+    "question": "Investment strategy for 401k when rolling over soon",
+    "config": "sparse",
+    "answer": "When rolling over soon, consider the following investment strategy for a 401k:\n\n1. **Review Investment Options**: Examine the investment options available in both your current 401k and the new 401k plan. Look for mutual funds, exchange-traded funds (ETFs), and individual stocks that offer superior returns and lower fees compared to what might be available in your current plan.\n\n2. **Diversify Your Portfolio**: Spread your investments across different asset classes (stocks, bonds, real estate, etc.) to reduce risk. This diversification can help mitigate potential losses in any single investment.\n\n3. **Consider Long-Term Investments**: Opt for investments that align with your long-term financial goals. This might include index funds, ETFs, or mutual funds that track broad market indices.\n\n4. **Avoid High Fees**: Be cautious of plans with high fees, as these can significantly erode your retirement savings over time. Look for plans with low expense ratios and fees.\n\n5. **Take Advantage of Tax Benefits**: If possible, choose investments that offer tax advantages, such as tax-free bonds or tax-advantaged mutual funds.\n\n6. **Monitor and Adjust**: Regularly review your investment portfolio and make adjustments as needed to ensure it remains aligned with your financial goals and risk tolerance.\n\nBy following these steps, you can maximize the potential growth of your 401k savings and ensure they are well-positioned for your retirement.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is faithful to the context and relevant to the question."
+  },
+  {
+    "query_id": "10558",
+    "question": "Investment strategy for 401k when rolling over soon",
+    "config": "dense_rerank",
+    "answer": "When rolling over a 401k soon, consider the following strategies:\n\n1. **Check Your New Fidelity 401k Plan**: Ensure it offers a good selection of funds at low fees. If it does, roll over your Principal 401k to Fidelity directly. Avoid receiving a check from Principal.\n\n2. **Create a Rollover IRA**: If the new plan lacks a good fund lineup or has high fees, set up a rollover IRA and transfer your old 401k funds directly to it. Consider using Vanguard or other low-cost funds in your IRA.\n\n3. **Avoid Paying Down Your Mortgage**: With a mortgage rate of about 20%, paying it down with 401k funds is not advisable. You will pay taxes and penalties, and the effective rate is lower due to your tax bracket and potential itemized deductions. Additionally, you lose liquidity.\n\n4. **Consider Your Retirement Goals**: If you are young and enjoy working, consider retiring close to normal retirement age. Your life will change over time, and most young people choose one of two extremes. For now, plan on retiring at a normal age.\n\n5. **Maximize Employer Matching Funds**: Focus on avoiding taxation and maximizing employer matching funds as your first objectives. Over time, the quality of investment options and fees will drive your account value. A personal IRA account is usually a better value over time.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is mostly faithful to the context and relevant to the question, but it includes a claim about the mortgage rate being 20% which is not supported by the context."
+  },
+  {
+    "query_id": "10596",
+    "question": "Does a market maker sell (buy) at a bid or ask price?",
+    "config": "sparse",
+    "answer": "A market maker sells at the ask price and buys at the bid price.",
+    "faithfulness": 3,
+    "relevance": 3,
+    "reasoning": "The answer is partially correct but lacks detail and is not fully supported by the context."
+  },
+  {
+    "query_id": "10596",
+    "question": "Does a market maker sell (buy) at a bid or ask price?",
+    "config": "dense_rerank",
+    "answer": "A market maker buys at the bid and sells at the ask price.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly states that a market maker buys at the bid and sells at the ask price, which is supported by the context provided."
+  },
+  {
+    "query_id": "106",
+    "question": "What approaches are there for pricing a small business?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information on how to price a small business.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "106",
+    "question": "What approaches are there for pricing a small business?",
+    "config": "dense_rerank",
+    "answer": "There are several approaches to pricing a small business, including:\n\n1. **Liquidation Value**: This is the lowest amount a seller would accept if the business had to be sold today, minus any liabilities. It includes the value of the land, the house, the furnishings, accounts payable, etc.\n\n2. **Discounted Cash Flow Analysis**: This method involves projecting the business's earnings (EBITDA) and determining their present value based on a discount rate. The formula for a growing perpetuity is: EBITDA / (Discount Rate - Growth Rate).\n\n3. **Industry Multiplier**: This approach uses a multiple of the business's annual earnings to determine its value. For example, in the hospitality industry, a multiple of 13.8 might be used.\n\n4. **Seller Discretionary Earnings (SDE)**: This is similar to EBITDA and is used to determine the value of the business.\n\n5. **Financial Statements**: A potential buyer should request the financial statements of the business for the last few years to determine the value of the business and then negotiate with the owner a price.\n\n6. **Broker Assistance**: Enlisting a broker can help with the transaction and provide guidance on pricing the business.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context and directly addresses the question about pricing a small business."
+  },
+  {
+    "query_id": "10601",
+    "question": "Bitcoin Cost Basis Purchases",
+    "config": "sparse",
+    "answer": "The context does not provide information on Bitcoin cost basis purchases.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10601",
+    "question": "Bitcoin Cost Basis Purchases",
+    "config": "dense_rerank",
+    "answer": "The context does not provide specific information about Bitcoin cost basis purchases.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question about Bitcoin cost basis purchases and does not provide any information from the context."
+  },
+  {
+    "query_id": "10628",
+    "question": "What happens with the \u201clong\u201d buyer of a stock when somebody else's short fails (that is, unlimited loss bankrupts short seller)",
+    "config": "sparse",
+    "answer": "When a short seller's position fails due to the stock price rising unexpectedly, the \"long\" buyer of the stock is not directly affected. The long buyer's position remains unaffected as they are buying the stock at the market price, not at the short seller's borrowed price. The long buyer will continue to hold the stock and benefit from its appreciation in value.",
+    "faithfulness": 3,
+    "relevance": 2,
+    "reasoning": "The answer does not address the question about what happens to the 'long' buyer when a short seller's position fails. Instead, it discusses the long buyer's position remaining unaffected, which is not relevant to the question asked."
+  },
+  {
+    "query_id": "10628",
+    "question": "What happens with the \u201clong\u201d buyer of a stock when somebody else's short fails (that is, unlimited loss bankrupts short seller)",
+    "config": "dense_rerank",
+    "answer": "The \"long\" buyer of a stock does not experience any direct impact when somebody else's short fails. The long buyer simply continues to own the stock and can sell it at the market price, regardless of the short seller's situation. The long buyer's position is not affected by the short seller's inability to fulfill their obligations.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is mostly correct and relevant, but it does not fully capture the nuances of the context provided."
+  },
+  {
+    "query_id": "10639",
+    "question": "Short term parking of a large inheritance?",
+    "config": "sparse",
+    "answer": "The context does not contain information about short-term parking of a large inheritance.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10639",
+    "question": "Short term parking of a large inheritance?",
+    "config": "dense_rerank",
+    "answer": "For short-term parking of a large inheritance, some options include:\n\n1. **Savings Accounts**: These are FDIC-insured and offer a guaranteed return on your investment.\n2. **Money Market Accounts**: These offer slightly higher interest rates than savings accounts and are also FDIC-insured.\n3. **Mutual Funds**: These can provide higher returns but come with higher risk.\n4. **Aspiration Summit Account**: This account offers a 1% APY and is FDIC-insured, making it a safe option for short-term parking.\n\nIt's recommended to consult with an Accredited Investment Fiduciary (AIF) if you have larger volumes of money to ensure the best options for your specific circumstances.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question about short-term parking of a large inheritance and provides relevant options supported by the context."
+  },
+  {
+    "query_id": "10645",
+    "question": "Explain the details and benefits of rebalancing a retirement portfolio?",
+    "config": "sparse",
+    "answer": "Rebalancing a retirement portfolio involves adjusting the mix of assets to maintain a desired level of risk and return. The goal is to keep your portfolio aligned with your investment objectives and risk tolerance. Here are the key details and benefits of rebalancing:\n\n1. **Maintaining Asset Allocation**: Rebalancing helps ensure that your portfolio stays in line with your original asset allocation strategy. For example, if you initially allocated 60% to stocks and 40% to bonds, you would periodically sell some of your stocks and buy more bonds to return to this target ratio.\n\n2. **Minimizing Risk**: Over time, markets tend to shift, and some asset classes may outperform others. Rebalancing helps reduce the risk by selling the outperforming assets and buying the underperforming ones. This can prevent your portfolio from becoming too concentrated in any single asset class.\n\n3. **Maximizing Returns**: By selling high and buying low, rebalancing can help you capture more of the market's gains. For instance, if stocks are up significantly, selling some of them and reinvesting in bonds can lock in some of the gains and provide a more balanced portfolio.\n\n4. **Tax Efficiency**: Rebalancing can also help manage taxes. In taxable accounts, selling assets that have appreciated can offset capital losses, potentially reducing your tax liability. Additionally, if you have tax-advantaged accounts like 401(k)s or IRAs, rebalancing can help you take advantage of tax benefits.\n\n5. **Avoiding Emotional Decisions**: Rebalancing can help you avoid making emotional investment decisions. When markets are down, it can be tempting to sell off your investments, but rebalancing forces you to sell high and buy low, which can be more disciplined.\n\n6. **Simplifying Portfolio Management**: Automating rebalancing can simplify your portfolio management. By setting up automatic transfers between different asset classes, you can ensure that your portfolio remains balanced without having to manually adjust it.\n\n7. **Long-Term Benefits**: Over the long term, rebalancing can help you achieve your retirement goals by ensuring that your portfolio remains aligned with your risk tolerance and investment objectives.\n\nIn summary, rebalancing is a crucial strategy for maintaining a well-diversified and risk-appropriate retirement portfolio. It helps you capture market gains, minimize risk, and manage taxes, ultimately contributing to your long-term financial security.",
+    "faithfulness": 3,
+    "relevance": 3,
+    "reasoning": "The answer is partially relevant and somewhat faithful, but it does not fully address the specific context provided."
+  },
+  {
+    "query_id": "10645",
+    "question": "Explain the details and benefits of rebalancing a retirement portfolio?",
+    "config": "dense_rerank",
+    "answer": "Rebalancing a retirement portfolio involves adjusting the mix of assets to maintain a desired level of risk and return. This process helps in managing the portfolio's exposure to different asset classes, ensuring that it aligns with the investor's risk tolerance and investment goals. The benefits of rebalancing include:\n\n1. **Risk Management**: By periodically rebalancing, investors can reduce the risk of their portfolio being overly exposed to any single asset class. This helps in maintaining a diversified portfolio, which can lead to more stable returns over time.\n\n2. **Tax Efficiency**: Rebalancing can help in minimizing tax liabilities. For example, if an investor has a portfolio with a higher concentration of stocks, they might be in a higher tax bracket. By selling some of the stocks and reinvesting the proceeds in bonds or other assets, they can reduce their tax liability.\n\n3. **Cost Reduction**: Rebalancing can also help in reducing transaction costs. By selling assets that have appreciated and reinvesting in assets that have depreciated, investors can minimize the number of transactions, thereby reducing fees and commissions.\n\n4. **Achieving Investment Goals**: Rebalancing helps in staying on track with investment goals. By periodically adjusting the portfolio to its target allocation, investors can ensure that they are not taking on more risk than they are comfortable with, and that they are making progress towards their financial objectives.\n\n5. **Emotional Discipline**: Rebalancing can help investors stay disciplined and avoid making impulsive decisions based on short-term market fluctuations. By automating the rebalancing process, investors can ensure that they are regularly reviewing and adjusting their portfolio, which can help in maintaining a long-term perspective.\n\nOverall, rebalancing is a crucial aspect of managing a retirement portfolio. It helps in maintaining a diversified portfolio, managing risk, and achieving investment goals. By periodically rebalancing, investors can ensure that their portfolio remains aligned with their risk tolerance and investment objectives.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is mostly faithful to the context and relevant to the question, but it doesn't directly address the specific examples and strategies provided in the context."
+  },
+  {
+    "query_id": "10674",
+    "question": "How to sell a stock in a crashing market?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information on how to sell a stock in a crashing market.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not provide any information from the context and does not address the question asked."
+  },
+  {
+    "query_id": "10674",
+    "question": "How to sell a stock in a crashing market?",
+    "config": "dense_rerank",
+    "answer": "To sell a stock during a market crash, you can follow these strategies:\n\n1. **Understand the Mechanics**: Recognize that selling during a crash is possible because there are enough people who understand the mechanics behind market crashes. These individuals often buy during crashes and sell when the market recovers.\n\n2. **Stay Invested**: If you have a long-term investment strategy, staying invested during a crash is generally better than selling. Historically, crashes have recovered, and staying invested would not result in a loss.\n\n3. **Be Prepared to Sell**: If you decide to sell, be prepared to accept a lower price due to the heightened volatility during a crash. The best strategy for long-term investors is often to hold on and wait for the market to recover.\n\n4. **Consider Transparency**: Ensure that the company you are selling is transparent enough to provide additional liquidity to the market. This can help in finding a better selling price.\n\n5. **Manage Your Position**: If you decide to sell, drop all volume at once to minimize the impact on the market. This can result in a slightly worse liquidation price but will help you get out of your position without unnecessary stress.\n\n6. **Stay Calm**: A calm and rational approach is crucial during market crashes. Avoid making impulsive decisions based on emotions.\n\n7. **Monitor Market Conditions**: Be aware of potential liquidity holes in very large crashes. If you are on the upper side of the market, you can profit from selling before these holes appear.\n\n8. **Consider Alternative Markets**: If you are concerned about market liquidity, consider trading in alternative markets or using platforms that offer better liquidity.\n\n9. **Be Prepared for Market Manipulation**: While market manipulation is not common, be aware that CFD providers and forex brokers might attempt to take advantage of market conditions. However, these actions are generally legitimate and part of the market's natural fluctuations.\n\n10. **Stay Informed**: Keep yourself informed about market trends and news that might affect the value of the stock you are selling.\n\nBy following these strategies, you can make informed decisions during a market crash and potentially minimize your losses.",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "The answer is mostly faithful to the context, providing a comprehensive strategy for selling stocks during a market crash. It is highly relevant to the question asked."
+  },
+  {
+    "query_id": "10710",
+    "question": "Probablity of touching In the money vs expiring in the money for an american option",
+    "config": "sparse",
+    "answer": "The probability of an American option touching in the money (ITM) before expiration is generally higher than the probability of it expiring in the money (ITM). This is because American options allow the holder to exercise the option at any time before expiration, giving them the opportunity to lock in a profit if the underlying asset's price moves in their favor. In contrast, European options can only be exercised at expiration, so the holder must wait until the expiration date to determine if the option will be in the money.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is consistent with the context provided, which explains that American options have a higher probability of touching in the money before expiration due to the option to exercise early."
+  },
+  {
+    "query_id": "10710",
+    "question": "Probablity of touching In the money vs expiring in the money for an american option",
+    "config": "dense_rerank",
+    "answer": "The probability of touching in the money vs expiring in the money for an American option is influenced by several factors, including the strategy of the other party, the length of time the option is in the money early, and the anticipated future movement. It's important to consider these factors when assessing the likelihood of early exercise.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context and directly addresses the question asked."
+  },
+  {
+    "query_id": "10734",
+    "question": "How do you translate a per year salary into a part-time per hour job?",
+    "config": "sparse",
+    "answer": "To translate a per year salary into a part-time per hour job, you need to consider several factors including the number of hours you will be working per week, any benefits provided by the employer, and any additional costs you might incur as a contractor. Here\u2019s a step-by-step approach:\n\n1. **Determine Your Annual Salary**: This is the total amount you earn in a year.\n\n2. **Calculate Your Hourly Rate**: Divide your annual salary by the number of hours you will be working in a year. For example, if you are working 20 hours per week, that\u2019s 1040 hours per year (20 hours/week * 52 weeks/year).\n\n3. **Account for Benefits**: If your employer is providing benefits like health insurance, retirement plans, or paid time off, you need to calculate the cost of these benefits if you were to provide them yourself. For instance, if health insurance costs $8400 per year and you are getting it through your employer, you need to add this cost to your total expenses.\n\n4. **Add Taxes**: As a part-time employee, you will need to pay FICA taxes, which are 7.8% of your income. This is an additional cost that you would need to consider.\n\n5. **Calculate Your Real Hourly Rate**: Subtract all your additional costs (benefits and taxes) from your annual salary and then divide by the number of hours you will be working per year to get your real hourly rate.\n\nFor example, if your annual salary is $55,000 and you are working 20 hours per week, your hourly rate would be calculated as follows:\n\n- Annual salary: $55,000\n- Hours per year: 20 hours/week * 52 weeks/year = 1040 hours/year\n- Real hourly rate: ($55,000 - $8400 - $4160) / 1040 hours/year = $42,440 / 1040 hours/year = $40.75/hour\n\nThis calculation gives you a more accurate picture of what you would need to earn per hour as a contractor to match the compensation of a part-time employee.",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "The answer is faithful to the context and directly addresses the question."
+  },
+  {
+    "query_id": "10734",
+    "question": "How do you translate a per year salary into a part-time per hour job?",
+    "config": "dense_rerank",
+    "answer": "To translate a per year salary into a part-time per hour job, you need to consider several factors including benefits, taxes, and the nature of the work. Here\u2019s a step-by-step approach:\n\n1. **Quantify the Financials**: Start by quantifying the financials of your current job. This includes benefits like health insurance, 401k matching, bonuses, and any other perks provided by your employer.\n\n2. **Calculate the Real Current Annual Compensation (RAC)**: Add up all the costs associated with these benefits and subtract them from your annual salary to get your RAC.\n\n3. **Determine the Number of Hours Worked**: Convert your RAC into an hourly rate based on the number of hours you would work in a year. For example, if you work 20 hours per week, that\u2019s 1040 hours per year (assuming no vacations).\n\n4. **Adjust for Taxes**: As a part-time employee, you will need to pay FICA taxes, which amount to 7.8% of your income. Adjust your hourly rate accordingly.\n\n5. **Consider Other Factors**: Factor in other considerations such as the potential for variable hours and the status of being a 'temporary' employee. These can either offset or increase your effective hourly rate.\n\n6. **Use a Spreadsheet**: Utilize a spreadsheet to simplify the calculations and play out different scenarios to get a more accurate estimate.\n\nBy following these steps, you can more accurately translate your annual salary into a part-time hourly rate that reflects your true compensation.",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "The answer is faithful to the context, providing a detailed step-by-step approach to translating a per year salary into a part-time per hour job. It is also relevant to the question asked."
+  },
+  {
+    "query_id": "1074",
+    "question": "How common is \u201cpass-through\u201d health insurance?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information about \"pass-through\" health insurance. Therefore, I cannot answer the question based on the given context.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "1074",
+    "question": "How common is \u201cpass-through\u201d health insurance?",
+    "config": "dense_rerank",
+    "answer": "The term \"pass-through\" insurance is not commonly used in the context provided. The context discusses various types of employer insurance plans, including self-funded plans, but does not mention \"pass-through\" insurance as a common term or concept.",
+    "faithfulness": 3,
+    "relevance": 4,
+    "reasoning": "The answer correctly identifies that 'pass-through' insurance is not commonly used in the context provided, but it does not address the question about the prevalence of self-funded plans, which is a relevant topic discussed in the context."
+  },
+  {
+    "query_id": "10792",
+    "question": "How can I calculate a \u201crunning\u201d return using XIRR in a spreadsheet?",
+    "config": "sparse",
+    "answer": "To calculate a \"running\" return using XIRR in a spreadsheet, you can follow these steps:\n\n1. Insert a column at D and call it \"ratio\" (to be used to calculate your answer in column E).\n2. Use the following equation for D3: =1+(C3-B3-C2)/C2\n3. Drag that down to fill in the column.\n4. Set E3 to: =(PRODUCT(D$3:D3)-1)*365/(A3-A$2)\n5. Drag that down to fill in the column. Column E is now your annual rate of return.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question and provides a step-by-step process that is faithful to the context provided."
+  },
+  {
+    "query_id": "10792",
+    "question": "How can I calculate a \u201crunning\u201d return using XIRR in a spreadsheet?",
+    "config": "dense_rerank",
+    "answer": "To calculate a \"running\" return using XIRR in a spreadsheet, you can follow these steps:\n\n1. Insert a column at D and call it \"ratio\" (to be used to calculate your answer in column E).\n2. Use the following equation for D3: =1+(C3-B3-C2)/C2\n3. Drag that down to fill in the column.\n4. Set E3 to: =(PRODUCT(D$3:D3)-1)*365/(A3-A$2)\n5. Drag that down to fill in the column. Column E is now your annual rate of return.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question and provides the same steps as in the context."
+  },
+  {
+    "query_id": "10808",
+    "question": "What are a few sites that make it easy to invest in high interest rate mutual funds?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information about specific websites that make it easy to invest in high-interest rate mutual funds.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10808",
+    "question": "What are a few sites that make it easy to invest in high interest rate mutual funds?",
+    "config": "dense_rerank",
+    "answer": "Based on the context provided, there are a few sites that make it easy to invest in high interest rate mutual funds:\n\n1. **Vanguard.com**: The context recommends Vanguard.com as a good option for making investing in these risky markets easy. Vanguard offers low fees on their funds, which won't erode your returns. Additionally, you can use their brokerage account to trade ETF versions of their funds commission-free, though you'll need to manage the number of shares you want to buy manually.\n\n2. **Other brokerages**: The context mentions that you can trade Vanguard ETFs and other ETFs at almost any brokerage, similar to trading stocks. Most brokerages also offer access to a variety of mutual funds, though often for a hefty fee of $20-$50, which you should avoid.\n\n3. **Sign up for another fund provider's account**: The context suggests that you can sign up for another fund provider's account, but it warns that the fund fees can add up quickly.\n\n4. **Investment IRA**: The context notes that mutual funds are not FDIC insured, but the investment IRA holding them may be.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is mostly faithful to the context, providing specific examples of sites that make it easy to invest in high interest rate mutual funds. It is also relevant to the question asked."
+  },
+  {
+    "query_id": "10809",
+    "question": "Definitions of leverage and of leverage factor",
+    "config": "sparse",
+    "answer": "Leverage is the act of taking on debt in lieu of the equity you hold. The leverage factor mentions the amount of leverage happening. For example, if you borrow 10,000 yen with an equity of 1,000 yen, the leverage factor is 10.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately defines leverage and the leverage factor based on the information provided in the context."
+  },
+  {
+    "query_id": "10809",
+    "question": "Definitions of leverage and of leverage factor",
+    "config": "dense_rerank",
+    "answer": "Leverage is the act of taking on debt in lieu of the equity you hold. The leverage factor mentions the amount of leverage happening.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately defines both leverage and the leverage factor based on the information provided in the context."
+  },
+  {
+    "query_id": "10812",
+    "question": "Is is possible to dispute IRS underpayment penalties?",
+    "config": "sparse",
+    "answer": "Yes, it is possible to dispute IRS underpayment penalties.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly addresses the question and is supported by the context."
+  },
+  {
+    "query_id": "10812",
+    "question": "Is is possible to dispute IRS underpayment penalties?",
+    "config": "dense_rerank",
+    "answer": "Yes, it is possible to dispute IRS underpayment penalties, but it is unlikely to prevail.",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "The answer is faithful to the context, which states that while it is possible to dispute underpayment penalties, it is unlikely to prevail. It also directly addresses the question asked."
+  },
+  {
+    "query_id": "10827",
+    "question": "How much should I be contributing to my 401k given my employer's contribution?",
+    "config": "sparse",
+    "answer": "The context provided does not contain information on how much you should be contributing to your 401k given your employer's contribution.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10827",
+    "question": "How much should I be contributing to my 401k given my employer's contribution?",
+    "config": "dense_rerank",
+    "answer": "Based on the context provided, you should contribute up to 10-15% of your salary to your 401(k) to ensure you are saving enough for retirement. If your employer matches contributions up to a certain percentage (e.g., 3%), you should contribute enough to take full advantage of the match. This means contributing 3% of your salary to get a 6% contribution total. However, if you're not sure about the rules, it's recommended to consult a financial advisor or consider supplementing your savings with a Roth IRA or an after-tax account.",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "The answer is faithful to the context provided, offering advice on contribution levels and the importance of taking advantage of employer matches. It also addresses the question directly by suggesting a range of contributions (10-15% of salary) and providing additional guidance."
+  },
+  {
+    "query_id": "10845",
+    "question": "Rationale behind using 12, 26 and 9 to calculate MACD",
+    "config": "sparse",
+    "answer": "The rationale behind using 12, 26 and 9 to calculate MACD is that these are the typical industry standard settings used with the Moving Average Convergence Divergence (MACD) indicator.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context, which states that 12, 26, and 9 are the typical industry standard settings for the MACD calculation."
+  },
+  {
+    "query_id": "10845",
+    "question": "Rationale behind using 12, 26 and 9 to calculate MACD",
+    "config": "dense_rerank",
+    "answer": "The values of 12, 26 and 9 are the typical industry standard setting used with the MACD, however other values can be substituted depending on your trading style and goals.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly quotes the context and accurately states the rationale behind using 12, 26, and 9 for the MACD calculation."
+  },
+  {
+    "query_id": "1085",
+    "question": "How do disputed debts work on credit reports?",
+    "config": "sparse",
+    "answer": "Disputed debts on credit reports can be resolved through a process where the creditor investigates the claim. If the dispute is valid, the creditor must remove the incorrect information from the credit report. If the dispute is not valid, the creditor must provide evidence to support the information and keep it on the report. Disputes can take up to 90 days to resolve.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in context [3], which explains that all transactions can be disputed up until 90 days, and that PayPal will investigate disputes and decide whether to keep the funds or return them to the other party."
+  },
+  {
+    "query_id": "1085",
+    "question": "How do disputed debts work on credit reports?",
+    "config": "dense_rerank",
+    "answer": "Disputed debts on credit reports work as follows:\n\n1. **Initial Contact**: You must first contact the debt collector in writing to dispute the debt. This is crucial as it is the most fail-safe method to get a collections debt completely removed from your credit report.\n\n2. **Proof of Dispute**: You need to provide proof that you are not the debtor. This can include details such as your full name, date of birth, and other identifying information that differs from the debtor's information.\n\n3. **Costs and Consequences**: In your letter, you should outline the costs and consequences of further action if the debt collector harasses you. This can include legal action and potential financial penalties.\n\n4. **Confirmation of Details**: You should confirm your home address, full name, date of birth, and other details to eliminate yourself from the collector's chasing activities.\n\n5. **Employer Notification**: It is advisable to copy your employer in the letter to inform them of the mistaken identity situation.\n\n6. **Follow-Up**: Keep a copy of your letter and proof that you sent it. This is important in case further action is needed.\n\nBy following these steps, you can effectively dispute a debt on your credit report and potentially have it removed.",
+    "faithfulness": 4,
+    "relevance": 4,
+    "reasoning": "The answer is mostly faithful to the context and relevant to the question, but it does not mention the specific context provided."
+  },
+  {
+    "query_id": "109",
+    "question": "How to account for money earned and spent prior to establishing business bank accounts?",
+    "config": "sparse",
+    "answer": "To account for money earned and spent prior to establishing a business bank account, classify the transactions according to their origination. If the money was received, determine if it was used personally or for business purposes. If used personally, it can be recorded as a 'distribution' or 'loan' to you. If the money was an expense paid personally, it can be recorded as a 'contribution of capital' or 'loan' from you. If you choose to record these transactions as loans, you can offset them together, avoiding the need for two separate accounts. When the bank account is opened, the initial deposit should be classified as either a 'contribution of capital' or a 'loan' from you, depending on whether it came from personal funds.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context and directly addresses the question asked."
+  },
+  {
+    "query_id": "109",
+    "question": "How to account for money earned and spent prior to establishing business bank accounts?",
+    "config": "dense_rerank",
+    "answer": "To account for money earned and spent prior to establishing a business bank account, classify the transactions according to their origination. If the money came from personal funds, it can be recorded as either a 'contribution of capital' or a 'loan' from you. If the money was spent personally, it can be recorded as either a 'distribution' or a 'loan' to you. If you choose to record these transactions as loans, you can offset them together, so you don't need two separate accounts.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context and directly addresses the question asked."
+  },
+  {
+    "query_id": "1090",
+    "question": "Need a formula to determine monthly payments received at time t if I'm reinvesting my returns",
+    "config": "sparse",
+    "answer": "There is no generic formula to determine monthly payments received at time t if you're reinvesting your returns. The calculation depends on various factors such as the initial investment, reinvestment rate, and the time period.",
+    "faithfulness": 3,
+    "relevance": 2,
+    "reasoning": "The answer does not address the question about a formula for determining monthly payments received at time t if reinvesting returns. Instead, it states that there is no generic formula, which is not supported by the context."
+  },
+  {
+    "query_id": "1090",
+    "question": "Need a formula to determine monthly payments received at time t if I'm reinvesting my returns",
+    "config": "dense_rerank",
+    "answer": "The formula to determine monthly payments received at time t if you're reinvesting your returns is:\n\n\\[ A = PMT \\left[ \\frac{(1 + r)^N - 1}{r} \\right] \\times (1 + r) \\]\n\nWhere:\n- \\( A \\) is the amount you would have at the end of the time period.\n- \\( N \\) is the number of compounding periods (months if you get interest calculated monthly).\n- \\( PMT \\) is the total amount you are putting in each period (N).\n- \\( r \\) is the interest rate you are getting paid (monthly interest rate).\n\nThis formula is used to calculate the future value of an annuity, which is the total amount you would have after making regular payments over a specified period with interest reinvestment.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context and directly addresses the question asked."
+  },
+  {
+    "query_id": "10912",
+    "question": "Forex independent investments",
+    "config": "sparse",
+    "answer": "The context provided does not contain any information about Forex independent investments. Therefore, I cannot answer the question based on the given context.",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer does not address the question asked and is not supported by the context."
+  },
+  {
+    "query_id": "10912",
+    "question": "Forex independent investments",
+    "config": "dense_rerank",
+    "answer": "Forex independent investments are not a thing. Forex trading involves trading currencies against each other, and it is not an investment in the traditional sense. It is a zero-sum game where one person's gain is another person's loss.",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the information provided in the context, which states that Forex is not an 'investment' but a currency traded in a zero-sum game."
+  }
+]
