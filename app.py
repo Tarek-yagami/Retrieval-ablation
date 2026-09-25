@@ -140,10 +140,19 @@ def render_playground_page() -> None:
         "via HYBRIDRAG_MODEL, off by default so browsing this demo never spends API credits."
     )
     if st.checkbox("Generate answer now"):
-        with st.spinner("Generating..."):
-            passages = top_passages["dense_rerank"]
-            answer = generate_answer(query, passages)
-            score = judge_answer(query, answer, passages)
+        try:
+            with st.spinner("Generating..."):
+                passages = top_passages["dense_rerank"]
+                answer = generate_answer(query, passages)
+                score = judge_answer(query, answer, passages)
+        except Exception:
+            st.info(
+                "No LLM is configured on this public demo, on purpose, so a "
+                "random visitor can't spend the deployer's API credits. Set "
+                "HYBRIDRAG_MODEL and the matching API key (see .env.example) "
+                "to try this locally."
+            )
+            st.stop()
 
         st.write(answer)
         c1, c2 = st.columns(2)
