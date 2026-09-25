@@ -35,6 +35,7 @@ CONFIG_COLORS = {
     "hybrid": "#009E73",
     "hybrid_rerank": "#CC79A7",
     "dense_rerank": "#0072B2",
+    "sparse_rerank": "#D55E00",
 }
 METRICS = [("ndcg@10", "nDCG@10"), ("recall@100", "Recall@100"), ("mrr@10", "MRR@10")]
 

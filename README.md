@@ -34,23 +34,26 @@ for finding out, and to walk through what the process turned up.
 
 ## Approach
 
-Five retrieval configs are built so each added piece of complexity (dense
+Six retrieval configs are built so each added piece of complexity (dense
 retrieval, then fusion, then reranking) can be isolated and checked
 individually rather than judged as one bundle: sparse, dense, hybrid (fusion),
-hybrid+rerank, and dense+rerank (reranking with the fusion step removed). That
-last one wasn't part of the original design. It was added after the first run
-showed fusion hurting on one dataset, specifically to test whether
-reranking-without-fusion was the actual fix or just a plausible-sounding
-guess. It turned out to matter on both datasets, not just the one that
-prompted it. Two BEIR datasets with real relevance judgments were run side by
-side deliberately for contrast, not coverage. A second experiment then checks
-whether a retrieval-side win (nDCG, recall) actually shows up in judged
-answer quality, since those two things are often assumed to move together
-without anyone checking.
+hybrid+rerank, dense+rerank, and sparse+rerank. Two of these weren't part of
+the original design. dense_rerank was added after the first run showed fusion
+hurting on one dataset, to test whether reranking-without-fusion was the
+actual fix or just a plausible-sounding guess. It turned out to matter on
+both datasets, not just the one that prompted it. sparse_rerank was added
+afterward to complete the resulting grid (retriever in {sparse, dense} x
+reranked in {no, yes}), and confirms that reranking is bounded by the
+underlying retriever's recall rather than a substitute for it. Two BEIR
+datasets with real relevance judgments were run side by side deliberately for
+contrast, not coverage. A second experiment then checks whether a
+retrieval-side win (nDCG, recall) actually shows up in judged answer quality,
+since those two things are often assumed to move together without anyone
+checking.
 
 ## What's benchmarked
 
-Five fixed retrieval configs, run against two [BEIR](https://github.com/beir-cellar/beir)
+Six fixed retrieval configs, run against two [BEIR](https://github.com/beir-cellar/beir)
 datasets with real relevance judgments (`scifact`: claim verification;
 `fiqa`: financial QA):
 
@@ -59,6 +62,7 @@ datasets with real relevance judgments (`scifact`: claim verification;
 - **hybrid**: Reciprocal Rank Fusion of sparse + dense
 - **hybrid_rerank**: hybrid, then cross-encoder reranking of the top candidates
 - **dense_rerank**: dense only, then cross-encoder reranking, no fusion (added mid-project, see below)
+- **sparse_rerank**: sparse only, then cross-encoder reranking, no fusion (completes the grid: does reranking help a weak retriever the same way it helps a strong one)
 
 Scored with nDCG@10, Recall@100, and MRR@10.
 
@@ -74,11 +78,13 @@ sorted query id, see `experiments/retrieval_ablation/run.py`):
 | scifact | hybrid | 0.630 | 0.912 | 0.600 |
 | scifact | hybrid_rerank | 0.691 | 0.912 | 0.660 |
 | scifact | **dense_rerank** | **0.700** | **0.930** | **0.665** |
+| scifact | sparse_rerank | 0.635 | 0.762 | 0.615 |
 | fiqa | sparse | 0.189 | 0.384 | 0.233 |
 | fiqa | dense | 0.444 | 0.769 | 0.535 |
 | fiqa | hybrid | 0.344 | 0.749 | 0.430 |
 | fiqa | hybrid_rerank | 0.448 | 0.749 | 0.529 |
 | fiqa | **dense_rerank** | **0.458** | **0.769** | **0.545** |
+| fiqa | sparse_rerank | 0.313 | 0.384 | 0.423 |
 
 The first four rows told a "consensus recommendation works on one dataset,
 fails on the other" story: hybrid+rerank won on scifact as expected, but on
@@ -104,6 +110,17 @@ have a good reranker, check whether fusing in a second retriever changes
 which documents make the candidate shortlist. Recall@100 for hybrid versus
 the stronger single retriever answers that directly, before assuming fusion
 is free upside.
+
+`sparse_rerank` completes the grid (retriever in {sparse, dense} x reranked
+in {no, yes}) and confirms why reranking has a ceiling. Its recall@100
+(0.762 scifact, 0.384 fiqa) is identical to plain sparse's, on both datasets,
+because reranking only reorders candidates the retriever already found; it
+can't add ones BM25 missed. nDCG@10 still improves over plain sparse (0.561
+to 0.635 on scifact, 0.189 to 0.313 on fiqa), so reranking is doing real work
+within that fixed candidate set, but it stays well below `dense_rerank` on
+both datasets because dense simply found more of the relevant documents to
+begin with. Reranking is not a substitute for a retriever with good recall,
+it's a refinement on top of one.
 
 ### Answer quality
 
@@ -169,7 +186,7 @@ directly (`src/hybridrag/llm.py`).
 src/hybridrag/
 ├── data/beir_loader.py     # loads a BEIR dataset (corpus + queries + qrels)
 ├── retrieval/               # sparse, dense, RRF fusion, cross-encoder rerank
-├── pipeline.py               # wires the five fixed configs together
+├── pipeline.py               # wires the six fixed configs together
 ├── llm.py                    # provider-agnostic completion() via litellm
 ├── generation.py             # answer generation from retrieved context
 ├── judge.py                  # LLM-as-judge: faithfulness + relevance
