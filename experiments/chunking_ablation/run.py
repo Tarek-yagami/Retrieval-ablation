@@ -33,7 +33,7 @@ from hybridrag.data.beir_loader import load_beir_dataset  # noqa: E402
 from hybridrag.metrics import evaluate  # noqa: E402
 from hybridrag.retrieval.dense import DenseRetriever  # noqa: E402
 
-DATASETS = ["scifact", "fiqa"]
+DATASETS = ["scifact", "fiqa", "nfcorpus"]
 CHUNK_SIZES = {"chunks_100": 100, "chunks_250": 250}
 MAX_QUERIES = 200
 TOP_K = 100

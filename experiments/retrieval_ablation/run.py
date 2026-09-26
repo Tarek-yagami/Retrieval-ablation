@@ -38,7 +38,7 @@ from hybridrag.data.beir_loader import load_beir_dataset  # noqa: E402
 from hybridrag.metrics import evaluate  # noqa: E402
 from hybridrag.pipeline import CONFIGS, RetrievalPipeline  # noqa: E402
 
-DATASETS = ["scifact", "fiqa"]
+DATASETS = ["scifact", "fiqa", "nfcorpus"]
 MAX_QUERIES = 200
 TOP_K = 100
 RESULTS_DIR = Path(__file__).parent / "results"

@@ -3,15 +3,17 @@
 "Hybrid retrieval + reranking" gets recommended as the sophisticated default
 for RAG systems, on the assumption that more components means better results.
 This project tests that assumption against real ground-truth relevance
-judgments instead of taking it on faith, and finds it doesn't hold: on both
-datasets tested, reranking *without* fusion beats the full hybrid+rerank
-pipeline. Fusing a weaker retriever into a strong one, then reranking, does
-worse than just reranking the strong one's own candidates. The added
-complexity wasn't free, and nobody would know that without measuring it.
-There is no configuration that's safe to assume by default, including the
-ones that sound more sophisticated. Every added piece has to prove it earns
-its cost on your own data, and "cost" turns out to be literal too: reranking's
-quality gain comes with a measured 150-500x latency increase per query.
+judgments instead of taking it on faith, and finds it doesn't hold: on two of
+three datasets tested, reranking *without* fusion beat the full hybrid+rerank
+pipeline, fusing a weaker retriever into a strong one, then reranking,
+did worse than just reranking the strong one's own candidates. On the third
+dataset, the full hybrid+rerank pipeline won back, narrowly. Neither
+configuration turned out to be safe to assume from the other's result. The
+added complexity of fusion wasn't free, and nobody would know that without
+measuring it, but neither was assuming its replacement would always win
+either. Every added piece has to prove it earns its cost on your own data,
+and "cost" turns out to be literal too: reranking's quality gain comes with a
+measured 150-1400x latency increase per query.
 
 **Live demo:** https://retrieval-ablation.streamlit.app/
 
@@ -47,7 +49,11 @@ afterward to complete the resulting grid (retriever in {sparse, dense} x
 reranked in {no, yes}), and confirms that reranking is bounded by the
 underlying retriever's recall rather than a substitute for it. Two BEIR
 datasets with real relevance judgments were run side by side deliberately for
-contrast, not coverage. A second experiment then checks whether a
+contrast, not coverage, and a third (`nfcorpus`) was added later specifically
+to check whether the "dense_rerank wins" pattern from the first two would
+generalize, which is exactly the kind of question this project treats as
+something to test rather than assume about its own findings too. A second
+experiment then checks whether a
 retrieval-side win (nDCG, recall) actually shows up in judged answer quality,
 since those two things are often assumed to move together without anyone
 checking. A third experiment applies the same "measure it, don't assume it"
@@ -57,9 +63,11 @@ verify rather than just cite.
 
 ## What's benchmarked
 
-Six fixed retrieval configs, run against two [BEIR](https://github.com/beir-cellar/beir)
+Six fixed retrieval configs, run against three [BEIR](https://github.com/beir-cellar/beir)
 datasets with real relevance judgments (`scifact`: claim verification;
-`fiqa`: financial QA):
+`fiqa`: financial QA; `nfcorpus`: medical/nutrition, added later specifically
+because its queries are lay questions against expert-level documents, a
+query-document vocabulary gap neither of the other two datasets has):
 
 - **sparse**: BM25 only
 - **dense**: sentence-transformer embeddings, cosine similarity
@@ -89,6 +97,12 @@ sorted query id, see `experiments/retrieval_ablation/run.py`):
 | fiqa | hybrid_rerank | 0.448 | 0.749 | 0.529 | 4732.5 |
 | fiqa | **dense_rerank** | **0.458** | **0.769** | **0.545** | 4925.8 |
 | fiqa | sparse_rerank | 0.313 | 0.384 | 0.423 | 6324.4 |
+| nfcorpus | sparse | 0.272 | 0.178 | 0.494 | 5.9 |
+| nfcorpus | dense | 0.320 | 0.291 | 0.522 | 13.4 |
+| nfcorpus | hybrid | 0.313 | 0.273 | 0.536 | 20.2 |
+| nfcorpus | **hybrid_rerank** | **0.345** | 0.273 | **0.575** | 8214.7 |
+| nfcorpus | dense_rerank | 0.338 | **0.291** | 0.568 | 7592.6 |
+| nfcorpus | sparse_rerank | 0.317 | 0.178 | 0.559 | 8234.8 |
 
 The first four rows told a "consensus recommendation works on one dataset,
 fails on the other" story: hybrid+rerank won on scifact as expected, but on
@@ -126,9 +140,21 @@ both datasets because dense simply found more of the relevant documents to
 begin with. Reranking is not a substitute for a retriever with good recall,
 it's a refinement on top of one.
 
+**nfcorpus was added later, specifically to check whether "dense_rerank wins"
+generalizes past two datasets, and it doesn't.** `hybrid_rerank` edges it out
+here (0.345 vs 0.338 nDCG@10), a small margin, not the clean win margin
+scifact and fiqa showed either direction, but a real reversal of which config
+was best. All of nfcorpus's numbers sit much lower than the other two
+datasets' (nDCG in the 0.27-0.35 range here, versus 0.56-0.70 on scifact),
+which reflects that lay-vs-expert vocabulary gap making the task genuinely
+harder for every config, not a worse system. The result this project actually
+cares about is that the ranking of "best config" changed again on a third,
+independently-chosen dataset. Two-out-of-three isn't a rule, it's exactly the
+kind of thing that would get quietly treated as one, if it were never tested.
+
 **The quality numbers aren't the whole decision, cost is the other half.**
-The three reranked configs cost roughly 5-6.7 *seconds* per query, against
-13-300ms for the ones without a reranker, a 150-500x latency jump. That's the
+The three reranked configs cost roughly 5-8.2 *seconds* per query, against
+6-300ms for the ones without a reranker, a 150-1400x latency jump. That's the
 cost of a cross-encoder forward pass over a 100-candidate shortlist (the
 shortlist size this experiment uses to keep recall@100 comparable across
 configs; a production system reranking a smaller top-k, like this project's
@@ -196,6 +222,9 @@ same metrics as the main ablation:
 | fiqa | whole_document | 0.444 | 0.769 | 0.535 |
 | fiqa | chunks_100 | 0.446 | 0.750 | 0.530 |
 | fiqa | chunks_250 | 0.448 | 0.766 | 0.534 |
+| nfcorpus | whole_document | 0.320 | 0.291 | 0.522 |
+| nfcorpus | **chunks_100** | **0.335** | **0.297** | **0.538** |
+| nfcorpus | chunks_250 | 0.311 | 0.285 | 0.505 |
 
 The prediction going in was that fiqa, with its longer tail of documents,
 would benefit from chunking more than scifact's short abstracts. The data
@@ -215,6 +244,15 @@ half. The same "measure it, don't assume it" diagnostic from the retrieval
 ablation applies again, just with a different underlying cause: chunking
 helps when a document bundles multiple ideas together, not simply when it's
 long.
+
+nfcorpus fits the scifact side of that story: its documents are medical
+abstracts with the same background/method/result structure, and chunks_100
+improves every metric here too. It also shows the chunk size has to fit the
+document, not just the document type: nfcorpus's median document is 237
+words, so chunks_250 barely splits most documents at all, it's close enough
+to whole_document to get a bit of fragmentation cost on the few longer
+documents without gaining the isolation benefit chunks_100 gets from
+actually splitting the bulk of the corpus.
 
 ## Try it
 
@@ -269,14 +307,14 @@ app.py                        # Streamlit: ablation dashboard + query playground
 
 Not built, and deliberately out of scope for v1, but the natural next steps:
 
-- Test the quality-gap diagnostic (see above) against more corpora, to see how general the pattern actually is beyond these two datasets.
 - More retrieval strategies: query rewriting / HyDE, late-interaction models (ColBERT).
-- A custom domain corpus beyond the two BEIR benchmarks.
-- Cost/latency tracking per config, not quality alone, since that's a quality-vs-cost frontier.
+- A custom domain corpus beyond the three BEIR benchmarks.
 - Validating the LLM judge against a small human-labeled sample.
 - Generalizing this into a reusable CLI (`hybridrag-eval run --config ...`) that evaluates
   any RAG pipeline, not just this benchmark.
-- CI that reruns the ablation when retrieval code changes, to catch silent regressions.
+- CI currently runs lint + unit tests on every push; it doesn't rerun the actual ablation
+  experiments (each takes real time and, for answer-quality, an LLM), so a retrieval-logic
+  regression wouldn't be caught automatically the way a unit-test regression would.
 
 ## License
 
