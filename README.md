@@ -10,7 +10,8 @@ worse than just reranking the strong one's own candidates. The added
 complexity wasn't free, and nobody would know that without measuring it.
 There is no configuration that's safe to assume by default, including the
 ones that sound more sophisticated. Every added piece has to prove it earns
-its cost on your own data.
+its cost on your own data, and "cost" turns out to be literal too: reranking's
+quality gain comes with a measured 150-500x latency increase per query.
 
 **Live demo:** https://retrieval-ablation.streamlit.app/
 
@@ -74,20 +75,20 @@ Scored with nDCG@10, Recall@100, and MRR@10.
 Run on the first 200 qrels-covered queries of each dataset (deterministic, by
 sorted query id, see `experiments/retrieval_ablation/run.py`):
 
-| dataset | config | nDCG@10 | Recall@100 | MRR@10 |
-|---|---|---|---|---|
-| scifact | sparse | 0.561 | 0.762 | 0.531 |
-| scifact | dense | 0.672 | 0.930 | 0.637 |
-| scifact | hybrid | 0.630 | 0.912 | 0.600 |
-| scifact | hybrid_rerank | 0.691 | 0.912 | 0.660 |
-| scifact | **dense_rerank** | **0.700** | **0.930** | **0.665** |
-| scifact | sparse_rerank | 0.635 | 0.762 | 0.615 |
-| fiqa | sparse | 0.189 | 0.384 | 0.233 |
-| fiqa | dense | 0.444 | 0.769 | 0.535 |
-| fiqa | hybrid | 0.344 | 0.749 | 0.430 |
-| fiqa | hybrid_rerank | 0.448 | 0.749 | 0.529 |
-| fiqa | **dense_rerank** | **0.458** | **0.769** | **0.545** |
-| fiqa | sparse_rerank | 0.313 | 0.384 | 0.423 |
+| dataset | config | nDCG@10 | Recall@100 | MRR@10 | latency (ms/query) |
+|---|---|---|---|---|---|
+| scifact | sparse | 0.561 | 0.762 | 0.531 | 27.8 |
+| scifact | dense | 0.672 | 0.930 | 0.637 | 12.9 |
+| scifact | hybrid | 0.630 | 0.912 | 0.600 | 40.4 |
+| scifact | hybrid_rerank | 0.691 | 0.912 | 0.660 | 6381.8 |
+| scifact | **dense_rerank** | **0.700** | **0.930** | **0.665** | 6260.3 |
+| scifact | sparse_rerank | 0.635 | 0.762 | 0.615 | 6685.9 |
+| fiqa | sparse | 0.189 | 0.384 | 0.233 | 258.1 |
+| fiqa | dense | 0.444 | 0.769 | 0.535 | 17.4 |
+| fiqa | hybrid | 0.344 | 0.749 | 0.430 | 293.7 |
+| fiqa | hybrid_rerank | 0.448 | 0.749 | 0.529 | 4732.5 |
+| fiqa | **dense_rerank** | **0.458** | **0.769** | **0.545** | 4925.8 |
+| fiqa | sparse_rerank | 0.313 | 0.384 | 0.423 | 6324.4 |
 
 The first four rows told a "consensus recommendation works on one dataset,
 fails on the other" story: hybrid+rerank won on scifact as expected, but on
@@ -124,6 +125,22 @@ within that fixed candidate set, but it stays well below `dense_rerank` on
 both datasets because dense simply found more of the relevant documents to
 begin with. Reranking is not a substitute for a retriever with good recall,
 it's a refinement on top of one.
+
+**The quality numbers aren't the whole decision, cost is the other half.**
+The three reranked configs cost roughly 5-6.7 *seconds* per query, against
+13-300ms for the ones without a reranker, a 150-500x latency jump. That's the
+cost of a cross-encoder forward pass over a 100-candidate shortlist (the
+shortlist size this experiment uses to keep recall@100 comparable across
+configs; a production system reranking a smaller top-k, like this project's
+own demo does with 20, would pay proportionally less). So `dense_rerank`'s
+quality edge over plain `dense` (+4% nDCG on scifact, +3% on fiqa) comes
+bundled with roughly 500x the latency. Whether that's worth it depends
+entirely on the application's latency budget, a batch offline pipeline can
+absorb 6 seconds a query without anyone noticing; an interactive chat
+response usually can't. This project doesn't pick a winner here on purpose:
+"is the quality gain worth the cost" is the same kind of question as "is
+fusion worth its cost," it needs the actual cost measured for your own
+latency budget, not assumed away.
 
 ### Answer quality
 

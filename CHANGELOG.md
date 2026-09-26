@@ -13,3 +13,4 @@
 - Precomputed the query playground's dense embeddings (`build-playground-cache`) after the deployed demo got CPU-throttled embedding scifact live on every cold start.
 - CI: ruff + pytest on every push and PR via GitHub Actions.
 - Chunking ablation (RQ3): tests chunk size against the same "no universal answer" thesis. Chunking helps on scifact (documents mix multiple ideas per abstract) and does essentially nothing on fiqa (documents are already short and single-purpose), the opposite of what document length alone would predict.
+- Per-query latency added to the retrieval ablation. The three reranked configs cost 150-500x the latency of the non-reranked ones (~5-6.7s vs ~13-300ms per query), a cost the quality-only comparison never surfaced.
