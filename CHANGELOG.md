@@ -10,3 +10,6 @@
 - Provider-agnostic generation + LLM-as-judge layer (Claude / GPT / Groq / Ollama via litellm).
 - Small judged-answer sample (FiQA, 40 questions) comparing the sparse baseline against the best retrieval config.
 - Streamlit app: ablation dashboard + live query playground.
+- Precomputed the query playground's dense embeddings (`build-playground-cache`) after the deployed demo got CPU-throttled embedding scifact live on every cold start.
+- CI: ruff + pytest on every push and PR via GitHub Actions.
+- Chunking ablation (RQ3): tests chunk size against the same "no universal answer" thesis. Chunking helps on scifact (documents mix multiple ideas per abstract) and does essentially nothing on fiqa (documents are already short and single-purpose), the opposite of what document length alone would predict.

@@ -49,7 +49,10 @@ datasets with real relevance judgments were run side by side deliberately for
 contrast, not coverage. A second experiment then checks whether a
 retrieval-side win (nDCG, recall) actually shows up in judged answer quality,
 since those two things are often assumed to move together without anyone
-checking.
+checking. A third experiment applies the same "measure it, don't assume it"
+discipline to chunk size, a different, widely repeated RAG claim ("there's no
+universal best chunk size") that this project happened to independently
+verify rather than just cite.
 
 ## What's benchmarked
 
@@ -157,6 +160,45 @@ scored 78/80 answers a flat 5/5, a rubber-stamp, not a real signal. Small
 models make unreliable judges; that failure mode is worth knowing if you swap
 `HYBRIDRAG_MODEL` for something tiny.)
 
+### Chunking
+
+A widely repeated lesson in RAG write-ups is that there's no universal best
+chunk size, it has to be tested per application. That's exactly this
+project's own thesis applied to a different variable, so it's worth testing
+here too, on `dense` retrieval specifically (chunking is an embedding-dilution
+concern; BM25's term-frequency scoring isn't sensitive to it the same way).
+Chunk-level hits are mapped back to their parent document, since BEIR's
+relevance judgments are per-document, not per-chunk, before scoring with the
+same metrics as the main ablation:
+
+| dataset | variant | nDCG@10 | Recall@100 | MRR@10 |
+|---|---|---|---|---|
+| scifact | whole_document | 0.672 | 0.930 | 0.637 |
+| scifact | **chunks_100** | **0.694** | **0.950** | **0.653** |
+| scifact | chunks_250 | 0.683 | 0.935 | 0.650 |
+| fiqa | whole_document | 0.444 | 0.769 | 0.535 |
+| fiqa | chunks_100 | 0.446 | 0.750 | 0.530 |
+| fiqa | chunks_250 | 0.448 | 0.766 | 0.534 |
+
+The prediction going in was that fiqa, with its longer tail of documents,
+would benefit from chunking more than scifact's short abstracts. The data
+says the opposite: chunking clearly helps on scifact (every metric improves,
+chunks_100 most), and does essentially nothing on fiqa (differences are
+within noise, and recall@100 for chunks_100 is actually slightly worse than
+the whole-document baseline).
+
+Document length wasn't the variable that mattered, document *structure* was.
+Scifact's abstracts mix background, method, and result in one paragraph, and
+the actual evidence for a claim is usually one specific sentence buried in
+that mix. Chunking isolates that sentence instead of averaging its embedding
+against the surrounding paragraph. Fiqa's forum answers are already focused
+on one topic each, being short and single-purpose, so splitting them further
+doesn't concentrate anything, it just risks cutting a coherent answer in
+half. The same "measure it, don't assume it" diagnostic from the retrieval
+ablation applies again, just with a different underlying cause: chunking
+helps when a document bundles multiple ideas together, not simply when it's
+long.
+
 ## Try it
 
 Uses [uv](https://docs.astral.sh/uv/) for dependency management.
@@ -167,6 +209,10 @@ uv sync
 # Ablation (no API key needed)
 uv run experiments/retrieval_ablation/run.py
 uv run experiments/retrieval_ablation/summarize.py
+
+# Chunking (no API key needed)
+uv run experiments/chunking_ablation/run.py
+uv run experiments/chunking_ablation/summarize.py
 
 # Answer quality (needs an LLM, see .env.example)
 uv run experiments/answer_quality/run.py
@@ -184,16 +230,19 @@ directly (`src/hybridrag/llm.py`).
 
 ```
 src/hybridrag/
-├── data/beir_loader.py     # loads a BEIR dataset (corpus + queries + qrels)
-├── retrieval/               # sparse, dense, RRF fusion, cross-encoder rerank
-├── pipeline.py               # wires the six fixed configs together
-├── llm.py                    # provider-agnostic completion() via litellm
-├── generation.py             # answer generation from retrieved context
-├── judge.py                  # LLM-as-judge: faithfulness + relevance
-└── metrics.py                 # nDCG@10 / Recall@100 / MRR@10
+├── data/beir_loader.py       # loads a BEIR dataset (corpus + queries + qrels)
+├── data/playground_cache.py  # builds/loads the demo's precomputed dense embeddings
+├── retrieval/                 # sparse, dense, RRF fusion, cross-encoder rerank
+├── chunking.py                # fixed-size chunking + chunk-to-document dedup
+├── pipeline.py                 # wires the six fixed retrieval configs together
+├── llm.py                      # provider-agnostic completion() via litellm
+├── generation.py               # answer generation from retrieved context
+├── judge.py                    # LLM-as-judge: faithfulness + relevance
+└── metrics.py                   # nDCG@10 / Recall@100 / MRR@10
 
 experiments/
 ├── retrieval_ablation/       # RQ1: does hybrid/rerank beat single-method retrieval?
+├── chunking_ablation/        # RQ3: does chunk size affect dense retrieval quality?
 └── answer_quality/           # RQ2: does that translate into better-judged answers?
 
 app.py                        # Streamlit: ablation dashboard + query playground
