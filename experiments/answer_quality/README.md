@@ -28,7 +28,10 @@ generated answer?
 ## Findings
 
 `dense_rerank` beats the BM25 baseline by more than a full point on both
-scores, so the retrieval gain carried through to the answers. That outcome
+scores, so the retrieval gain carried through to the answers. The
+[judge validation](../judge_validation/README.md) shows that the direction
+holds under a much larger judge, but the size of the gap depends on how the
+judge scores refusals. That outcome
 can't be taken for granted. A fixed prompt or a verbose model can absorb a
 retrieval improvement.
 

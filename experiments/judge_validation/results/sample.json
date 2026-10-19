@@ -1,0 +1,152 @@
+[
+  {
+    "id": "9a63eecd-d766-41a2-b284-4688337239a2",
+    "query_id": "10152",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "8a7ffe8e-fe4f-4e68-a6b3-1b30515b3950",
+    "query_id": "10809",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "12c7709e-597e-416e-8d78-4b98b6b2a9c5",
+    "query_id": "10526",
+    "config": "sparse"
+  },
+  {
+    "id": "cee3dc2e-4599-4517-871f-b621caf0628d",
+    "query_id": "104",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "b09e9c4b-df18-4831-bcc9-0e1d4d33f624",
+    "query_id": "10558",
+    "config": "sparse"
+  },
+  {
+    "id": "aae3b98d-0b5c-429b-9ee9-37487c8bc430",
+    "query_id": "10497",
+    "config": "sparse"
+  },
+  {
+    "id": "2cadb171-106f-43e4-9dd0-0448f0426ce8",
+    "query_id": "109",
+    "config": "sparse"
+  },
+  {
+    "id": "464c2533-fcf3-4251-8f83-ad1c5c4231fc",
+    "query_id": "10808",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "f88ef20d-55b3-4607-b13a-741d26dc59f3",
+    "query_id": "10558",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "544adace-e7cf-44c8-8153-03bf3108eaa2",
+    "query_id": "10710",
+    "config": "sparse"
+  },
+  {
+    "id": "6cf9cf15-9452-4a2e-8482-45e9a5375cc1",
+    "query_id": "106",
+    "config": "sparse"
+  },
+  {
+    "id": "1d2d5c59-3082-41e6-a6b3-ea68d171e5c3",
+    "query_id": "10734",
+    "config": "sparse"
+  },
+  {
+    "id": "5f82ea95-b59e-4422-ac78-c58e81ec13cd",
+    "query_id": "10136",
+    "config": "sparse"
+  },
+  {
+    "id": "114bdfcb-c8d6-4817-89c1-fbe18a7b0830",
+    "query_id": "10267",
+    "config": "sparse"
+  },
+  {
+    "id": "8e087520-d94e-407e-a67f-d04fca4d69cb",
+    "query_id": "10482",
+    "config": "sparse"
+  },
+  {
+    "id": "e5fcbffe-7c95-4031-b9f3-50ce2137e04b",
+    "query_id": "10109",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "52516e29-9749-4aa8-b092-2ecb14627a76",
+    "query_id": "10639",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "ea2b947d-ab4b-4c2d-abff-68c1568f3f5c",
+    "query_id": "10674",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "1ffea750-31bc-43ed-8844-8e539456b692",
+    "query_id": "10792",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "84927b68-7763-4c6f-b86c-04e8e7eefd85",
+    "query_id": "10213",
+    "config": "sparse"
+  },
+  {
+    "id": "d5f1b1bc-9b70-4be0-acea-1913acef09ad",
+    "query_id": "10136",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "5704b8bf-40b1-46dc-9409-43ec2725e40f",
+    "query_id": "10547",
+    "config": "sparse"
+  },
+  {
+    "id": "2ecd8bc0-1495-4954-95be-50e2a40f357d",
+    "query_id": "10152",
+    "config": "sparse"
+  },
+  {
+    "id": "d2a8e95f-3b34-4f8e-aafa-2af144663942",
+    "query_id": "10645",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "d39dbb49-4b69-445f-aad0-70c3eb4eeeae",
+    "query_id": "10246",
+    "config": "sparse"
+  },
+  {
+    "id": "25f45db9-2857-4a3d-9bde-dd4c80e51093",
+    "query_id": "10827",
+    "config": "sparse"
+  },
+  {
+    "id": "4d9c9c92-7305-4d3d-99cf-b68942d5ae1f",
+    "query_id": "10547",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "d9ab94a9-a28a-4feb-bd9f-18f016f2b150",
+    "query_id": "1085",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "7d2a830c-30a2-4085-8a9f-103a72e1a542",
+    "query_id": "10734",
+    "config": "dense_rerank"
+  },
+  {
+    "id": "58e4cfe4-bf8a-4ff0-a3a7-c3ec0ea30502",
+    "query_id": "10497",
+    "config": "dense_rerank"
+  }
+]

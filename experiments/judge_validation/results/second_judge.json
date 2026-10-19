@@ -1,0 +1,562 @@
+[
+  {
+    "query_id": "10034",
+    "config": "sparse",
+    "faithfulness": 3,
+    "relevance": 5,
+    "reasoning": "The answer is on-topic but includes tax details (reporting, withholding, estimated payments) not explicitly supported by the provided context."
+  },
+  {
+    "query_id": "10034",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the context about PFIC handling for EWU/EWUS and directly addresses the tax implications for a US citizen."
+  },
+  {
+    "query_id": "10039",
+    "config": "sparse",
+    "faithfulness": 1,
+    "relevance": 5,
+    "reasoning": "The answer is not supported by any information in the provided context, though it directly addresses the question asked."
+  },
+  {
+    "query_id": "10039",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The context includes a user stating they use Google Finance, confirming that individual investors do use Google for stock quotes, directly answering the question."
+  },
+  {
+    "query_id": "10109",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer’s claims are all supported by the provided context and directly address the question about the settlement period."
+  },
+  {
+    "query_id": "10109",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the context that Schwab must wait for the buyer’s funds, making immediate access a loan, so it scores 5 on both axes."
+  },
+  {
+    "query_id": "10122",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the context's points that diversification reduces risk and protects against large losses and market volatility, directly addressing the question."
+  },
+  {
+    "query_id": "10122",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the context's explanation that diversification reduces risk and averages returns, and it stays on topic answering why to diversify."
+  },
+  {
+    "query_id": "10136",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 2,
+    "reasoning": "The answer accurately states that the provided context lacks information on mitigating Brexit-related purchasing‑power risk (faithful), but it fails to address the user’s actual question (irrelevant)."
+  },
+  {
+    "query_id": "10136",
+    "config": "dense_rerank",
+    "faithfulness": 4,
+    "relevance": 3,
+    "reasoning": "The answer pulls ideas from the context (foreign currencies, Bitcoin, shorting, commodities) but adds tangential advice and omits Brexit‑specific nuances, so it is mostly faithful but only moderately relevant."
+  },
+  {
+    "query_id": "10137",
+    "config": "sparse",
+    "faithfulness": 1,
+    "relevance": 2,
+    "reasoning": "The answer misstates the tax rules from the context and adds unsupported claims about investment ability, making it largely unfaithful and only loosely related to the question."
+  },
+  {
+    "query_id": "10137",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer restates points directly from the provided context, covering employment limits, passive investment, time‑zone considerations, and the relative value of completing the degree, all of which directly address the question."
+  },
+  {
+    "query_id": "10152",
+    "config": "sparse",
+    "faithfulness": 2,
+    "relevance": 4,
+    "reasoning": "The answer responds to the question, but its explanation (reinvestment or high debt) is not supported by the given context, so it lacks faithfulness."
+  },
+  {
+    "query_id": "10152",
+    "config": "dense_rerank",
+    "faithfulness": 2,
+    "relevance": 3,
+    "reasoning": "The answer invents an explanation (lack of reinvestment) not present in the context, which says operating margin and ROE are not closely related and gives different reasons for low ROE."
+  },
+  {
+    "query_id": "10183",
+    "config": "sparse",
+    "faithfulness": 3,
+    "relevance": 5,
+    "reasoning": "Most claims match the context, but several statements about certain incomes being non‑taxable lack support, lowering faithfulness while relevance remains high."
+  },
+  {
+    "query_id": "10183",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the US tax distinctions for earned income, payroll taxes, progressive rates, and capital gains as described in the provided context."
+  },
+  {
+    "query_id": "10213",
+    "config": "sparse",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer falsely states the context provides no investment advice, ignoring relevant suggestions about mutual funds, real estate, and portfolio building, and thus does not address the question."
+  },
+  {
+    "query_id": "10213",
+    "config": "dense_rerank",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer falsely claims the context lacks information on investment vehicles, which is untrue given multiple passages discussing suitable accounts and strategies."
+  },
+  {
+    "query_id": "10246",
+    "config": "sparse",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "The answer correctly states the T+3 definition and cites the SEC page as in the context, though the claim about trades not being reversible isn’t directly supported."
+  },
+  {
+    "query_id": "10246",
+    "config": "dense_rerank",
+    "faithfulness": 3,
+    "relevance": 5,
+    "reasoning": "The answer correctly states the T+3 definition from the context but adds an unsupported justification, lowering faithfulness while remaining fully relevant."
+  },
+  {
+    "query_id": "10267",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 2,
+    "reasoning": "The answer correctly notes that none of the provided excerpts give preparation advice, but it does not address the user’s question, making it low in relevance."
+  },
+  {
+    "query_id": "10267",
+    "config": "dense_rerank",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "Most answer points are directly supported by the provided excerpts, but the final claim about staying positive lacks any backing in the context."
+  },
+  {
+    "query_id": "104",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 1,
+    "reasoning": "The answer correctly states that the given context lacks information on the topic, but it does not actually address the question about how investing with other people's money works."
+  },
+  {
+    "query_id": "104",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the context's description of borrowing or attracting investors, equity vs loan structures, expected returns, and associated risks, directly addressing the question."
+  },
+  {
+    "query_id": "10414",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly states that none of the provided context mentions volume thresholds, so its claim is fully supported and it directly addresses the question by noting the absence of relevant information."
+  },
+  {
+    "query_id": "10414",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 3,
+    "reasoning": "The answer correctly cites the context for high volume, but omits any definition of low volume, making it only partially relevant to the question."
+  },
+  {
+    "query_id": "10447",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly reflects the context's discussion of using non‑deductible Traditional IRA contributions for a backdoor Roth, which is presented as an advantage over a taxable account."
+  },
+  {
+    "query_id": "10447",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly reflects the context that a non‑deductible Traditional IRA offers tax‑deferral of earnings, which can be advantageous compared to a taxable account."
+  },
+  {
+    "query_id": "10462",
+    "config": "sparse",
+    "faithfulness": 1,
+    "relevance": 5,
+    "reasoning": "The answer makes a claim not found in the provided context, but it directly addresses the asked question."
+  },
+  {
+    "query_id": "10462",
+    "config": "dense_rerank",
+    "faithfulness": 2,
+    "relevance": 5,
+    "reasoning": "The answer gives a clear yes/no response to the question, but the claim that it is 'not okay' is not explicitly supported by any statement in the provided context."
+  },
+  {
+    "query_id": "10482",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 4,
+    "reasoning": "The answer correctly states that none of the provided excerpts discuss rolling over into a bond fund for dollar‑cost averaging, and it directly addresses the asked question."
+  },
+  {
+    "query_id": "10482",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly states that none of the provided context mentions rolling over into a bond fund for dollar cost averaging, and it directly addresses the asked question."
+  },
+  {
+    "query_id": "10497",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 4,
+    "reasoning": "The answer correctly reflects the context that applying a refund forward is useful when you anticipate a tax liability, though it omits other reasons mentioned, making it relevant but not fully comprehensive."
+  },
+  {
+    "query_id": "10497",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the reasons given in the context, such as anticipating a tax liability, Schedule C considerations, capital gains events, lottery winnings, and ACA payments, and directly addresses the question."
+  },
+  {
+    "query_id": "10526",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 2,
+    "reasoning": "The answer correctly states that the given context lacks any mention of order books, but it fails to address the actual question about what extra information could be obtained."
+  },
+  {
+    "query_id": "10526",
+    "config": "dense_rerank",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "The answer correctly reflects the context that deeper bid levels reveal buyer interest and market sentiment, though the exact phrasing isn’t directly quoted."
+  },
+  {
+    "query_id": "10547",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly notes that the provided context lacks a specific monetary figure, which is faithful and directly addresses the question."
+  },
+  {
+    "query_id": "10547",
+    "config": "dense_rerank",
+    "faithfulness": 3,
+    "relevance": 4,
+    "reasoning": "The answer claims no information is given, but the context does mention small fees (fractions of a cent) and rebates, so it’s only partially faithful while still addressing the question."
+  },
+  {
+    "query_id": "10558",
+    "config": "sparse",
+    "faithfulness": 3,
+    "relevance": 4,
+    "reasoning": "The answer gives generally relevant advice but includes several points (e.g., tax‑free bonds, specific asset classes) that are not substantiated by the provided context."
+  },
+  {
+    "query_id": "10558",
+    "config": "dense_rerank",
+    "faithfulness": 3,
+    "relevance": 5,
+    "reasoning": "The answer largely reflects the advice in the context but includes an unsupported claim about a 20% mortgage rate, reducing its faithfulness while staying on topic."
+  },
+  {
+    "query_id": "10596",
+    "config": "sparse",
+    "faithfulness": 2,
+    "relevance": 5,
+    "reasoning": "The answer aligns with some sources but is contradicted by other parts of the context, so it is not fully supported."
+  },
+  {
+    "query_id": "10596",
+    "config": "dense_rerank",
+    "faithfulness": 3,
+    "relevance": 5,
+    "reasoning": "The answer aligns with some parts of the context but contradicts other statements, making it only partially faithful while directly addressing the question."
+  },
+  {
+    "query_id": "106",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 2,
+    "reasoning": "The answer correctly states that the given context lacks pricing approaches, but it does not actually provide the requested approaches, making it only marginally relevant."
+  },
+  {
+    "query_id": "106",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer’s listed methods (liquidation value, DCF, industry multiplier, SDE, financial statements, broker) are all directly supported by the provided context and directly answer the pricing approaches question."
+  },
+  {
+    "query_id": "10601",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately states that none of the provided context passages contain information about Bitcoin cost basis purchases, directly addressing the question."
+  },
+  {
+    "query_id": "10601",
+    "config": "dense_rerank",
+    "faithfulness": 1,
+    "relevance": 1,
+    "reasoning": "The answer incorrectly claims the context lacks Bitcoin cost basis details, despite the first excerpt explicitly discussing cost basis methods."
+  },
+  {
+    "query_id": "10628",
+    "config": "sparse",
+    "faithfulness": 2,
+    "relevance": 4,
+    "reasoning": "The answer addresses the question but makes an unsupported claim that the long buyer is unaffected, which is not directly stated in the context."
+  },
+  {
+    "query_id": "10628",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly reflects the context, which states that the buyer who holds the shares is unaffected by the short seller's failure."
+  },
+  {
+    "query_id": "10639",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 2,
+    "reasoning": "The answer correctly states that the provided context lacks information on short‑term parking of an inheritance, but it does not actually address the user's query."
+  },
+  {
+    "query_id": "10639",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer's options and advice are directly supported by the context and directly address the short‑term parking question."
+  },
+  {
+    "query_id": "10645",
+    "config": "sparse",
+    "faithfulness": 3,
+    "relevance": 5,
+    "reasoning": "Most points align with the context, but several benefits (e.g., avoiding emotional decisions, tax‑loss offsetting) are not covered, reducing faithfulness."
+  },
+  {
+    "query_id": "10645",
+    "config": "dense_rerank",
+    "faithfulness": 2,
+    "relevance": 5,
+    "reasoning": "The answer mentions several benefits (tax efficiency, cost reduction) that are not substantiated by the context, reducing faithfulness, though it stays on topic."
+  },
+  {
+    "query_id": "10674",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 1,
+    "reasoning": "The answer accurately states that the context lacks instructions, but it does not address the user's question about selling in a crashing market."
+  },
+  {
+    "query_id": "10674",
+    "config": "dense_rerank",
+    "faithfulness": 3,
+    "relevance": 5,
+    "reasoning": "The answer contains several points directly drawn from the provided excerpts, but also includes multiple claims not mentioned in the context, lowering its overall faithfulness while remaining on-topic."
+  },
+  {
+    "query_id": "10710",
+    "config": "sparse",
+    "faithfulness": 2,
+    "relevance": 3,
+    "reasoning": "The answer introduces unsupported claims and irrelevant European comparison, reducing faithfulness, though it does address the asked probability comparison."
+  },
+  {
+    "query_id": "10710",
+    "config": "dense_rerank",
+    "faithfulness": 4,
+    "relevance": 2,
+    "reasoning": "The answer restates context‑supported factors influencing early exercise but does not actually provide the requested probability comparison, making it only partially relevant."
+  },
+  {
+    "query_id": "10734",
+    "config": "sparse",
+    "faithfulness": 4,
+    "relevance": 5,
+    "reasoning": "The answer follows the method described in the context, correctly outlining how to convert annual salary to an hourly rate for part‑time work, so it is relevant and mostly faithful."
+  },
+  {
+    "query_id": "10734",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the steps and details provided in the context for converting annual salary to a part‑time hourly rate and directly addresses the question."
+  },
+  {
+    "query_id": "1074",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly notes that none of the provided excerpts mention pass‑through health insurance, so its claim is accurate and it directly responds to the query."
+  },
+  {
+    "query_id": "1074",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly reflects that the provided context contains no mention of 'pass‑through' insurance and thus accurately addresses the question about its commonality."
+  },
+  {
+    "query_id": "10792",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly repeats the step-by-step method from the context, accurately addressing how to compute a running return."
+  },
+  {
+    "query_id": "10792",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly mirrors the step-by-step method described in the provided context for calculating a running return, fully addressing the question."
+  },
+  {
+    "query_id": "10808",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly states that the provided context lacks any specific website names for investing in high‑interest mutual funds, which is both accurate and directly addresses the question."
+  },
+  {
+    "query_id": "10808",
+    "config": "dense_rerank",
+    "faithfulness": 3,
+    "relevance": 5,
+    "reasoning": "The answer correctly cites Vanguard and other brokerages mentioned in the context, but adds an unsupported claim about an 'Investment IRA' as a site, lowering overall faithfulness."
+  },
+  {
+    "query_id": "10809",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately restates the definition of leverage and the leverage factor example directly from the provided context, fully addressing the question."
+  },
+  {
+    "query_id": "10809",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly mirrors the definitions provided in the context, accurately addressing the asked definitions."
+  },
+  {
+    "query_id": "10812",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer correctly reflects the context, which states you can appeal or fill out Form 2210 to reduce or eliminate the penalty, confirming that disputes are possible."
+  },
+  {
+    "query_id": "10812",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the context, which states you can appeal IRS penalties but are unlikely to succeed, directly addressing the question."
+  },
+  {
+    "query_id": "10827",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 4,
+    "reasoning": "The answer correctly states that the context lacks any guidance on contribution amounts, making it fully faithful and appropriately relevant to the question."
+  },
+  {
+    "query_id": "10827",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "All claims about contributing 10‑15% and matching employer contributions are directly supported by the provided excerpts."
+  },
+  {
+    "query_id": "10845",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 4,
+    "reasoning": "The answer correctly reflects the context that 12, 26, and 9 are the typical industry standard settings, but provides only a minimal explanation of the rationale."
+  },
+  {
+    "query_id": "10845",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 4,
+    "reasoning": "The answer directly quotes the context, so it is fully faithful, and it addresses the question by stating the numbers are the industry standard, though it lacks deeper explanation of the rationale."
+  },
+  {
+    "query_id": "1085",
+    "config": "sparse",
+    "faithfulness": 1,
+    "relevance": 3,
+    "reasoning": "The answer makes claims about credit report dispute procedures that are not present in the provided context, though it does address the question topic."
+  },
+  {
+    "query_id": "1085",
+    "config": "dense_rerank",
+    "faithfulness": 2,
+    "relevance": 2,
+    "reasoning": "The answer includes many claims not supported by the provided context and focuses on unrelated tactics, so it is only loosely related to the question."
+  },
+  {
+    "query_id": "109",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer restates the classification guidance from the context without adding unsupported information and directly addresses the asked accounting method."
+  },
+  {
+    "query_id": "109",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects the context’s guidance on classifying pre‑bank‑account transactions and directly addresses the question."
+  },
+  {
+    "query_id": "1090",
+    "config": "sparse",
+    "faithfulness": 2,
+    "relevance": 4,
+    "reasoning": "The answer claims no generic formula exists, which isn’t supported by the provided context, though it does attempt to address the asked question."
+  },
+  {
+    "query_id": "1090",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer directly reproduces the annuity future‑value formula presented in the context and addresses the request for a reinvestment payment formula."
+  },
+  {
+    "query_id": "10912",
+    "config": "sparse",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer accurately reflects that the provided context contains no information on 'Forex independent investments' and appropriately addresses the question's request."
+  },
+  {
+    "query_id": "10912",
+    "config": "dense_rerank",
+    "faithfulness": 5,
+    "relevance": 5,
+    "reasoning": "The answer’s claims about Forex not being a traditional investment, being a zero‑sum currency trade, and lacking independent investments are all supported by the provided context, and it directly addresses the question."
+  }
+]

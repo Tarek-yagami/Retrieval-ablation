@@ -61,6 +61,22 @@ def test_too_few_paraphrases_raises_after_retries(monkeypatch):
     assert len(calls) == query_rewrite._PARAPHRASE_ATTEMPTS
 
 
+def test_complete_retries_rate_limit(monkeypatch):
+    calls = []
+
+    def fake_completion(**kwargs):
+        calls.append(1)
+        if len(calls) == 1:
+            raise llm.litellm.RateLimitError("TPM limit reached", llm_provider="groq", model="openai/gpt-oss-120b")
+        return {"choices": [{"message": {"content": "ok"}}]}
+
+    monkeypatch.setattr(llm.litellm, "completion", fake_completion)
+    monkeypatch.setattr(llm.complete.retry, "wait", lambda retry_state: 0)
+
+    assert llm.complete("prompt", model="groq/openai/gpt-oss-120b") == "ok"
+    assert len(calls) == 2
+
+
 def test_complete_forwards_response_format_to_litellm(monkeypatch):
     captured = {}
 

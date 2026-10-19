@@ -15,6 +15,9 @@ from json_repair import repair_json
 
 from hybridrag.llm import complete
 
+# reasoning models (e.g. gpt-oss) spend hidden tokens before the JSON, so leave room for both
+_JUDGE_MAX_TOKENS = 4096
+
 _JUDGE_PROMPT = """You are grading a RAG system's answer. Score it on two axes, \
 1 (worst) to 5 (best):
 
@@ -43,7 +46,7 @@ class JudgeScore:
 def judge_answer(question: str, answer: str, passages: list[str], *, model: str | None = None) -> JudgeScore:
     context = "\n\n".join(f"[{i + 1}] {p}" for i, p in enumerate(passages))
     prompt = _JUDGE_PROMPT.format(context=context, question=question, answer=answer)
-    raw = complete(prompt, model=model)
+    raw = complete(prompt, model=model, max_tokens=_JUDGE_MAX_TOKENS)
 
     match = re.search(r"\{.*\}", raw, re.DOTALL)
     if not match:

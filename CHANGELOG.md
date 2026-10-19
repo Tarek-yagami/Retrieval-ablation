@@ -7,6 +7,7 @@
 - Answer-quality experiment: 40 FiQA questions, generated and scored by an LLM judge for faithfulness and relevance.
 - Chunking ablation: 100- and 250-word chunks against whole documents for dense retrieval.
 - Query rewriting ablation: HyDE and multi-query paraphrasing over dense retrieval, 50 queries per dataset.
+- Judge validation: all 80 answers re-scored by a 120B judge, with agreement measured against the 7B judge.
 - Provider-agnostic LLM layer via litellm (Claude, GPT, Groq, Ollama).
 - Streamlit demo with a results dashboard and a query playground, using precomputed embeddings.
 - CI: ruff and pytest on every push and pull request.

@@ -425,25 +425,32 @@ s3transfer==0.19.2
 safetensors==0.8.0
     # via transformers
 scikit-learn==1.7.2 ; python_full_version < '3.11'
-    # via sentence-transformers
+    # via
+    #   retrieval-ablation
+    #   sentence-transformers
 scikit-learn==1.9.1 ; python_full_version >= '3.11'
-    # via sentence-transformers
+    # via
+    #   retrieval-ablation
+    #   sentence-transformers
 scipy==1.15.3 ; python_full_version < '3.11'
     # via
     #   pytrec-eval-terrier
     #   ranx
+    #   retrieval-ablation
     #   scikit-learn
     #   sentence-transformers
 scipy==1.17.1 ; python_full_version == '3.11.*'
     # via
     #   pytrec-eval-terrier
     #   ranx
+    #   retrieval-ablation
     #   scikit-learn
     #   sentence-transformers
 scipy==1.18.1 ; python_full_version >= '3.12'
     # via
     #   pytrec-eval-terrier
     #   ranx
+    #   retrieval-ablation
     #   scikit-learn
     #   sentence-transformers
 seaborn==0.13.2

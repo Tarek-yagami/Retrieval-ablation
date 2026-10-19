@@ -6,7 +6,7 @@ providers is a config change here, not a rewrite anywhere else.
 Model is read from HYBRIDRAG_MODEL, e.g.:
     claude-sonnet-5              -> Anthropic
     gpt-4o                       -> OpenAI
-    groq/llama-3.3-70b-versatile -> Groq
+    groq/openai/gpt-oss-120b     -> Groq
     ollama/llama3.1               -> local Ollama
 """
 
@@ -16,10 +16,20 @@ import os
 
 import litellm
 from pydantic import BaseModel
+from tenacity import retry, retry_if_exception_type, stop_after_attempt, wait_random_exponential
 
 _DEFAULT_MODEL = "claude-sonnet-5"
+_RETRYABLE_ERRORS = (litellm.RateLimitError, litellm.APIConnectionError)
+_MAX_ATTEMPTS = 8
+_MAX_WAIT_SECONDS = 60
 
 
+@retry(
+    retry=retry_if_exception_type(_RETRYABLE_ERRORS),
+    wait=wait_random_exponential(max=_MAX_WAIT_SECONDS),
+    stop=stop_after_attempt(_MAX_ATTEMPTS),
+    reraise=True,
+)
 def complete(
     prompt: str,
     *,

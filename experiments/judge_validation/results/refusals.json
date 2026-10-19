@@ -1,0 +1,86 @@
+[
+  {
+    "query_id": "10136",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10213",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10213",
+    "config": "dense_rerank"
+  },
+  {
+    "query_id": "10267",
+    "config": "sparse"
+  },
+  {
+    "query_id": "104",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10414",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10482",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10482",
+    "config": "dense_rerank"
+  },
+  {
+    "query_id": "10526",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10547",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10547",
+    "config": "dense_rerank"
+  },
+  {
+    "query_id": "106",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10601",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10601",
+    "config": "dense_rerank"
+  },
+  {
+    "query_id": "10639",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10674",
+    "config": "sparse"
+  },
+  {
+    "query_id": "1074",
+    "config": "sparse"
+  },
+  {
+    "query_id": "1074",
+    "config": "dense_rerank"
+  },
+  {
+    "query_id": "10808",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10827",
+    "config": "sparse"
+  },
+  {
+    "query_id": "10912",
+    "config": "sparse"
+  }
+]

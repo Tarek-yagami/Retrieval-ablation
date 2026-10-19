@@ -22,9 +22,12 @@ carry through to better generated answers.
 - **LLM query rewriting (HyDE) helped where queries and documents differ in
   form.** It lifted dense nDCG@10 by 11-15% on scifact and nfcorpus, where it
   beat the reranker, and did nothing on fiqa.
-- **Better retrieval gave better answers.** On 40 judged FiQA questions,
-  answers built on `dense_rerank` scored more than a full point higher (out
-  of 5) on faithfulness and relevance than answers built on BM25.
+- **Better retrieval gave better answers, but the size of the gain depended
+  on the judge.** On 40 FiQA questions, a 7B judge put `dense_rerank`'s
+  answers more than a full point (out of 5) above BM25's. A 120B judge agreed
+  on the direction, but the faithfulness gap shrank to 0.2. The judges
+  disagreed on how to score "the context doesn't contain the answer", which
+  BM25 left the generator saying three times as often.
 
 ## Results at a glance
 
@@ -47,6 +50,7 @@ write-up of the method and findings.
 | Answer quality | Do retrieval gains show up in LLM-judged answer quality? | [experiments/answer_quality](experiments/answer_quality/README.md) |
 | Chunking | Does chunk size change dense retrieval quality, and is it consistent across corpora? | [experiments/chunking_ablation](experiments/chunking_ablation/README.md) |
 | Query rewriting | Do LLM query rewrites (HyDE, multi-query) improve dense retrieval? | [experiments/query_rewrite_ablation](experiments/query_rewrite_ablation/README.md) |
+| Judge validation | Does the answer-quality result survive a much larger judge? | [experiments/judge_validation](experiments/judge_validation/README.md) |
 
 ## Stack
 
@@ -94,8 +98,8 @@ tests/             # unit tests, run in CI
 - Queries are capped at 200 per dataset to keep the reranker pass tractable,
   and at 50 for query rewriting, which needs an LLM call per query.
 - One embedding model (`all-MiniLM-L6-v2`) and one reranker were tested.
-- Answers were judged by a single local 7B model, which has not yet been
-  validated against human labels.
+- Answer quality was checked by two LLM judges (7B and 120B) but not yet
+  against human labels.
 
 ## License
 
