@@ -4,7 +4,7 @@ dense+rerank, and sparse+rerank.
 
 dense_rerank exists to test a claim, not to round out coverage: when hybrid
 fusion drags a strong retriever down by fusing in a much weaker one (see
-README), reranking-without-fusion is the natural alternative to check before
+experiments/retrieval_ablation/README.md), reranking-without-fusion is the natural alternative to check before
 concluding that reranking-after-fusion was actually the fix.
 
 sparse_rerank completes the resulting 2x2 grid (retriever in {sparse, dense}

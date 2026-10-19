@@ -2,16 +2,10 @@
 
 ## 0.1.0 - initial release
 
-- Hybrid retrieval pipeline: BM25 (sparse), sentence-transformer embeddings (dense), Reciprocal Rank Fusion, cross-encoder reranking.
-- Retrieval ablation across six fixed configs (sparse / dense / hybrid / hybrid+rerank / dense+rerank / sparse+rerank) on two BEIR benchmarks (SciFact, FiQA), scored with IR metrics (nDCG@10, Recall@100, MRR@10) via `ranx`.
-- `dense_rerank` (reranking without fusion) added specifically to test the project's own claim that it's a viable alternative when hybrid fusion drags a strong retriever down.
-- `sparse_rerank` added afterward to complete the retriever x reranked grid; confirms reranking is bounded by the underlying retriever's recall, not a substitute for it.
-- `retrieval_ablation/run.py` skips configs a dataset already has results for instead of recomputing everything on every run.
-- Provider-agnostic generation + LLM-as-judge layer (Claude / GPT / Groq / Ollama via litellm).
-- Small judged-answer sample (FiQA, 40 questions) comparing the sparse baseline against the best retrieval config.
-- Streamlit app: ablation dashboard + live query playground.
-- Precomputed the query playground's dense embeddings (`build-playground-cache`) after the deployed demo got CPU-throttled embedding scifact live on every cold start.
-- CI: ruff + pytest on every push and PR via GitHub Actions.
-- Chunking ablation (RQ3): tests chunk size against the same "no universal answer" thesis. Chunking helps on scifact (documents mix multiple ideas per abstract) and does essentially nothing on fiqa (documents are already short and single-purpose), the opposite of what document length alone would predict.
-- Per-query latency added to the retrieval ablation. The three reranked configs cost 150-500x the latency of the non-reranked ones (~5-6.7s vs ~13-300ms per query), a cost the quality-only comparison never surfaced.
-- Added `nfcorpus` as a third dataset (retrieval ablation + chunking), chosen for its lay-query/expert-document vocabulary gap. It broke the "dense_rerank always wins" pattern: `hybrid_rerank` edges it out here, a small margin, but a real reversal on an independently-added dataset.
+- Retrieval pipeline: BM25, dense embeddings, Reciprocal Rank Fusion and cross-encoder reranking, combined into six configs.
+- Retrieval ablation on three BEIR datasets (scifact, fiqa, nfcorpus), scored with nDCG@10, Recall@100 and MRR@10, with per-query latency.
+- Answer-quality experiment: 40 FiQA questions, generated and scored by an LLM judge for faithfulness and relevance.
+- Chunking ablation: 100- and 250-word chunks against whole documents for dense retrieval.
+- Provider-agnostic LLM layer via litellm (Claude, GPT, Groq, Ollama).
+- Streamlit demo with a results dashboard and a query playground, using precomputed embeddings.
+- CI: ruff and pytest on every push and pull request.
