@@ -15,14 +15,25 @@ from __future__ import annotations
 import os
 
 import litellm
+from pydantic import BaseModel
 
 _DEFAULT_MODEL = "claude-sonnet-5"
 
 
-def complete(prompt: str, *, model: str | None = None, temperature: float = 0.0, max_tokens: int = 1024) -> str:
+def complete(
+    prompt: str,
+    *,
+    model: str | None = None,
+    temperature: float = 0.0,
+    max_tokens: int = 1024,
+    response_format: type[BaseModel] | None = None,
+) -> str:
+    """Return the model's reply; with response_format, the reply is JSON matching that schema."""
     resolved_model = model or os.environ.get("HYBRIDRAG_MODEL", _DEFAULT_MODEL)
 
     extra_kwargs = {}
+    if response_format is not None:
+        extra_kwargs["response_format"] = response_format
     if resolved_model.startswith("ollama/"):
         # Force CPU-only inference: on modest/shared hardware, Ollama's GPU
         # offload can fail with a CUDA host-buffer allocation error when VRAM

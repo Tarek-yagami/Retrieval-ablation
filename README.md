@@ -19,6 +19,9 @@ carry through to better generated answers.
   everywhere.
 - **Reranking has a large latency cost.** `dense_rerank` was 280-570x slower
   per query than plain `dense`, for a 3-6% nDCG@10 gain.
+- **LLM query rewriting (HyDE) helped where queries and documents differ in
+  form.** It lifted dense nDCG@10 by 11-15% on scifact and nfcorpus, where it
+  beat the reranker, and did nothing on fiqa.
 - **Better retrieval gave better answers.** On 40 judged FiQA questions,
   answers built on `dense_rerank` scored more than a full point higher (out
   of 5) on faithfulness and relevance than answers built on BM25.
@@ -43,6 +46,7 @@ write-up of the method and findings.
 | Retrieval ablation | Does hybrid retrieval and reranking beat a single retriever, and at what latency? | [experiments/retrieval_ablation](experiments/retrieval_ablation/README.md) |
 | Answer quality | Do retrieval gains show up in LLM-judged answer quality? | [experiments/answer_quality](experiments/answer_quality/README.md) |
 | Chunking | Does chunk size change dense retrieval quality, and is it consistent across corpora? | [experiments/chunking_ablation](experiments/chunking_ablation/README.md) |
+| Query rewriting | Do LLM query rewrites (HyDE, multi-query) improve dense retrieval? | [experiments/query_rewrite_ablation](experiments/query_rewrite_ablation/README.md) |
 
 ## Stack
 
@@ -72,7 +76,9 @@ src/hybridrag/
 ├── data/          # BEIR loading, precomputed demo embeddings
 ├── retrieval/     # sparse, dense, RRF fusion, cross-encoder rerank
 ├── pipeline.py    # the six retrieval configs
+├── benchmark.py   # datasets, retrieval depth and query sample shared by experiments
 ├── chunking.py    # fixed-size chunking, chunk-to-document mapping
+├── query_rewrite.py  # LLM query rewriting: HyDE passages, paraphrases
 ├── metrics.py     # nDCG@10, Recall@100, MRR@10
 ├── llm.py         # provider-agnostic completion via litellm
 ├── generation.py  # answer generation from retrieved passages
@@ -85,7 +91,8 @@ tests/             # unit tests, run in CI
 
 ## Limitations
 
-- Queries are capped at 200 per dataset to keep the reranker pass tractable.
+- Queries are capped at 200 per dataset to keep the reranker pass tractable,
+  and at 50 for query rewriting, which needs an LLM call per query.
 - One embedding model (`all-MiniLM-L6-v2`) and one reranker were tested.
 - Answers were judged by a single local 7B model, which has not yet been
   validated against human labels.

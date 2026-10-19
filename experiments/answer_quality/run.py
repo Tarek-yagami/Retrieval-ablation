@@ -37,6 +37,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 
+from hybridrag.benchmark import select_query_ids  # noqa: E402
 from hybridrag.data.beir_loader import load_beir_dataset  # noqa: E402
 from hybridrag.generation import generate_answer  # noqa: E402
 from hybridrag.judge import judge_answer  # noqa: E402
@@ -72,7 +73,7 @@ def run_retrieval_phase() -> list[dict]:
     """
     print(f"[{DATASET}] loading...")
     dataset = load_beir_dataset(DATASET)
-    query_ids = sorted(dataset.qrels.keys())[:SAMPLE_SIZE]
+    query_ids = select_query_ids(dataset, SAMPLE_SIZE)
 
     corpus = build_reduced_corpus(dataset, query_ids)
     print(f"[{DATASET}] indexing {len(corpus)} docs (reduced from {len(dataset.corpus)})...")

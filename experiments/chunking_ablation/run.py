@@ -28,15 +28,13 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 
+from hybridrag.benchmark import DATASETS, MAX_QUERIES, TOP_K, select_query_ids  # noqa: E402
 from hybridrag.chunking import chunk_corpus, dedupe_to_documents  # noqa: E402
 from hybridrag.data.beir_loader import load_beir_dataset  # noqa: E402
 from hybridrag.metrics import evaluate  # noqa: E402
 from hybridrag.retrieval.dense import DenseRetriever  # noqa: E402
 
-DATASETS = ["scifact", "fiqa", "nfcorpus"]
 CHUNK_SIZES = {"chunks_100": 100, "chunks_250": 250}
-MAX_QUERIES = 200
-TOP_K = 100
 CHUNK_SEARCH_TOP_K = 1000  # over-fetch chunks so dedup still yields TOP_K unique documents
 RESULTS_DIR = Path(__file__).parent / "results"
 RESULTS_PATH = RESULTS_DIR / "results.json"
@@ -74,7 +72,7 @@ def run_dataset(name: str, existing: dict[str, dict[str, float]]) -> dict[str, d
 
     print(f"[{name}] loading...")
     dataset = load_beir_dataset(name)
-    query_ids = sorted(dataset.qrels.keys())[:MAX_QUERIES]
+    query_ids = select_query_ids(dataset, MAX_QUERIES)
     qrels_subset = {qid: dataset.qrels[qid] for qid in query_ids}
 
     for variant in missing:

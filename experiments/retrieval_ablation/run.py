@@ -34,13 +34,11 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src"))
 
+from hybridrag.benchmark import DATASETS, MAX_QUERIES, TOP_K, select_query_ids  # noqa: E402
 from hybridrag.data.beir_loader import load_beir_dataset  # noqa: E402
 from hybridrag.metrics import evaluate  # noqa: E402
 from hybridrag.pipeline import CONFIGS, RetrievalPipeline  # noqa: E402
 
-DATASETS = ["scifact", "fiqa", "nfcorpus"]
-MAX_QUERIES = 200
-TOP_K = 100
 RESULTS_DIR = Path(__file__).parent / "results"
 RESULTS_PATH = RESULTS_DIR / "results.json"
 
@@ -53,7 +51,7 @@ def run_dataset(name: str, existing: dict[str, dict[str, float]]) -> dict[str, d
 
     print(f"[{name}] loading...")
     dataset = load_beir_dataset(name)
-    query_ids = sorted(dataset.qrels.keys())[:MAX_QUERIES]
+    query_ids = select_query_ids(dataset, MAX_QUERIES)
     qrels_subset = {qid: dataset.qrels[qid] for qid in query_ids}
 
     print(f"[{name}] indexing {len(dataset.corpus)} docs...")

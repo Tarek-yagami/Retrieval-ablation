@@ -468,6 +468,8 @@ sympy==1.14.0
     # via torch
 tabulate==0.10.0
     # via ranx
+tenacity==9.2.1
+    # via retrieval-ablation
 threadpoolctl==3.7.0
     # via scikit-learn
 tiktoken==0.14.0

@@ -1,0 +1,1508 @@
+{
+  "scifact": {
+    "1": {
+      "hyde_passage": "Zero-dimensional biomaterials, specifically those exhibiting unique topological characteristics, demonstrate remarkable inductive properties. This phenomenon arises from their ability to efficiently capture and concentrate electromagnetic fields at their nanoscale structures. Consequently, these materials are increasingly explored for applications in sensing and targeted energy delivery.",
+      "hyde_ms": 11817.393999997876,
+      "paraphrases": [
+        "Zero-dimensional biomaterials exhibit inductive behavior.",
+        "Investigations into 0D biomaterials have revealed their inductive capabilities.",
+        "The study of intrinsically 0-dimensional biomaterials demonstrates inductive properties."
+      ],
+      "paraphrase_ms": 7526.108799997019
+    },
+    "100": {
+      "hyde_passage": "During hematopoiesis, hematopoietic stem cells undergo a critical process of random chromosome segregation. This ensures that each resulting daughter cell receives a unique combination of genetic material, contributing to the diversity of blood cell types. Consequently, the precise distribution of chromosomes at this stage is fundamental to the development of a functional and varied hematopoietic system.",
+      "hyde_ms": 8023.91859999625,
+      "paraphrases": [
+        "During hematopoiesis, hematopoietic stem cells undergo random chromosome segregation.",
+        "The process of hematopoiesis involves the stochastic distribution of chromosomes within hematopoietic stem cells.",
+        "Hematopoietic stem cells exhibit a random chromosomal assortment during cell division, a key characteristic of their differentiation process."
+      ],
+      "paraphrase_ms": 8592.93809999508
+    },
+    "1012": {
+      "hyde_passage": "Radioiodine therapy is a common and effective treatment for non-toxic multinodular goitre. The administered iodine selectively concentrates in the thyroid tissue, leading to a gradual reduction in the goitre's overall volume. This shrinkage is a direct result of the thyroid gland's destruction by the radioactive iodine.",
+      "hyde_ms": 8801.655099996424,
+      "paraphrases": [
+        "Radioactive iodine therapy for non-toxic multinodular goiters effectively diminishes thyroid gland size.",
+        "Treatment with radioiodine is utilized to manage non-toxic multinodular goiters, resulting in a reduction in thyroid volume.",
+        "The administration of radioiodine demonstrates a significant impact on non-toxic multinodular goiters, leading to a measurable decrease in thyroid mass."
+      ],
+      "paraphrase_ms": 11191.124000004493
+    },
+    "1014": {
+      "hyde_passage": "Research indicates that rapamycin administration significantly reduces triacylglycerol levels within the tissues of fruit flies. This effect is attributed to the drug's influence on cellular processes involved in lipid metabolism. Consequently, rapamycin demonstrates a notable ability to lower fat accumulation in these organisms.",
+      "hyde_ms": 7976.154000003589,
+      "paraphrases": [
+        "Studies have demonstrated that rapamycin attenuates triacylglycerol levels in *Drosophila*.",
+        "Rapamycin's effects on fruit flies involve a reduction in the accumulation of triacylglycerols.",
+        "Research indicates that rapamycin modulates triacylglycerol homeostasis in *Drosophila melanogaster*."
+      ],
+      "paraphrase_ms": 10282.918999997491
+    },
+    "1019": {
+      "hyde_passage": "Rapid phosphotransfer rates are crucial for maintaining the accuracy of two-component system signaling. This swift exchange of phosphate groups ensures that the correct target proteins are activated, directly correlating with the precise detection of environmental stimuli. Ultimately, these rapid transfers contribute significantly to the fidelity of the system's response.",
+      "hyde_ms": 8207.86400000361,
+      "paraphrases": [
+        "High-velocity phosphate transfer dynamics are critical for maintaining accuracy within two-component signaling pathways.",
+        "The speed of phosphotransfer reactions dictates the fidelity of communication in two-component regulatory systems.",
+        "Two-component systems exhibit precise regulation due to rapid rates of phosphotransfer, ensuring accurate signal transduction."
+      ],
+      "paraphrase_ms": 9500.814099999843
+    },
+    "1020": {
+      "hyde_passage": "Research indicates that West Nile virus infection triggers a significant response within granule cell neurons. Specifically, the virus induces rapid increases in interferon-induced gene expression and elevates their baseline levels, ultimately promoting neuronal survival. This heightened interferon signaling appears to be a crucial protective mechanism against the virus's detrimental effects.",
+      "hyde_ms": 8430.87860000378,
+      "paraphrases": [
+        "Increased interferon signaling leads to accelerated expression of interferon-stimulated genes, subsequently enhancing the survival of West Nile virus-infected granule cell neurons.",
+        "The heightened basal transcription of interferon-responsive genes, coupled with their rapid upregulation, confers a survival advantage to granule cell neurons compromised by West Nile virus infection.",
+        "West Nile virus infection results in a robust upregulation of interferon-induced gene expression, which, in turn, promotes neuronal survival within granule cell populations."
+      ],
+      "paraphrase_ms": 12397.370099999534
+    },
+    "1021": {
+      "hyde_passage": "West Nile virus infection leads to a significant detrimental effect on granule cell neurons due to the amplified response of interferon. Specifically, the rapid increase in interferon-induced gene expression and elevated basal levels of these genes contribute to neuronal death. This heightened immune activity ultimately compromises the survival of these vulnerable cells.",
+      "hyde_ms": 8669.121200000518,
+      "paraphrases": [
+        "Increased expression of interferon-stimulated genes, particularly a rapid upregulation, correlates with diminished survival of granule cell neurons following West Nile virus infection.",
+        "The accelerated activation of interferon-responsive genes leads to increased basal expression levels and ultimately compromises the viability of granule cell neurons during West Nile virus pathogenesis.",
+        "West Nile virus infection results in a heightened interferon response, characterized by rapid upregulation and elevated basal transcription of interferon-induced genes, which subsequently induces neuronal death within granule cell populations."
+      ],
+      "paraphrase_ms": 13123.296599995228
+    },
+    "1024": {
+      "hyde_passage": "Recent research indicates a notable trend: recurrent mutations are commonly observed within CTCF anchor sites located in close proximity to oncogenes. These mutations, often involving alterations to CTCF itself or its surrounding chromatin landscape, appear to disrupt normal gene regulation.  This suggests a potential mechanism by which oncogenes gain proliferative advantages through targeted disruption of CTCF's crucial role in maintaining genomic stability.",
+      "hyde_ms": 9867.552000003343,
+      "paraphrases": [
+        "Frequent recurrence mutations are observed at CTCF binding sites located near oncogenes.",
+        "Studies demonstrate a high incidence of recurrent mutations clustered around CTCF anchor regions proximal to oncogenes.",
+        "The analysis reveals a substantial prevalence of recurrent mutations within CTCF anchor sites in the vicinity of oncogenes – a characteristic often noted in tumorigenesis."
+      ],
+      "paraphrase_ms": 9820.786399999633
+    },
+    "1029": {
+      "hyde_passage": "Research indicates that diminished interleukin-2 signaling within regulatory T cells contributes significantly to a reduced capacity for immune suppression. This decreased responsiveness is directly linked to a heightened resistance against autoimmune conditions, exemplified by the protection observed in individuals with Type 1 Diabetes. Ultimately, the altered function of these key cells plays a crucial role in maintaining immune tolerance.",
+      "hyde_ms": 9307.961400001659,
+      "paraphrases": [
+        "Impaired interleukin-2 signaling within regulatory T cells correlates with enhanced protection against autoimmune conditions, notably Type 1 Diabetes.",
+        "A diminished capacity of regulatory T cells to respond to interleukin-2 is linked to a heightened resistance to autoimmune diseases, exemplified by Type 1 Diabetes.",
+        "The observed attenuation of interleukin-2 responsiveness in regulatory T cells demonstrates a significant association with improved outcomes in autoimmune disorders, specifically Type 1 Diabetes."
+      ],
+      "paraphrase_ms": 12226.50949999661
+    },
+    "1041": {
+      "hyde_passage": "Research indicates that the substitution of histone H2A with its variant, H2A.Z, demonstrably reduces gene activation in yeast. This stabilization of +1 nucleosomes, facilitated by H2A.Z, effectively hinders the accessibility of DNA to transcriptional machinery, thereby dampening the activation process.",
+      "hyde_ms": 8580.216900001687,
+      "paraphrases": [
+        "In *Saccharomyces cerevisiae*, the conversion of histone H2A to H2A.Z diminishes gene activation through the stabilization of +1 nucleosomal structures.",
+        "Studies demonstrate that substituting H2A with H2A.Z in yeast results in reduced gene activation, primarily due to the enhanced stability of the associated +1 nucleosome configuration.",
+        "The exchange of histone H2A for H2A.Z within yeast cells attenuates transcriptional activation by promoting the stabilization of the prevalent +1 nucleosome topology."
+      ],
+      "paraphrase_ms": 13236.456099999486
+    },
+    "1049": {
+      "hyde_passage": "Ribosomopathies are characterized by a surprisingly subtle pattern of disease, typically manifesting as widespread, but generally mild, abnormalities across various cell types and tissues. This limited specificity suggests a fundamental defect in ribosomal function that impacts a broad range of cellular processes rather than targeting particular organs or cell populations. Consequently, the clinical presentation of ribosomopathies often involves a constellation of seemingly disparate symptoms.",
+      "hyde_ms": 9277.066700000432,
+      "paraphrases": [
+        "Ribosomopathies are frequently characterized by a limited and subtle manifestation of disease within specific cell types and tissues.",
+        "The clinical presentation of ribosomopathies typically involves a paucity of cell- and tissue-restricted pathological findings.",
+        "These disorders, categorized as ribosomopathies, generally exhibit a modest degree of localized cellular and tissue-specific disease processes."
+      ],
+      "paraphrase_ms": 10041.041399999813
+    },
+    "1062": {
+      "hyde_passage": "Recent research indicates a critical regulatory mechanism involving S-nitrosylated glyceraldehyde-3-phosphate dehydrogenase (GAPDH). This enzyme facilitates the transfer of the nitroso group to histone deacetylases through a process called transnitrosylation, a key event in modulating gene expression.  Consequently, GAPDH’s S-nitrosylation appears to play a significant role in controlling chromatin structure and cellular responses.",
+      "hyde_ms": 9609.609499995713,
+      "paraphrases": [
+        "The post-translational modification of glyceraldehyde-3-phosphate dehydrogenase (GAPDH) via S-nitrosylation leads to its transnitrosylation of histone deacetylases.",
+        "Studies demonstrate that S-nitrosylated GAPDH participates in the transnitrosylation pathway, targeting histone deacetylases.",
+        "We investigate the mechanism by which S-nitrosylation of GAPDH promotes its interaction and subsequent modification of histone deacetylases through transnitrosylation processes."
+      ],
+      "paraphrase_ms": 11753.28100000479
+    },
+    "1086": {
+      "hyde_passage": "Sildenafil, commonly known as Viagra, effectively addresses erectile dysfunction in men linked to SSRI antidepressant use. The medication works by inhibiting an enzyme that restricts blood flow to the penis, thereby facilitating improved erectile function. This targeted approach offers a valuable treatment option for those experiencing sexual difficulties due to antidepressant side effects.",
+      "hyde_ms": 8327.629100000195,
+      "paraphrases": [
+        "Sildenafil demonstrates efficacy in restoring erectile function in male patients experiencing sexual dysfunction secondary to Selective Serotonin Reuptake Inhibitor (SSRI) antidepressant treatment.",
+        "The administration of sildenafil has been shown to ameliorate erectile dysfunction in men whose sexual difficulties are attributable to SSRI-induced impairment.",
+        "Clinical studies indicate that sildenafil can effectively address erectile dysfunction in men presenting with sexual dysfunction related to the use of SSRI antidepressants – a common mechanism of side effect."
+      ],
+      "paraphrase_ms": 12205.973600001016
+    },
+    "1088": {
+      "hyde_passage": "Bcl-2, a key protein involved in preventing cell death, plays a critical role in tumor development.  Research indicates that inhibiting Bcl-2 function is frequently observed in cancerous cells, allowing them to evade programmed cell death and ultimately contribute to tumor maintenance and accelerated growth.  Therefore, targeting Bcl-2 represents a promising therapeutic strategy for disrupting tumor progression.",
+      "hyde_ms": 8932.656299999508,
+      "paraphrases": [
+        "Inhibition of the Bcl-2 protein is a critical factor in tumor maintenance and advancement.",
+        "Bcl-2 downregulation is significantly implicated in the progression and sustained growth of neoplastic cells.",
+        "The suppression of Bcl-2 expression plays a pivotal role in tumor development and its continued proliferation."
+      ],
+      "paraphrase_ms": 9038.50070000044
+    },
+    "1089": {
+      "hyde_passage": "The activation of the SUMO E3 ligase Mms21 relies critically on the dynamic engagement of the SMC5/6 complex. This interaction triggers an ATP-dependent remodeling process, effectively repositioning Mms21 to target specific substrates for SUMOylation. Ultimately, SMC5/6 engagement ensures Mms21’s efficient function in regulating protein localization and function.",
+      "hyde_ms": 9514.432400006626,
+      "paraphrases": [
+        "The SMC5/6 complex’s interaction with Mms21, facilitated by ATP-mediated remodeling, is a key driver of SUMOylation activation.",
+        "ATP-dependent remodeling through the SMC5/6 complex promotes the activation of the SUMO E3 ligase, Mms21.",
+        "SMC5/6 engagement triggers the ATP-dependent conformational change and subsequent activation of the SUMOylation machinery, specifically involving the Mms21 E3 ligase."
+      ],
+      "paraphrase_ms": 12305.538900000101
+    },
+    "1099": {
+      "hyde_passage": "Statins function by inhibiting an enzyme in the liver responsible for cholesterol production. As a result of this action, statins effectively lower levels of LDL cholesterol, often referred to as “bad” cholesterol, within the bloodstream. This reduction in cholesterol contributes to a decreased risk of cardiovascular disease.",
+      "hyde_ms": 7624.862799995753,
+      "paraphrases": [
+        "Statins are effective in lowering serum cholesterol levels.",
+        "The pharmacological action of statins results in a reduction of lipid profiles, specifically cholesterol.",
+        "Statins exert a cholesterol-lowering effect on the circulatory system."
+      ],
+      "paraphrase_ms": 7801.928699998825
+    },
+    "1100": {
+      "hyde_passage": "Statins function by inhibiting an enzyme in the liver responsible for producing cholesterol. As a result of this action, statins effectively lower levels of LDL cholesterol, often referred to as “bad” cholesterol, within the bloodstream. This reduction in cholesterol contributes to a decreased risk of cardiovascular disease.",
+      "hyde_ms": 7824.451799999224,
+      "paraphrases": [
+        "Statins are associated with a reduction in serum cholesterol levels.",
+        "The pharmacological action of statins results in a decrease in blood cholesterol concentrations.",
+        "Statins exert a lipid-lowering effect, specifically targeting elevated blood cholesterol."
+      ],
+      "paraphrase_ms": 8002.216300003056
+    },
+    "1104": {
+      "hyde_passage": "Recent research indicates that stroke patients who received direct oral anticoagulants (DOACs) prior to their hospitalization demonstrate a significantly reduced risk of in-hospital mortality compared to those treated with warfarin. This finding suggests that DOACs may offer a more favorable clinical outcome for this patient population during acute stroke management. Further investigation is ongoing to fully elucidate the mechanisms underlying this observed difference.",
+      "hyde_ms": 9959.006200006115,
+      "paraphrases": [
+        "Individuals experiencing a stroke who previously received direct oral anticoagulants (DOACs) demonstrate a reduced in-hospital mortality rate compared to stroke patients with a history of warfarin therapy.",
+        "A comparative analysis reveals that stroke patients with prior DOAC exposure exhibit a significantly lower incidence of in-hospital mortality when contrasted with those who previously utilized warfarin.",
+        "Following a stroke, patients with prior DOAC administration display a diminished risk of mortality during hospitalization, a finding that contrasts with the outcomes observed in patients previously treated with warfarin."
+      ],
+      "paraphrase_ms": 13410.067800003162
+    },
+    "1107": {
+      "hyde_passage": "Following cold exposure, subcutaneous fat depots demonstrate a significant shift towards increased metabolic activity. This process, termed browning, involves the recruitment of brown adipose tissue, leading to a substantial increase in heat production.  Essentially, the body actively combats the drop in temperature by converting fat into heat through these extensive metabolic changes.",
+      "hyde_ms": 8464.146000005712,
+      "paraphrases": [
+        "Following cold exposure, subcutaneous adipose tissue demonstrates significant non-oxidative metabolism, characterized by increased brown adipose tissue activity.",
+        "Cold stress induces substantial thermogenic activity within subcutaneous fat, leading to pronounced browning of lipid droplets.",
+        "Post-exposure to cold temperatures, subcutaneous fat depots exhibit a marked shift towards increased lipolysis and subsequent brown adipose tissue activation."
+      ],
+      "paraphrase_ms": 10281.432999996468
+    },
+    "1110": {
+      "hyde_passage": "Recent research consistently demonstrates that suboptimal nutrition alone does not reliably predict the development of chronic diseases. While poor dietary habits can contribute to risk factors, the complex interplay of genetics, lifestyle, and environmental influences ultimately determines an individual’s susceptibility. Therefore, focusing solely on dietary deficiencies provides an incomplete picture of chronic disease etiology.",
+      "hyde_ms": 8227.14989999804,
+      "paraphrases": [
+        "Poor dietary intake does not reliably forecast the development of long-term illnesses.",
+        "An inadequate nutritional status fails to demonstrate a predictive relationship with chronic disease incidence.",
+        "There is no statistically significant correlation between suboptimal nutrition and the onset of chronic conditions – a finding often observed in epidemiological studies."
+      ],
+      "paraphrase_ms": 8851.214300004358
+    },
+    "1121": {
+      "hyde_passage": "Recent research demonstrates a critical link between synaptic activity and neurotrophic factor release. Specifically, heightened neuronal signaling at synapses triggers an increased local release of brain-derived neurotrophic factor (BDNF) from the postsynaptic dendrites. This process appears to be a key mechanism supporting neuronal survival, growth, and synaptic plasticity.",
+      "hyde_ms": 8416.379299997061,
+      "paraphrases": [
+        "Investigating how changes in synaptic firing rates promote the exocytosis of brain-derived neurotrophic factor (BDNF) at the postsynaptic dendritic spines.",
+        "We are examining the relationship between synaptic activity and the augmented release of BDNF from postsynaptic dendrites, focusing on the mechanisms driving this process.",
+        "The study explores the impact of neuronal signaling – specifically, increased synaptic transmission – on the localized secretion of BDNF from dendritic protrusions within the postsynaptic membrane."
+      ],
+      "paraphrase_ms": 12687.686299999768
+    },
+    "113": {
+      "hyde_passage": "Angiotensin-converting enzyme inhibitors (ACEIs) have been linked to a heightened risk of developing functional renal insufficiency, particularly in patients with pre-existing renal impairment or those experiencing hypotension during treatment. This association is thought to be due to the drug's effect on reducing renal perfusion, potentially leading to ischemic injury and subsequent decline in kidney function. Careful monitoring of renal function is therefore recommended for individuals taking ACEIs.",
+      "hyde_ms": 10025.765899998078,
+      "paraphrases": [
+        "ACE inhibitors have been linked to a heightened incidence of secondary renal dysfunction.",
+        "Studies demonstrate a correlation between angiotensin-converting enzyme inhibitor use and an elevated risk of developing functional renal failure.",
+        "The utilization of ACE inhibitors is associated with a statistically significant increase in the probability of experiencing functional impairment of the kidneys."
+      ],
+      "paraphrase_ms": 9765.532900004473
+    },
+    "1130": {
+      "hyde_passage": "Research indicates that T regulatory cells (Tregs) deficient in the αvβ8 integrin exhibit enhanced suppression of inflammatory responses. Specifically, these Tregs demonstrate a superior ability to dampen pathogenic T-cell activation and proliferation when inflammation is actively occurring. This suggests αvβ8 plays a crucial role in the functional capacity of Tregs during immune activation.",
+      "hyde_ms": 9822.75889999437,
+      "paraphrases": [
+        "Dysregulation of the αvβ8 integrin on regulatory T cells (Tregs), specifically tTregs, is associated with enhanced suppression of pro-inflammatory T-cell activation and responses, particularly observed in the context of ongoing inflammation.",
+        "Studies have demonstrated that T regulatory cells (tTregs) deficient in αvβ8 exhibit superior inhibitory capacity against pathogenic T-cell activation and the escalation of inflammatory responses during active inflammatory conditions.",
+        "The absence of αvβ8 expression on T regulatory cells (tTregs) confers a heightened ability to dampen pathogenic T-cell responses, a critical mechanism observed during periods of active inflammation – a finding supported by recent immunological research."
+      ],
+      "paraphrase_ms": 16126.095299994631
+    },
+    "1132": {
+      "hyde_passage": "TCR/CD3 microdomains are essential for initiating T cell activation. These specialized regions, formed by the interaction of the T cell receptor with the CD3 complex, provide the critical signaling platform. Consequently, disruption of these microdomains prevents the formation of a functional immunological synapse and inhibits T cell activation.",
+      "hyde_ms": 8520.22769999894,
+      "paraphrases": [
+        "TCR/CD3 microdomains are essential for establishing and driving T cell activation via the immunological synapse.",
+        "The formation of TCR/CD3 microdomains is a critical prerequisite for the development of the immunological synapse and subsequent T cell activation.",
+        "TCR/CD3 microdomains mediate the formation of the immunological synapse, which is necessary for initiating T cell activation."
+      ],
+      "paraphrase_ms": 9832.851799998025
+    },
+    "1137": {
+      "hyde_passage": "TNFAIP3 plays a crucial role in suppressing tumor growth within glioblastoma cells. Research indicates that this protein functions as a tumor suppressor, effectively limiting the uncontrolled proliferation characteristic of the disease.  Its presence and function are therefore considered vital for maintaining cellular homeostasis and preventing glioblastoma development.",
+      "hyde_ms": 8708.447899996827,
+      "paraphrases": [
+        "Investigating the role of TNFAIP3 as a tumor suppressor gene within the context of glioblastoma pathology.",
+        "TNFAIP3’s function as a potential tumor suppressor factor is being examined in the diagnosis and progression of glioblastoma.",
+        "Researching the evidence supporting TNFAIP3’s designation as a tumor suppressor protein in glioblastoma models and clinical samples."
+      ],
+      "paraphrase_ms": 11128.150399999868
+    },
+    "1140": {
+      "hyde_passage": "Research indicates that supplementation with 400mg of α-tocopheryl acetate may contribute to a reduced risk of prostate cancer development. This antioxidant compound appears to offer protective effects against cellular damage, a key factor in the progression of the disease. Further investigation is ongoing to fully understand the mechanisms and optimal dosage for preventative measures.",
+      "hyde_ms": 8960.632299997087,
+      "paraphrases": [
+        "The administration of 400mg of α-tocopheryl acetate has been associated with a potential prophylactic effect against prostate cancer.",
+        "Research suggests that a dosage of 400mg of α-tocopheryl acetate may contribute to the prevention of prostate malignancies.",
+        "Clinical investigations indicate that α-tocopheryl acetate supplementation at a 400mg level could be a strategy for mitigating the risk of prostate cancer development."
+      ],
+      "paraphrase_ms": 10998.163000003842
+    },
+    "1144": {
+      "hyde_passage": "Analysis of data following the implementation of sugar-sweetened beverage taxes in India revealed no statistically significant impact on the incidence rate of type 2 diabetes. This suggests that factors beyond consumption of these beverages, such as lifestyle and broader dietary patterns, play a more dominant role in the development of the disease within the Indian population. Further research is needed to fully understand the complex interplay of determinants contributing to type 2 diabetes prevalence.",
+      "hyde_ms": 10411.206300006597,
+      "paraphrases": [
+        "A study examining the impact of sugar-sweetened beverage taxation on type 2 diabetes prevalence in India found no statistically significant correlation.",
+        "Research investigating the relationship between levies on sugar-sweetened beverages and the incidence of type II diabetes within the Indian population revealed no discernible effect.",
+        "Analysis of data concerning the taxation of sugar-sweetened beverages in India demonstrated that such measures did not influence the rate of type 2 diabetes development."
+      ],
+      "paraphrase_ms": 10760.398500002339
+    },
+    "1146": {
+      "hyde_passage": "Research consistently demonstrates that the quality of care delivered across teaching and non-teaching hospitals is often remarkably similar. While teaching hospitals may have specialized expertise and advanced research programs, patient outcomes are frequently comparable when adjusting for patient demographics and the complexity of their conditions. Ultimately, a hospital's success in providing effective care depends more on factors like staffing, resources, and clinical protocols than its designation as a teaching institution.",
+      "hyde_ms": 9612.769600003958,
+      "paraphrases": [
+        "Research consistently demonstrates that teaching hospitals do not consistently outperform non-teaching hospitals in terms of patient outcomes.",
+        "Clinical studies have failed to establish a statistically significant advantage in healthcare quality between teaching and non-teaching medical centers.",
+        "The assertion that teaching hospitals inherently deliver superior care is not supported by robust evidence; non-teaching hospitals often demonstrate comparable levels of patient care."
+      ],
+      "paraphrase_ms": 10280.660600001283
+    },
+    "115": {
+      "hyde_passage": "This statement is inaccurate. Anthrax spores are exceptionally resilient and can remain infectious in the environment for extended periods, depending on conditions like temperature and humidity. Proper disposal protocols, involving specialized incineration or chemical neutralization, are crucial to ensure complete inactivation and prevent potential hazards.",
+      "hyde_ms": 7419.47049999726,
+      "paraphrases": [
+        "Following the aerosolization of anthrax spores, effective remediation strategies for their dispersal necessitate straightforward disposal protocols.",
+        "The dispersion of anthrax spores presents a manageable challenge; appropriate disposal methods can be implemented with relative ease.",
+        "Post-dispersal, the facile elimination of anthrax spores requires a focused approach to waste management and decontamination."
+      ],
+      "paraphrase_ms": 9740.253299998585
+    },
+    "1150": {
+      "hyde_passage": "Research has increasingly implicated tetraspanin-3 (TSPAN3) as a critical driver in the pathogenesis of acute myeloid leukemia (AML). Specifically, elevated levels of TSPAN3 expression within AML cells are strongly correlated with disease progression and poorer patient outcomes.  Further investigation into TSPAN3’s role is now a key focus in developing targeted therapies for this aggressive form of leukemia.",
+      "hyde_ms": 9462.999199997284,
+      "paraphrases": [
+        "Investigate the role of tetraspanin-3 as a driver in the pathogenesis of acute myeloid leukemia.",
+        "Tetraspanin-3’s contribution to the etiology and progression of acute myelogenous leukemia warrants further study.",
+        "We are examining tetraspanin-3 as a critical determinant in the development of acute myeloid leukemia – specifically, its causative influence."
+      ],
+      "paraphrase_ms": 9603.584000004048
+    },
+    "1163": {
+      "hyde_passage": "Deinococcus radiodurans possesses the remarkable DdrB protein, which has emerged as a compelling alternative to the standard single-stranded DNA binding (SSB) protein.  This protein exhibits similar functionality, effectively stabilizing single-stranded DNA during replication and repair processes, showcasing Deinococcus’s unique adaptation to extreme conditions.  Researchers are increasingly interested in DdrB for its potential applications in synthetic biology and DNA manipulation.",
+      "hyde_ms": 10037.658799999917,
+      "paraphrases": [
+        "Deinococcus radiodurans' DdrB protein functions as a substitute for the single-stranded DNA binding protein (SSB).",
+        "Researchers have identified DdrB, a protein sourced from *Deinococcus radiodurans*, as a viable alternative to the standard SSB.",
+        "The DdrB protein, isolated from the radiation-resistant bacterium *Deinococcus radiodurans*, demonstrates analogous properties to the single-stranded DNA binding protein (SSB)."
+      ],
+      "paraphrase_ms": 11179.626999997708
+    },
+    "1175": {
+      "hyde_passage": "The Proximity-Promoted Receptor MDA5 possesses a critical mechanism for detecting viral RNA. Specifically, this receptor is characterized by the presence of two N-terminal CARD domains, which are essential for its interaction with downstream signaling molecules. These CARD domains facilitate the initial recognition and activation of the MDA5 pathway following RNA detection.",
+      "hyde_ms": 8494.926399995165,
+      "paraphrases": [
+        "The PPR MDA5 protein exhibits a structural feature characterized by the presence of two N-terminal CARD domains.",
+        "Analysis of PPR MDA5 reveals it contains two CARD domains located at its N-terminus.",
+        "The CARD domains, specifically two N-terminal ones, are a key component of the PPR MDA5 protein."
+      ],
+      "paraphrase_ms": 9443.240300002799
+    },
+    "1179": {
+      "hyde_passage": "The PRR MDA5 possesses a critical structural component: a central DExD/H RNA helicase domain. This domain is responsible for unwinding and translocating nucleic acid strands, a fundamental process in the innate immune response.  Consequently, the integrity of this helicase is essential for MDA5’s function in detecting and neutralizing viral RNA.",
+      "hyde_ms": 8828.71989999694,
+      "paraphrases": [
+        "Investigating the PRR MDA5 reveals a key structural feature: a central DExD/H RNA helicase domain.",
+        "The PRR MDA5 protein incorporates a DExD/H RNA helicase domain, which is a critical component of its function.",
+        "Structural analysis of the PRR MDA5 identifies a central DExD/H RNA helicase motif."
+      ],
+      "paraphrase_ms": 10665.431699999317
+    },
+    "118": {
+      "hyde_passage": "Research indicates that antibiotic use significantly disrupts the balance of the gut microbiome, creating an environment more susceptible to colonization by *Clostridium difficile*. This alteration in microbial diversity effectively diminishes the protective effects previously established by a healthy, resilient gut flora. Consequently, antibiotic-induced microbiome shifts are strongly linked to an increased risk of *C. difficile* infection.",
+      "hyde_ms": 8654.16859999823,
+      "paraphrases": [
+        "The disruption of the gut microbiota caused by antibiotics increases susceptibility to *Clostridium difficile* infection.",
+        "Antibiotic therapy’s impact on the intestinal microbiome leads to a diminished protective barrier against *Clostridium difficile* colonization.",
+        "Post-antibiotic alterations in the gut microbiome are associated with a heightened risk of *Clostridium difficile* infection due to compromised microbial homeostasis."
+      ],
+      "paraphrase_ms": 10393.177899997681
+    },
+    "1180": {
+      "hyde_passage": "The PRR MDA5 receptor plays a critical role in the innate immune response to viral infections. Specifically, it detects the presence of double-stranded RNA, a hallmark of many RNA viruses, triggering downstream signaling pathways to combat the infection. This mechanism allows the host cell to recognize and react to viral threats effectively.",
+      "hyde_ms": 8175.824799996917,
+      "paraphrases": [
+        "The PRR MDA5 protein plays a critical role in detecting and responding to RNA viral infections.",
+        "MDA5, a pattern recognition receptor (PRR), is implicated in the cellular response to infection by RNA viruses.",
+        "PRR MDA5 functions as a key sensor, identifying and signaling the presence of RNA viral pathogens."
+      ],
+      "paraphrase_ms": 9841.960899997503
+    },
+    "1185": {
+      "hyde_passage": "According to recent analysis, implementing the optimized national kidney paired donation program across 7% of patients currently awaiting transplants could yield significant cost savings.  Specifically, this initiative is projected to generate up to $750 million in annual savings for the U.S. healthcare system by reducing wait times and improving transplant efficiency.",
+      "hyde_ms": 8707.341399996949,
+      "paraphrases": [
+        "Implementing a national, optimized kidney paired donation program, engaging 7% of patients currently awaiting transplants, has the potential to yield cost savings of approximately $750 million within the US healthcare system.",
+        "A strategic deployment of the national kidney paired donation program, targeting a 7% enrollment of patients in the transplant queue, is projected to generate efficiencies and reduce healthcare expenditures by up to $750 million for the United States.",
+        "Analysis suggests that optimizing the national kidney paired donation program by enrolling 7% of the current transplant candidate pool could realize cost reductions of $750 million for the US healthcare sector, representing a significant opportunity for resource allocation."
+      ],
+      "paraphrase_ms": 14138.619300007122
+    },
+    "1187": {
+      "hyde_passage": "The YAP1-TEAD complex plays a critical role in cellular decision-making by relocating to the nucleus. Once there, it engages with key transcription factors and DNA-binding proteins, ultimately influencing the expression of target genes. This interaction allows the complex to coordinate cellular responses to mechanical cues and developmental signals.",
+      "hyde_ms": 8315.82730000082,
+      "paraphrases": [
+        "The YAP1-TEAD complex undergoes nuclear translocation, subsequently engaging with transcription factors and DNA-binding proteins to regulate the expression of target genes.",
+        "Following nuclear import, the YAP1/TEAD complex interacts with key transcription regulatory proteins and DNA-binding factors, ultimately influencing the transcription of downstream target genes – a process frequently observed in epithelial-mesenchymal transition (EMT).",
+        "We observe that the YAP1 and TEAD complex exhibits a shift into the nucleus, where it functionally collaborates with transcription factors and DNA-binding proteins to fine-tune target gene transcription. This mechanism is central to cellular plasticity and response to external cues.”"
+      ],
+      "paraphrase_ms": 13750.71559999924
+    },
+    "1191": {
+      "hyde_passage": "Recent analysis indicates a dramatic acceleration in the growth of publicly accessible DNA data. Specifically, the volume of available genetic information has been observed to double approximately every ten years, reflecting advancements in sequencing technology and increased research efforts. This exponential expansion presents both opportunities and challenges for the field of genomics.",
+      "hyde_ms": 7855.4021999952965,
+      "paraphrases": [
+        "The exponential growth of publicly accessible genomic datasets is projected to double approximately every decade.",
+        "Experts predict a doubling of publicly released DNA data every ten years, reflecting a rapid expansion of genomic information.",
+        "The volume of publicly available DNA data is experiencing a doubling trend, with an estimated doubling period of 10 years – a characteristic observed within the field of bioinformatics."
+      ],
+      "paraphrase_ms": 10239.381399995182
+    },
+    "1194": {
+      "hyde_passage": "The observed arm density of TatAd complexes arises from dynamic structural rearrangements occurring within Class1 TatAd complexes. Specifically, the “charge zipper mechanism” facilitates the rapid and coordinated movement of the DNA binding domains, leading to a condensed, arm-like appearance. This structural plasticity is crucial for TatAd’s efficient transcriptional activation.",
+      "hyde_ms": 8439.323500002502,
+      "paraphrases": [
+        "Structural dynamics within Class 1 TatAd complexes, specifically the ‘charge zipper’ mechanism, contribute to the observed arm density of TatAd complexes.",
+        "The arm density of TatAd complexes is a consequence of conformational changes – notably the ‘charge zipper’ – occurring within Class 1 TatAd complexes.",
+        "Investigations into TatAd complex arm density reveal that Class 1 TatAd complexes undergo structural rearrangements, primarily driven by the ‘charge zipper’ mechanism.”"
+      ],
+      "paraphrase_ms": 11832.029199998942
+    },
+    "1196": {
+      "hyde_passage": "Research consistently demonstrates a strong correlation between access to dedicated study spaces and reduced rates of homelessness. Providing secure environments for learning and skill development offers individuals experiencing homelessness crucial support, fostering stability and pathways toward self-sufficiency. Consequently, the provision of safe places to study represents a demonstrably effective intervention in addressing the complex issue of homelessness.",
+      "hyde_ms": 8447.845800001232,
+      "paraphrases": [
+        "Research indicates that access to secure study environments correlates with a reduction in homelessness rates.",
+        "Providing designated, safe locations for learning has demonstrated efficacy in mitigating homelessness.",
+        "Evidence suggests that supportive learning environments contribute to a decline in the prevalence of homelessness."
+      ],
+      "paraphrase_ms": 8424.292299998342
+    },
+    "1197": {
+      "hyde_passage": "Providing designated study spaces does not address the root causes of homelessness, which are complex and often involve systemic issues like lack of affordable housing, mental health challenges, and unemployment. Consequently, while a quiet place to work can be a helpful resource, it remains insufficient to meaningfully reduce or prevent the issue of homelessness.",
+      "hyde_ms": 8161.012500000652,
+      "paraphrases": [
+        "Despite the provision of secure study environments, this intervention has not demonstrably reduced homelessness rates.",
+        "Access to sheltered learning spaces has proven ineffective in mitigating the issue of homelessness.",
+        "The utilization of safe study locations fails to yield a significant impact on homelessness prevalence – a key area of concern."
+      ],
+      "paraphrase_ms": 9208.920199998829
+    },
+    "1199": {
+      "hyde_passage": "Colchicine's resurgence in gout treatment is inextricably linked to the success of secondary prevention strategies.  Notably, the drug's benefits were significantly amplified through widespread adoption of high-dose statins, which effectively reduced uric acid levels. This combination approach represents a critical advancement in managing gout and its complications.",
+      "hyde_ms": 8244.411399995442,
+      "paraphrases": [
+        "Clinical trials demonstrated that the therapeutic effects of colchicine were significantly enhanced when combined with comprehensive secondary prevention protocols, notably the administration of high-intensity statins.",
+        "The observed benefits of colchicine were substantially amplified through the implementation of robust secondary prevention measures – specifically, high-dose statin therapy – resulting in widespread positive outcomes.",
+        "Utilizing colchicine in conjunction with aggressive secondary prevention strategies, including elevated statin dosages, yielded clinically meaningful improvements in patient outcomes, as evidenced by numerous studies."
+      ],
+      "paraphrase_ms": 11391.557200004172
+    },
+    "1200": {
+      "hyde_passage": "Data analysis reveals a significant divergence in the binding orientation of the ML-SA1 activator when interacting with hTRPML1 and hTRPML2. Specifically, the activator’s binding site exhibits a markedly different spatial arrangement relative to the channel pore in the hTRPML2 isoform compared to its interaction with hTRPML1. These findings highlight isoform-specific differences in the regulatory mechanisms governing TRPML2 channel activity.",
+      "hyde_ms": 10758.540100003302,
+      "paraphrases": [
+        "We observed a differential binding affinity of the ML-SA1 activator to hTRPML1 and hTRPML2, specifically noting variations in the conformational orientation of the activator at each channel.",
+        "The interaction between the ML-SA1 activator and the human TRPML1 and TRPML2 isoforms exhibits distinct binding geometries; the activator adopts a different orientation when bound to each channel.",
+        "Analysis revealed a discrepancy in the binding topology of the ML-SA1 activator with hTRPML1 and hTRPML2. The activator’s binding site presentation differs significantly between the two channels."
+      ],
+      "paraphrase_ms": 13361.10429999826
+    },
+    "1202": {
+      "hyde_passage": "Granulomas, characterized by a central accumulation of immune cells, are inherently inflammatory structures. The specific cellular composition at the granuloma’s core, particularly the activation of macrophages, triggers a robust and sustained pro-inflammatory cascade. This localized immune response is a key mechanism by which the body attempts to contain and eliminate the inciting agent.",
+      "hyde_ms": 8670.205899994471,
+      "paraphrases": [
+        "Within the core of the granuloma, an immune cell’s activation triggers a heightened inflammatory immune reaction.",
+        "The central location of the granuloma, specifically within an immune cell, elicits a pronounced pro-inflammatory immune response.",
+        "Immunological investigation reveals that the granuloma’s epicenter, mediated by an immune cell, drives a robust, pro-inflammatory immune cascade."
+      ],
+      "paraphrase_ms": 10700.855399998545
+    },
+    "1204": {
+      "hyde_passage": "Analysis of hair follicle stem cells reveals a distinct chromatin signature characterized by the co-localization of H3K4me3 and H3K79me2 modifications. This specific combination of histone marks is consistently observed within quiescent stem cell populations, indicating their regulatory role in maintaining a reversible state of dormancy.  Further research suggests this epigenetic landscape is crucial for controlling follicle cycling and regeneration.",
+      "hyde_ms": 9473.056000002543,
+      "paraphrases": [
+        "Analysis reveals a co-localization of H3K4me3 and H3K79me2 markers within quiescent hair follicle stem cell populations.",
+        "Studies demonstrate that the presence of both H3K4me3 and H3K79me2 histone modifications is characteristic of quiescent hair follicle stem cells.",
+        "We observed a significant correlation between the enrichment of H3K4me3 and H3K79me2 signals in cells identified as quiescent hair follicle stem cells."
+      ],
+      "paraphrase_ms": 11458.898200005933
+    },
+    "1207": {
+      "hyde_passage": "During hematopoietic differentiation, a significant shift occurs in the myosin-II isoform distribution, moving away from the polarizable B isoform. This transition is characterized by an increase in the proportion of the more homogenous A isoform, reflecting the specialized contractile requirements of developing blood cells.  This change in myosin-II composition is a key element in regulating cytoskeletal dynamics and cellular function within the developing hematopoietic system.",
+      "hyde_ms": 9615.682600000582,
+      "paraphrases": [
+        "During hematopoiesis, a shift occurs in myosin-II expression, transitioning from the B isoform (characterized by its polarizability) to the predominant A isoform.",
+        "Hematopoietic differentiation is associated with a change in the myosin-II profile, with a notable increase in the A isoform relative to the B isoform – a more stable and less polarizable variant.",
+        "The isoform composition of myosin-II undergoes a remodeling process during hematopoiesis, favoring the A isoform over the B isoform, reflecting a change in its polarizability characteristics."
+      ],
+      "paraphrase_ms": 11949.449499996263
+    },
+    "1213": {
+      "hyde_passage": "Dysregulated and sustained activation of monocytes plays a significant role in the pathogenesis of inflammatory diseases. This persistent stimulation contributes to the excessive production of inflammatory mediators and exacerbates the damaging inflammatory response. Ultimately, prolonged monocyte activation fuels chronic inflammation and its associated tissue damage.",
+      "hyde_ms": 7995.8606000000145,
+      "paraphrases": [
+        "Dysregulated and sustained monocyte activation contributes to the pathogenesis of inflammatory disorders.",
+        "Chronic monocyte hyperactivation is associated with detrimental outcomes in inflammatory conditions, a phenomenon often observed in clinical settings.",
+        "Aberrant and persistent monocyte activation demonstrates significant pathogenic implications within inflammatory diseases, warranting further investigation by immunologists."
+      ],
+      "paraphrase_ms": 9757.0338000005
+    },
+    "1216": {
+      "hyde_passage": "Research indicates that the extracellular domain of TMEM27 undergoes cleavage within human beta cells. This proteolytic event appears to be a critical step in the regulation of beta cell function, potentially influencing insulin secretion. Further investigation is ongoing to fully elucidate the precise mechanisms involved in this domain processing.",
+      "hyde_ms": 7790.936000004876,
+      "paraphrases": [
+        "Investigate the proteolytic processing of the extracellular region of TMEM27 within human pancreatic beta cells.",
+        "Analyze the site-specific cleavage events occurring to the extracellular domain of the TMEM27 protein in human beta-cell populations.",
+        "Determine the mechanisms of extracellular domain maturation, specifically focusing on TMEM27, in human beta cells via proteolytic degradation."
+      ],
+      "paraphrase_ms": 10646.890899995924
+    },
+    "1221": {
+      "hyde_passage": "Analysis of metastatic tumors consistently reveals genomic alterations mirroring those observed in the originating primary tumor. This striking similarity suggests a shared genetic foundation driving both the initial tumor development and its subsequent spread throughout the body. Consequently, targeting these conserved genomic aberrations represents a promising strategy for comprehensive cancer treatment.",
+      "hyde_ms": 8057.688499997312,
+      "paraphrases": [
+        "Metastatic tumors frequently exhibit genomic alterations mirroring those observed in the originating primary tumor.",
+        "There’s a striking degree of genomic concordance between metastatic lesions and the primary tumor – often reflecting shared aberrant genetic profiles.",
+        "Analysis reveals substantial genomic dysregulation in metastases, closely resembling the patterns identified within the primary tumor site."
+      ],
+      "paraphrase_ms": 10198.52340000216
+    },
+    "1225": {
+      "hyde_passage": "Genetic analysis has identified a significant association between the rs647161 polymorphism within the MCR1 gene and an increased risk of colorectal carcinoma. Specifically, individuals carrying the minor allele at this locus demonstrate a heightened susceptibility to developing the disease. Further research continues to explore the precise mechanisms underlying this association.",
+      "hyde_ms": 8562.702299997909,
+      "paraphrases": [
+        "Genetic variant rs647161 has been linked to an increased risk of colorectal cancer.",
+        "Research indicates a statistically significant association between the rs647161 polymorphism and the development of colorectal carcinoma.",
+        "The rs647161 single nucleotide polymorphism (SNP) demonstrates a correlation with colorectal cancer susceptibility."
+      ],
+      "paraphrase_ms": 10254.09860000218
+    }
+  },
+  "fiqa": {
+    "10034": {
+      "hyde_passage": "As a US citizen holding UK ETFs like EWU, you’ll be subject to both US and UK tax rules. Generally, the dividends and capital gains earned within the ETF will be taxable in the US, while the underlying UK income is taxable in the UK according to their respective tax treaties. It’s crucial to consult with a tax professional specializing in international taxation to determine your specific obligations and potential for double taxation.",
+      "hyde_ms": 10781.848899998295,
+      "paraphrases": [
+        "What are the US tax consequences for a U.S. citizen investing in UK Exchange Traded Funds, specifically those tracking the EWU index?",
+        "I’m a U.S. taxpayer. Could you outline the relevant U.S. tax rules regarding the ownership and potential gains/losses of UK ETFs, such as EWU?",
+        "Regarding U.S. tax law, what are the implications of holding a UK-domiciled ETF (e.g., EWU) for a U.S. resident, considering potential foreign investment income and reporting requirements?"
+      ],
+      "paraphrase_ms": 14635.261600000376
+    },
+    "10039": {
+      "hyde_passage": "Yes, individual investors frequently utilize Google to access real-time stock quotes and market data. Google’s search engine and finance sections provide a convenient and readily available source of information for tracking investment performance and making informed decisions. This accessibility has made Google a popular starting point for many retail investors.",
+      "hyde_ms": 8135.664800000086,
+      "paraphrases": [
+        "To what extent do retail investors leverage Google for real-time stock market data?",
+        "What is the prevalence of individual investors utilizing Google’s services to access equity pricing information?",
+        "How do individual investors currently employ Google’s platform for obtaining stock quotes and market data analysis?"
+      ],
+      "paraphrase_ms": 9577.399499998137
+    },
+    "10109": {
+      "hyde_passage": "Charles Schwab implements a mandatory settlement period of ten business days following a stock sale to ensure all transactions are fully processed and cleared by regulatory bodies like the SEC. This delay provides a buffer for potential discrepancies and protects both Schwab and its clients by allowing time for final confirmation and reconciliation of funds.  Ultimately, this process safeguards against errors and maintains the integrity of the financial system.",
+      "hyde_ms": 9588.527400002931,
+      "paraphrases": [
+        "What is the rationale behind Charles Schwab’s requirement for a mandatory holding period following a stock sale?",
+        "Could you explain the legal or operational reasons for Schwab’s mandated settlement timeframe for securities transactions?",
+        "I’m researching Schwab’s policies – what’s the justification for their post-trade holding period, and is it driven by regulatory compliance or internal procedures?"
+      ],
+      "paraphrase_ms": 11006.905700000061
+    },
+    "10122": {
+      "hyde_passage": "Diversifying your stock and investment portfolio is a cornerstone of risk management. By spreading your capital across various asset classes and sectors, you mitigate the impact of any single investment’s poor performance, ultimately smoothing out returns over time. This approach helps protect your overall wealth and increases the likelihood of achieving your long-term financial goals.",
+      "hyde_ms": 8815.606199998001,
+      "paraphrases": [
+        "What are the strategic benefits of portfolio diversification?",
+        "Can you explain the rationale behind spreading investments across multiple asset classes?",
+        "What are the key justifications for incorporating diversification into an investment strategy?"
+      ],
+      "paraphrase_ms": 7892.819100001361
+    },
+    "10136": {
+      "hyde_passage": "To mitigate the potential impact of Brexit on your bank account funds, consider diversifying your holdings across different currencies to reduce exposure to the pound’s volatility. Furthermore, maintaining a healthy cash buffer and regularly reviewing your financial strategy can provide a degree of flexibility to navigate any unforeseen economic shifts following the UK’s departure from the European Union.",
+      "hyde_ms": 8982.775900003617,
+      "paraphrases": [
+        "What strategies can be employed to mitigate the potential erosion of purchasing capacity resulting from Brexit for funds held within a financial institution?",
+        "Considering the Brexit implications, what measures are available to safeguard against a decline in the real value of deposits within a bank account?",
+        "For a client holding assets in a bank, how can we proactively manage and minimize the adverse impact of Brexit on their purchasing power and the value of their funds?"
+      ],
+      "paraphrase_ms": 11902.903300004255
+    },
+    "10137": {
+      "hyde_passage": "As an F-1 student investing in foreign markets, careful adherence to regulations is paramount.  Students must ensure all investments align with their visa status and the SEVP guidelines, particularly regarding activities that could jeopardize their student status.  Consulting with the Designated School Official (DSO) is strongly recommended to navigate potential complexities and maintain compliance.",
+      "hyde_ms": 9079.97140000225,
+      "paraphrases": [
+        "Strategies for international investment by international students (specifically F-1 visa holders)",
+        "F-1 student portfolio diversification across global markets – investment approaches and considerations",
+        "Exploring foreign asset allocation opportunities for students on F-1 visas: a risk and regulatory analysis"
+      ],
+      "paraphrase_ms": 8981.790500001807
+    },
+    "10152": {
+      "hyde_passage": "A high operating margin coupled with a small but positive Return on Equity (ROE) suggests the company is efficiently managing its costs and generating a modest profit from its shareholder equity. This indicates a solid, though not exceptionally high, level of profitability and a reasonable ability to generate returns for investors.",
+      "hyde_ms": 8217.027899998357,
+      "paraphrases": [
+        "How does a company with a high operating margin and a modest, yet favorable, Return on Equity (ROE) suggest its overall financial health and strategy?",
+        "Analyzing a firm exhibiting a robust operating margin alongside a small but positive Return on Equity – what key insights can be gleaned regarding its performance and investment decisions?",
+        "A company demonstrates a high operating margin and a small, yet positive, ROE. What are the implications for its valuation, profitability, and shareholder returns, from a financial analysis perspective?"
+      ],
+      "paraphrase_ms": 13065.601499998593
+    },
+    "10183": {
+      "hyde_passage": "The U.S. tax system distinguishes between income types, with earned income like wages subject to progressive rates that increase as income rises, while investment income such as dividends and capital gains are typically taxed at lower, often flat, rates. Furthermore, certain types of income, like rental income or royalties, may be taxed differently depending on the source and the taxpayer's specific circumstances.",
+      "hyde_ms": 9674.678000003041,
+      "paraphrases": [
+        "What are the differential tax implications for various income streams within the United States?",
+        "Could you detail the specific tax treatment of diverse income sources – such as wages, dividends, and capital gains – under US tax law?",
+        "I’m researching the nuances of income taxation in the US. Specifically, I need to understand how different income types (e.g., earned, investment, and passive) are subject to varying tax rates and regulations."
+      ],
+      "paraphrase_ms": 12189.250399998855
+    },
+    "10213": {
+      "hyde_passage": "Considering your seasonal work and savings goals, a high-yield savings account offers a secure and accessible option. These accounts provide competitive interest rates, allowing your savings to grow steadily while maintaining easy access to your funds when needed.  Furthermore, short-term certificates of deposit (CDs) can provide slightly higher returns if you're comfortable locking your money away for a fixed period.",
+      "hyde_ms": 9592.78529999574,
+      "paraphrases": [
+        "I’m seeking a robust investment instrument suitable for managing income fluctuations associated with temporary employment and building a savings portfolio.",
+        "What are the optimal investment options for an individual with variable earnings due to seasonal work, aiming to maximize capital appreciation and establish a secure savings strategy?",
+        "I require recommendations for investment vehicles that can accommodate irregular cash flows resulting from seasonal employment, with a focus on long-term growth and wealth accumulation."
+      ],
+      "paraphrase_ms": 11617.103399999905
+    },
+    "10246": {
+      "hyde_passage": "The T+3 settlement rule dictates that all equity trades must be completed three business days after the trade date. This means that funds are not typically debited from the seller's account until the third business day following the trade, providing increased certainty for both buyers and sellers.  Ultimately, T+3 aims to reduce settlement risk and improve market efficiency.",
+      "hyde_ms": 9607.301399999415,
+      "paraphrases": [
+        "I need to analyze the operational implications of the T+3 trading settlement timeline.",
+        "Could you provide information regarding the mechanics of the three-business-day settlement process (T+3)?",
+        "I’m researching the regulatory framework surrounding post-trade settlement, specifically focusing on the T+3 rule and its impact on market operations."
+      ],
+      "paraphrase_ms": 11454.57709999755
+    },
+    "10267": {
+      "hyde_passage": "To best prepare for the next financial crisis, prioritize building a robust emergency fund covering 3-6 months of essential expenses and consider diversifying your investments beyond traditional stocks and bonds.  Furthermore, reducing debt and maintaining a conservative spending strategy will provide a crucial buffer against economic uncertainty.",
+      "hyde_ms": 7938.5631999975885,
+      "paraphrases": [
+        "What strategic measures should I implement to mitigate the potential impact of a future financial downturn?",
+        "Given the likelihood of another financial crisis, what risk management strategies would you recommend for my portfolio and financial planning?",
+        "Considering macroeconomic vulnerabilities, what proactive steps can I take to safeguard my finances against a potential systemic financial shock?"
+      ],
+      "paraphrase_ms": 9919.20320000645
+    },
+    "104": {
+      "hyde_passage": "Investing with other people's money, often called pooled investment, typically involves raising capital from multiple investors to fund a venture like a private equity fund or a hedge fund. These investors then receive a share of the profits generated by the investment, along with associated risks and fees managed by the fund’s professional managers. Ultimately, this structure allows for larger investment amounts and diversification than an individual investor could typically achieve.",
+      "hyde_ms": 10239.263099996606,
+      "paraphrases": [
+        "Understanding Capital Allocation Strategies: A Detailed Examination of Utilizing External Funding Sources for Business Ventures.",
+        "Exploring Leverage and Financial Partnerships: A Technical Analysis of Investing with Third-Party Capital.",
+        "Investment Vehicles and Syndicated Finance: A Comprehensive Guide to Utilizing Capital Provided by External Investors in Business Operations."
+      ],
+      "paraphrase_ms": 9698.895700006688
+    },
+    "10414": {
+      "hyde_passage": "Volume, in audio contexts, is typically described as high or low to represent the loudness or intensity of a sound.  Higher volume indicates a louder sound, while lower volume represents a quieter sound, measured on a scale ranging from soft to extremely loud.",
+      "hyde_ms": 7593.327400005364,
+      "paraphrases": [
+        "What constitutes a significant deviation from average when assessing volume data?",
+        "Within the context of volume measurements, what thresholds are generally accepted as high or low values?",
+        "How are ‘high’ and ‘low’ volume levels defined and quantified within a statistical or operational framework?"
+      ],
+      "paraphrase_ms": 9255.645299999742
+    },
+    "10447": {
+      "hyde_passage": "A traditional IRA, even without deductions, offers potential tax deferral benefits; investments grow tax-deferred until withdrawn in retirement. This can be advantageous compared to a taxable account where investment gains are taxed annually, potentially allowing for greater long-term growth.",
+      "hyde_ms": 7735.2868000016315,
+      "paraphrases": [
+        "Considering a traditional IRA without deduction capabilities versus a standard brokerage account – what are the potential benefits and drawbacks?",
+        "Within the context of retirement savings, what’s the comparative advantage of maintaining a traditional IRA (without deduction eligibility) compared to investing directly in a taxable investment account?",
+        "For a sophisticated investor, what are the key considerations when evaluating a traditional IRA lacking deductible contributions against the operational flexibility of a taxable investment account?"
+      ],
+      "paraphrase_ms": 11991.987900000822
+    },
+    "10462": {
+      "hyde_passage": "It’s certainly a cause for concern to be 30 years old and without a retirement plan while married, highlighting a significant financial oversight.  Prioritizing retirement savings should be a key component of financial planning, and delaying this step can create substantial challenges later in life, impacting both individual and marital security. Seeking professional financial advice to develop a savings strategy is strongly recommended.",
+      "hyde_ms": 9751.998300002015,
+      "paraphrases": [
+        "Considering a 30-year-old’s marital status and lack of retirement savings, what are the implications for long-term financial security?",
+        "I’m evaluating a scenario: a 30-year-old who is married but has not yet established a retirement plan. What are the key considerations and potential risks?",
+        "From a financial planning perspective, what are the ramifications of a 30-year-old individual being married and lacking a defined retirement strategy?"
+      ],
+      "paraphrase_ms": 13218.110800000431
+    },
+    "10482": {
+      "hyde_passage": "Dollar-cost averaging into a bond fund is a prudent strategy for mitigating investment risk. By investing a fixed amount regularly, regardless of market fluctuations, investors can smooth out volatility and potentially lower their average purchase price over time. This approach is particularly beneficial during periods of economic uncertainty or anticipated rate decreases.",
+      "hyde_ms": 8439.848499998334,
+      "paraphrases": [
+        "I’m looking to implement a dollar-cost averaging strategy by investing in a bond fund with a rollover feature.",
+        "Could you advise on establishing a systematic bond fund investment plan utilizing dollar-cost averaging, potentially including a fund rollover?",
+        "I want to utilize a bond fund’s rollover capability to execute a dollar-cost averaging investment approach – what are the optimal fund options and strategies?"
+      ],
+      "paraphrase_ms": 11317.537400005676
+    },
+    "10497": {
+      "hyde_passage": "Applying a refund to next year’s tax bill allows you to effectively reduce your tax liability, minimizing the amount of taxes owed during that period. This strategic approach can provide financial flexibility and potentially avoid owing a large sum to the IRS when your income increases.",
+      "hyde_ms": 7764.054200000828,
+      "paraphrases": [
+        "What rationale would drive a taxpayer to utilize a refund to offset their subsequent year’s tax liability?",
+        "Could you elaborate on the strategic considerations behind applying a tax refund to a future tax obligation?",
+        "What are the key justifications for leveraging a tax refund to reduce an outstanding tax balance in the following fiscal year?"
+      ],
+      "paraphrase_ms": 9951.741999997466
+    },
+    "10526": {
+      "hyde_passage": "Analyzing bids immediately above the highest in an order book can reveal significant market sentiment, indicating a potential price ceiling and the level of immediate demand. This data provides valuable insight into the willingness of traders to pay, helping to refine price predictions and assess the overall strength of the current market movement.",
+      "hyde_ms": 8206.19330000045,
+      "paraphrases": [
+        "How can analyzing the subsequent bids in an order book provide supplementary insights?",
+        "What additional market intelligence can be derived from examining the higher-priced bids within an order book?",
+        "To what extent does a deeper investigation of the order book’s higher bids yield actionable information regarding market dynamics and potential price movements?"
+      ],
+      "paraphrase_ms": 9851.159000005282
+    },
+    "10547": {
+      "hyde_passage": "Brokerages typically pay exchanges a small fee per trade, known as payment for order flow (PFOF). This fee generally ranges from $0.10 to $0.30 per share, though it can vary depending on the exchange and the volume of trades. Exchanges use this revenue to fund market data subscriptions and other operational costs.",
+      "hyde_ms": 9064.23630000063,
+      "paraphrases": [
+        "What are the compensation structures for brokerage firms when executing trades with exchanges?",
+        "Could you detail the revenue models exchanges utilize for processing trades facilitated by brokerages?",
+        "What is the fee schedule typically paid by broker-dealers to exchanges for trade order routing and execution?"
+      ],
+      "paraphrase_ms": 9147.754900004657
+    },
+    "10558": {
+      "hyde_passage": "Rolling over a 401(k) to an IRA offers greater investment flexibility, allowing you to tailor your portfolio to your specific risk tolerance and retirement goals.  Consider diversifying across a mix of stocks, bonds, and potentially real estate to mitigate risk and maximize long-term growth potential, consulting with a financial advisor for personalized recommendations.",
+      "hyde_ms": 9053.762900002766,
+      "paraphrases": [
+        "I’m planning a 401(k) rollover and need guidance on developing an optimal investment allocation.",
+        "What’s the recommended investment strategy for consolidating my 401(k) assets during a rollover?",
+        "I’m approaching a 401(k) distribution and require a sophisticated portfolio construction plan to maximize returns and mitigate risk."
+      ],
+      "paraphrase_ms": 10828.982999999425
+    },
+    "10596": {
+      "hyde_passage": "Market makers primarily operate by quoting both buy and sell prices, known as the bid and ask. They generally sell shares to clients at the ask price, which is the highest price a buyer is willing to pay, and buy shares from clients at the bid price, representing the lowest price a seller will accept. This continuous quoting activity facilitates trading and provides liquidity in the market.",
+      "hyde_ms": 9968.673899995338,
+      "paraphrases": [
+        "Can a market maker execute trades by purchasing securities at the prevailing bid level or selling at the ask?",
+        "What is the mechanism by which a market maker engages in buying activity – do they typically transact at the bid price or the ask price?",
+        "Within the context of market making, at which price point (bid or ask) would a firm initiate a purchase order?"
+      ],
+      "paraphrase_ms": 10907.407600003353
+    },
+    "106": {
+      "hyde_passage": "Several methods can be employed when pricing a small business, including cost-plus pricing which adds a markup to the total cost of goods sold, competitive pricing that mirrors or slightly undercuts competitor rates, and value-based pricing that sets prices based on the perceived value offered to the customer. Ultimately, the most effective approach often involves a combination of these strategies, tailored to the specific industry and market conditions.",
+      "hyde_ms": 10035.791200003587,
+      "paraphrases": [
+        "What methodologies exist for determining the optimal pricing strategy for a micro-enterprise?",
+        "Could you outline the various valuation techniques commonly employed when establishing prices for a small business?",
+        "What are the established frameworks and models utilized by business valuation professionals to assess and set prices for small businesses?"
+      ],
+      "paraphrase_ms": 9305.620200000703
+    },
+    "10601": {
+      "hyde_passage": "Calculating your Bitcoin cost basis involves totaling the price you paid for each individual purchase, including any transaction fees. This total represents the original investment amount and is crucial for determining your capital gains or losses when you sell your Bitcoin.  Tracking each purchase meticulously, often using a spreadsheet or specialized software, is essential for accurate tax reporting.",
+      "hyde_ms": 8661.52040000452,
+      "paraphrases": [
+        "Calculate Bitcoin Acquisition Cost: Tracking Purchase History",
+        "Determining Initial Investment Value for Bitcoin Holdings – Cost Basis Analysis",
+        "Bitcoin Cost Basis Methodology: Recording and Managing Purchase Transactions"
+      ],
+      "paraphrase_ms": 7571.857399998407
+    },
+    "10628": {
+      "hyde_passage": "When a short position fails catastrophically, leading to the bankruptcy of the short seller, the “long” investor typically benefits as the stock price often rises sharply due to the sudden removal of downward pressure. This upward movement can result in significant gains for long holders, capitalizing on the previously suppressed value of the stock.",
+      "hyde_ms": 9073.098599998048,
+      "paraphrases": [
+        "How does a significant long position in a stock react when a short squeeze occurs, specifically when a short seller experiences unlimited losses leading to bankruptcy?",
+        "Can you explain the dynamics of a substantial equity holding when a short squeeze triggers a catastrophic short position, resulting in the insolvency of the short seller?",
+        "I'm interested in understanding the impact on a dominant long position within a security when a short squeeze forces a short seller into a scenario of unlimited losses and subsequent bankruptcy – what are the typical market reactions and underlying mechanisms?"
+      ],
+      "paraphrase_ms": 13988.093899999512
+    },
+    "10639": {
+      "hyde_passage": "Short-term parking of a large inheritance typically involves holding the assets in a temporary, liquid account like a high-yield savings account or money market fund to preserve capital and allow for strategic planning. This approach provides flexibility while the beneficiary determines their long-term financial goals and investment strategy, avoiding immediate distribution and potential tax implications.  Ultimately, it’s a prudent step to safeguard the inheritance until a well-defined plan is established.",
+      "hyde_ms": 10511.031800000637,
+      "paraphrases": [
+        "What are the legal implications of short-term parking arrangements related to a substantial estate?",
+        "I'm investigating the temporary holding of a significant bequest – what are the key considerations for an attorney?",
+        "Could you advise on strategies for managing a large inheritance’s short-term storage or administration, particularly from a probate perspective?"
+      ],
+      "paraphrase_ms": 9994.865800006664
+    },
+    "10645": {
+      "hyde_passage": "Rebalancing a retirement portfolio involves periodically adjusting your asset allocation back to your target percentages, typically by selling overperforming assets and buying underperforming ones. This process helps maintain your desired risk level and can improve long-term returns by ensuring you aren't overly exposed to any single investment's potential gains or losses.  Ultimately, rebalancing can contribute to smoother, more consistent growth within your retirement savings.",
+      "hyde_ms": 10116.517100002966,
+      "paraphrases": [
+        "What are the specific strategies and advantages associated with adjusting a retirement investment portfolio to maintain its target asset allocation?",
+        "Can you detail the mechanics and positive outcomes of rebalancing a portfolio designed for long-term retirement savings?",
+        "I’m seeking a comprehensive analysis of rebalancing techniques within a retirement portfolio, including the rationale behind the process and its potential yield."
+      ],
+      "paraphrase_ms": 10621.436600005836
+    },
+    "10674": {
+      "hyde_passage": "Selling during a market downturn can be a strategic move to limit further losses, but it’s crucial to avoid panic selling.  Consider taking profits on investments that have performed well and focusing on a long-term investment strategy rather than reacting solely to short-term market fluctuations.",
+      "hyde_ms": 8281.064399998286,
+      "paraphrases": [
+        "What strategies should I employ when liquidating stock holdings during a market downturn?",
+        "I’m facing a declining stock market; what’s the optimal approach for selling my shares?",
+        "What are the best practices for exiting equity positions when experiencing a bear market?"
+      ],
+      "paraphrase_ms": 9406.591099999787
+    },
+    "10710": {
+      "hyde_passage": "For American options, the probability of expiring in the money is generally higher than the probability of being exercised, particularly as expiration approaches. This is due to the holder's right to close the position, allowing the option to naturally decay towards the intrinsic value if the underlying asset moves unfavorably.  However, the exact probabilities depend heavily on the strike price, time to expiration, and the underlying asset's price movement.",
+      "hyde_ms": 10601.724699998158,
+      "paraphrases": [
+        "What is the likelihood of an American option expiring in-the-money versus being touched, considering its underlying asset's price movement?",
+        "Analyze the probability distributions for an American option’s payoff scenarios: specifically, the chance it will expire in-the-money versus being ‘touched’ – meaning it reaches or exceeds its strike price before expiration.",
+        "Calculate the conditional probabilities associated with an American option’s terminal value.  We’re interested in the probability of it expiring in-the-money versus the probability of it being ‘touched’ – a scenario where the option’s value increases to or above the strike price prior to expiration.”"
+      ],
+      "paraphrase_ms": 16427.635199994256
+    },
+    "10734": {
+      "hyde_passage": "To determine the equivalent hourly rate for a per-year salary, first divide the annual salary by the number of working hours in a year (typically 2080). This calculation will then reveal the average hourly rate you would earn if working part-time, assuming a consistent workload.",
+      "hyde_ms": 8400.480000003881,
+      "paraphrases": [
+        "What's the conversion process for calculating an equivalent hourly rate from an annual salary?",
+        "I need to determine the hourly equivalent of a yearly compensation package – could you outline the methodology?",
+        "How can I derive an hourly wage rate based on an annual salary figure, considering a part-time role?"
+      ],
+      "paraphrase_ms": 9909.51729999506
+    },
+    "1074": {
+      "hyde_passage": "Pass-through health insurance plans, which allow self-employed individuals and small business owners to deduct qualified medical expenses directly on their tax returns, are quite prevalent. Approximately 15-20% of the U.S. workforce utilizes these plans, primarily due to their appeal for those not eligible for traditional employer-sponsored coverage.  However, it’s crucial to note that eligibility for pass-through plans is subject to specific income limitations and tax form requirements.",
+      "hyde_ms": 11152.763399994,
+      "paraphrases": [
+        "What is the prevalence of pass-through health insurance arrangements?",
+        "Can you quantify the incidence of pass-through health insurance models?",
+        "What’s the frequency of pass-through insurance plans, and what factors contribute to its adoption within the healthcare sector?"
+      ],
+      "paraphrase_ms": 9198.221599996032
+    },
+    "10792": {
+      "hyde_passage": "To calculate a running return using XIRR in a spreadsheet, input each cash flow associated with the investment alongside its corresponding date. Then, utilize the XIRR function, specifying the cash flows and dates, to generate a series of return values that reflect the cumulative performance over time, providing a dynamic view of the investment's progress.",
+      "hyde_ms": 9156.073499994818,
+      "paraphrases": [
+        "What's the methodology for determining an annualized rate of return over time using the XIRR function within a spreadsheet application?",
+        "I need to determine the time-weighted return on an investment series. Can you outline the steps for applying the XIRR function in a spreadsheet to achieve this?",
+        "Could you detail the process of calculating a running return, specifically utilizing the XIRR function within a spreadsheet environment, including the necessary inputs and expected outputs?"
+      ],
+      "paraphrase_ms": 12365.419399997336
+    },
+    "10808": {
+      "hyde_passage": "Several online platforms simplify investing in high-yield mutual funds. Fidelity and Schwab offer user-friendly interfaces and a selection of funds with competitive interest rates, while Vanguard provides a strong track record and low-cost options.  These sites allow investors to easily research and allocate funds based on their risk tolerance and financial goals.",
+      "hyde_ms": 8699.932700001227,
+      "paraphrases": [
+        "I’m looking for investment platforms specializing in high-yield mutual funds – could you recommend a few?",
+        "Can you identify some brokerage firms or financial websites that facilitate access to mutual funds offering elevated interest rates?",
+        "What are some reputable online investment portals known for their ease of use when selecting and investing in mutual funds with attractive interest rate returns?"
+      ],
+      "paraphrase_ms": 10512.867799996457
+    },
+    "10809": {
+      "hyde_passage": "Leverage, in financial terms, refers to the use of borrowed capital to increase the potential return of an investment.  The leverage factor quantifies this risk and reward, representing the ratio of borrowed funds to equity – a higher factor indicates greater potential gains, but also significantly increased risk.  Essentially, leverage provides amplified exposure to market movements, while the leverage factor measures the extent of that amplification.",
+      "hyde_ms": 9794.380800005456,
+      "paraphrases": [
+        "What are the established definitions of 'leverage' and the 'leverage ratio' within a financial context?",
+        "Please provide a detailed explanation of the concepts of 'leverage' and 'leverage coefficient,' including their precise operational definitions.",
+        "I require a comprehensive breakdown of 'leverage' and its corresponding quantitative measure – the 'leverage factor' – as utilized in investment analysis and risk management."
+      ],
+      "paraphrase_ms": 11460.800399996515
+    },
+    "10812": {
+      "hyde_passage": "Yes, it is possible to dispute IRS underpayment penalties, but you must demonstrate that you made a good faith effort to estimate your tax liability accurately.  Typically, this involves providing supporting documentation such as prior year returns, financial statements, and any other relevant information that shows your calculation was reasonable given the circumstances.",
+      "hyde_ms": 8547.744300005434,
+      "paraphrases": [
+        "Can I challenge IRS penalties for underpayment of estimated taxes?",
+        "What are the grounds for contesting IRS penalties related to insufficient estimated tax payments?",
+        "Regarding IRS underpayment penalties, what recourse options are available for a taxpayer to formally dispute the assessment?"
+      ],
+      "paraphrase_ms": 8972.270699996443
+    },
+    "10827": {
+      "hyde_passage": "To maximize your retirement savings, aim to contribute at least enough to receive the full employer match – this is essentially free money.  Ideally, you should strive to contribute 15-20% of your salary to your 401k, factoring in both your own contributions and the employer's match to reach your long-term goals.",
+      "hyde_ms": 9397.446299997682,
+      "paraphrases": [
+        "What’s the optimal 401(k) contribution rate, considering my employer’s matching program?",
+        "To maximize my retirement savings, what percentage of my salary should I be allocating to my 401(k), factoring in the company’s matching contribution?",
+        "Given my employer’s defined contribution plan, what’s the recommended level of my own 401(k) investment to achieve my long-term financial goals?"
+      ],
+      "paraphrase_ms": 12695.893099997193
+    },
+    "10845": {
+      "hyde_passage": "The numbers 12, 26, and 9 within the MACD calculation represent specific periods used to generate the signal line. Specifically, the MACD line is the difference between the 12-period and 26-period Exponential Moving Averages, while the signal line is derived from a 9-period Exponential Moving Average of the MACD line. These choices of periods were determined through extensive backtesting and analysis to identify a commonly effective combination for generating trading signals.",
+      "hyde_ms": 11735.252500002389,
+      "paraphrases": [
+        "What is the theoretical justification for employing the periods of 12, 26, and 9 in the calculation of the Moving Average Convergence Divergence (MACD) indicator?",
+        "Can you elucidate the methodology supporting the selection of the 12, 26, and 9 input parameters within the MACD formula?",
+        "I’m seeking an explanation of the rationale – specifically the underlying principles – driving the use of the 12, 26, and 9 period settings within the MACD calculation. What’s the expert’s perspective on this?"
+      ],
+      "paraphrase_ms": 14500.260300002992
+    },
+    "1085": {
+      "hyde_passage": "Disputed debts appearing on credit reports are flagged as “disputed” and remain listed until the creditor verifies the debt’s accuracy or a payment plan is established. This notation doesn’t negatively impact your credit score, but it does indicate a potential issue that needs resolution, and the item will typically stay on your report for up to seven years.  Ultimately, resolving the dispute with the credit reporting agency and the creditor is crucial for removing the inaccurate information.",
+      "hyde_ms": 10901.637800001481,
+      "paraphrases": [
+        "What is the impact of challenged accounts on credit file reporting?",
+        "Can you explain the mechanics of negative debt entries appearing on credit reports when a dispute is initiated?",
+        "I’m researching the process of debt disputes and their reflection on credit bureaus – what are the key considerations and reporting protocols?"
+      ],
+      "paraphrase_ms": 9739.16289999761
+    },
+    "109": {
+      "hyde_passage": "Prior to opening a business bank account, it’s crucial to track all income and expenses separately from your personal finances. Utilize methods like spreadsheets or accounting software to meticulously record every transaction, clearly distinguishing between personal and business funds. This detailed record-keeping provides a solid foundation for accurate financial reporting once your business banking is established.",
+      "hyde_ms": 8858.235100000456,
+      "paraphrases": [
+        "What are the accounting procedures for tracking revenue and expenses incurred before opening a business's primary banking relationship?",
+        "Regarding pre-bank account financial activity, what’s the recommended method for documenting and reconciling income and expenditures?",
+        "For a nascent business, how should we establish a system for recording all cash transactions – both incoming and outgoing – prior to establishing a corporate bank account?"
+      ],
+      "paraphrase_ms": 11079.82720000291
+    },
+    "1090": {
+      "hyde_passage": "To calculate monthly payments received at time *t* while reinvesting returns, use the following formula: M = (P * r * (1+r)^n) / ((1+r)^n - 1), where M is the monthly payment, P is the principal investment, r is the monthly interest rate (annual rate divided by 12), and n is the number of months. This formula accounts for the compounding effect of reinvesting each monthly interest payment back into the principal.",
+      "hyde_ms": 11668.27899999771,
+      "paraphrases": [
+        "I require a mathematical model to calculate the recurring cash inflows (monthly payments) I’ll receive at a specific point in time (t), considering the reinvestment of all accrued interest or profits.",
+        "Could you provide a formula for determining the present value of a series of monthly payments, factoring in the reinvestment of returns at each period?",
+        "I’m seeking a financial formula to project the monthly cash flow I’ll be receiving over time, accounting for the reinvestment of earnings – essentially, a time value of money calculation with reinvestment included."
+      ],
+      "paraphrase_ms": 14012.090299998817
+    },
+    "10912": {
+      "hyde_passage": "Forex independent investments, often referred to as “pure forex trading,” focus solely on leveraging currency fluctuations for profit, without incorporating other asset classes. This strategy demands a deep understanding of macroeconomic factors and technical analysis, as traders directly profit from exchange rate movements.  Successful execution relies heavily on disciplined risk management and a clear trading plan due to the inherent volatility of the forex market.",
+      "hyde_ms": 9463.405199996487,
+      "paraphrases": [
+        "Strategies for uncorrelated currency exposure – Forex independent investments",
+        "Seeking alternative currency investments with low correlation to traditional markets – Forex independent investments",
+        "Identifying and evaluating non-correlated Forex assets for portfolio diversification – Forex independent investments"
+      ],
+      "paraphrase_ms": 8337.55719999317
+    },
+    "10932": {
+      "hyde_passage": "Generally, transferring funds from a 403(b) to a 401(k) is possible, but it’s crucial to understand the potential tax implications.  Rolling over funds typically avoids immediate tax consequences, however, early withdrawals from either account may be subject to taxes and penalties.  Consulting with a financial advisor or tax professional is highly recommended to determine the best course of action based on your individual circumstances.",
+      "hyde_ms": 10712.335999996867,
+      "paraphrases": [
+        "What are the procedures for rolling over funds from a 403(b) retirement account into a 401(k) account?",
+        "I'm exploring options for a qualified distribution from my 403(b) and want to understand the process of contributing it to a 401(k). Can you outline the relevant regulations and steps?",
+        "Can you detail the strategies for performing a 403(b) to 401(k) account transfer, including any applicable tax implications or rollovers?"
+      ],
+      "paraphrase_ms": 14430.835000006482
+    },
+    "10975": {
+      "hyde_passage": "Due to income limitations, directly contributing to a Roth IRA when maximizing other retirement accounts is typically not possible. However, you can explore a “backdoor Roth” strategy by making non-deductible contributions to a traditional IRA and then immediately converting those funds to a Roth IRA, though this approach requires careful tax planning. It’s crucial to consult with a financial advisor to determine the best course of action given your specific circumstances and the complexities of both Roth and traditional IRA contributions.",
+      "hyde_ms": 11795.833399999538,
+      "paraphrases": [
+        "What are the strategies for making Roth IRA contributions when my income exceeds the annual limit, and I also maintain an active 401(k) through my employer?",
+        "Considering I’m subject to income limitations for Roth IRA contributions and have a vested 401(k) plan, what’s the optimal approach to maximizing my retirement savings?",
+        "Given my income level and the presence of a 401(k) plan, how can I navigate the complexities of Roth IRA contributions, including potential strategies for exceeding contribution limits?"
+      ],
+      "paraphrase_ms": 14194.526500003121
+    },
+    "10979": {
+      "hyde_passage": "To close a futures position, you must execute an offsetting trade – typically selling the same contract with the same expiration date that you initially bought or sold. This process reverses your original transaction, bringing your net exposure back to zero and effectively closing out the position.  Carefully consider commissions and any potential slippage when finalizing your trade.",
+      "hyde_ms": 8705.70079999743,
+      "paraphrases": [
+        "Executing a final trade to exit a futures contract.",
+        "Settling a futures position – including strategies for rollover or cash settlement.",
+        "Implementing a strategy to liquidate a futures position, considering margin requirements and potential rollover obligations."
+      ],
+      "paraphrase_ms": 8240.00089999754
+    },
+    "10994": {
+      "hyde_passage": "Mutual funds do not typically distribute net losses to their shareholders. Instead, these losses are absorbed by the fund's assets, reducing the overall value of the investment portfolio. This approach allows the fund to maintain stability and avoid negatively impacting returns for remaining investors.",
+      "hyde_ms": 7686.145100000431,
+      "paraphrases": [
+        "What are the instances where mutual funds do not distribute net losses to their investors?",
+        "Analyze the circumstances under which mutual funds fail to remit net losses to their shareholders.",
+        "Investigate the mechanisms by which mutual funds avoid distributing realized net losses to their equity holders."
+      ],
+      "paraphrase_ms": 9155.587400004151
+    },
+    "11039": {
+      "hyde_passage": "Prioritizing high-interest credit card debt is generally the wiser choice, as the accruing interest can quickly negate any potential savings. Taking advantage of your employer’s 401(k) match is a powerful, essentially free, investment opportunity that should always be maximized before addressing credit card balances.",
+      "hyde_ms": 8735.875300000771,
+      "paraphrases": [
+        "Should I prioritize eliminating outstanding credit card balances versus maximizing my employer’s 401(k) contribution matching program?",
+        "What’s the optimal strategy: debt reduction through credit card repayment or taking full advantage of my company’s 401(k) matching benefit?",
+        "Considering the opportunity cost, is it more financially prudent to aggressively address credit card debt or fully fund my 401(k) with the employer match?"
+      ],
+      "paraphrase_ms": 12302.815299997746
+    },
+    "11054": {
+      "hyde_passage": "Short-term capital gains, realized from investments held for one year or less, are taxed at ordinary income tax rates, while long-term capital gains (held over a year) typically receive more favorable rates.  Furthermore, withdrawals from a Traditional IRA are taxed as ordinary income in the year they are taken, regardless of the holding period of the underlying investments.",
+      "hyde_ms": 9592.447900002298,
+      "paraphrases": [
+        "Compare the tax implications of short-term capital gains versus distributions from a traditional IRA, excluding estimated quarterly tax payments.",
+        "Analyze the tax treatment of short-term capital gains alongside IRA withdrawals, specifically omitting the requirement for calculating and paying estimated taxes on a quarterly basis.",
+        "Investigate the differential taxation of short-term capital gains and IRA distributions, taking into account the absence of mandatory quarterly tax estimations."
+      ],
+      "paraphrase_ms": 11550.650499993935
+    },
+    "11088": {
+      "hyde_passage": "No, you are not legally required to have a lawyer draft or oversee the creation of your will. While using an attorney offers expert guidance and ensures your wishes are accurately documented, you can create a valid will yourself as long as it meets the specific requirements of your state’s laws.  Ultimately, the decision rests with you to determine the level of assistance you need.",
+      "hyde_ms": 9602.343899998232,
+      "paraphrases": [
+        "What legal obligations do I have regarding the drafting of my last will and testament?",
+        "Is it legally mandated that an attorney prepare and manage the execution of my estate plan?",
+        "Under what circumstances is professional legal counsel necessary for the formulation of a valid will?"
+      ],
+      "paraphrase_ms": 9297.34979999921
+    },
+    "1150": {
+      "hyde_passage": "At 22, focusing on building a financial foundation is key – start by creating a budget and aggressively paying down any high-interest debt. Simultaneously, explore opportunities like side hustles or investing small amounts in diversified accounts to begin growing your wealth for the future.",
+      "hyde_ms": 8113.599099997373,
+      "paraphrases": [
+        "What are optimal strategies for wealth accumulation and financial preservation for an individual aged 22?",
+        "For a young adult at 22, what are the most effective methods for generating income and establishing a robust savings plan?",
+        "Considering a 22-year-old’s financial situation, what are the recommended approaches to maximizing earnings and building long-term financial security?"
+      ],
+      "paraphrase_ms": 11136.11750000564
+    },
+    "1157": {
+      "hyde_passage": "As an AI, I cannot provide tax advice. However, generally, if you operate a Shopify or PayPal shop and earn income, you'll likely be subject to self-employment taxes, including income tax and self-employment tax (Social Security and Medicare). It's crucial to consult with a qualified tax professional or accountant to determine your specific tax obligations and ensure you're properly reporting your business income.",
+      "hyde_ms": 10131.447399995523,
+      "paraphrases": [
+        "Tax implications for e-commerce businesses operating through Shopify and PayPal.",
+        "Tax compliance requirements for merchants utilizing Shopify and PayPal platforms.",
+        "Calculating and reporting income tax obligations for a Shopify-based business and a PayPal-integrated sales operation – expert guidance needed."
+      ],
+      "paraphrase_ms": 8950.641700001142
+    },
+    "1159": {
+      "hyde_passage": "To maximize your summer freelancing success as a student, focus on building a strong online presence through platforms like Upwork and Fiverr, showcasing your skills with a professional portfolio. Prioritize clear communication with clients, set realistic deadlines, and consistently deliver high-quality work to establish a positive reputation and secure repeat business.",
+      "hyde_ms": 8748.15099999978,
+      "paraphrases": [
+        "What are the optimal strategies for a student to secure and successfully execute a freelance role during the summer months?",
+        "For a student seeking summer income, what constitutes the most effective approach to freelance work – considering factors like market demand and client acquisition?",
+        "What’s the recommended methodology for a student to undertake a freelance position during the summer break, focusing on maximizing earnings and professional development?"
+      ],
+      "paraphrase_ms": 11166.958199995861
+    }
+  },
+  "nfcorpus": {
+    "PLAIN-1008": {
+      "hyde_passage": "Deafness is a condition characterized by the complete or partial inability to hear sounds. It can result from genetic factors, infections, head injuries, or exposure to loud noises, impacting an individual's ability to perceive auditory information.  Support and communication strategies, such as sign language and assistive listening devices, are often crucial for individuals experiencing deafness.",
+      "hyde_ms": 8952.631100000872,
+      "paraphrases": [
+        "I’m researching individuals experiencing profound hearing loss.",
+        "I need information on the etiology and management of congenital or acquired deafness.",
+        "What are the clinical characteristics and diagnostic procedures associated with hearing impairment?"
+      ],
+      "paraphrase_ms": 8047.795000005863
+    },
+    "PLAIN-1018": {
+      "hyde_passage": "Doc ID: DHA-2023-10-27\nSubject: Definition of DHA\n\nDocumen DHA refers to docosahexaenoic acid, an omega-3 fatty acid crucial for brain health and development. It’s primarily found in fatty fish and algae, and plays a vital role in cell membrane structure and function.",
+      "hyde_ms": 8980.914100000518,
+      "paraphrases": [
+        "I'm researching Docosahexaenoic Acid (DHA) – what are the latest clinical studies on its benefits?",
+        "Could you provide information on the biochemical properties and applications of DHA, particularly its role in neurological development and retinal health?",
+        "I need a comprehensive overview of Docosahexaenoic Acid (DHA), including its sourcing, bioavailability, and established therapeutic indications."
+      ],
+      "paraphrase_ms": 10959.267400001409
+    },
+    "PLAIN-102": {
+      "hyde_passage": "Preventing heart disease in childhood requires a multi-faceted approach, focusing on promoting healthy lifestyles from a young age. This includes encouraging regular physical activity, establishing healthy eating habits, and addressing risk factors like obesity and family history of heart conditions. Early intervention can significantly reduce the likelihood of developing cardiovascular disease later in life.",
+      "hyde_ms": 8831.374200002756,
+      "paraphrases": [
+        "Preventing Cardiovascular Disease in Pediatric Populations",
+        "Early Intervention Strategies for Childhood Cardiac Risk Factors",
+        "Mitigating the Development of Heart Disease Among Children and Adolescents"
+      ],
+      "paraphrase_ms": 7735.242899994773
+    },
+    "PLAIN-1028": {
+      "hyde_passage": "Dietary scoring systems, such as the Healthy Eating Index, provide a standardized way to assess the nutritional quality of an individual’s food intake. These scores typically consider factors like nutrient density, portion sizes, and adherence to dietary guidelines, offering a valuable tool for both personal tracking and public health research. Ultimately, the goal of dietary scoring is to quantify and improve eating habits.",
+      "hyde_ms": 9287.939899993944,
+      "paraphrases": [
+        "I’m researching dietary assessment methodologies – specifically, scoring systems.",
+        "Could you provide information on nutritional scoring frameworks and their application?",
+        "I need resources on utilizing dietary scoring systems for evaluating nutritional intake and identifying potential deficiencies."
+      ],
+      "paraphrase_ms": 8373.108200001298
+    },
+    "PLAIN-1039": {
+      "hyde_passage": "Domoic acid is a potent neurotoxin produced by certain species of marine algae, primarily during harmful algal blooms.  Exposure to domoic acid can cause a range of symptoms, including gastrointestinal distress, neurological problems, and in severe cases, death, particularly in marine mammals and humans who consume contaminated seafood.  Ongoing monitoring of coastal waters is crucial to mitigate the risks associated with this dangerous toxin.",
+      "hyde_ms": 12614.319200001773,
+      "paraphrases": [
+        "I’m researching the toxicity of domoic acid.",
+        "What are the biochemical properties and health effects associated with domoic acid exposure?",
+        "Can you provide information on domoic acid, a marine neurotoxin?"
+      ],
+      "paraphrase_ms": 7369.264599998132
+    },
+    "PLAIN-1050": {
+      "hyde_passage": "Dr. Dean Ornish is a physician renowned for his pioneering research on the transformative effects of lifestyle changes, particularly a plant-based diet and stress reduction, on the prevention and reversal of heart disease. His decades-long studies demonstrate that adopting a simple, compassionate approach to health can dramatically improve cardiovascular health and overall well-being.",
+      "hyde_ms": 8495.844199998828,
+      "paraphrases": [
+        "I'm researching the work of cardiologist Dr. Dean Ornish.",
+        "Can you provide information on the lifestyle interventions developed by Dr. Dean Ornish, particularly regarding his research on diet and cardiovascular health?",
+        "I’m interested in exploring the Ornish Protocol – the medically supervised, plant-based approach to reducing risk factors for heart disease championed by Dr. Dean Ornish."
+      ],
+      "paraphrase_ms": 10223.707700002706
+    },
+    "PLAIN-1066": {
+      "hyde_passage": "Dr. Walter Willett (1931-2017) was a prominent Harvard epidemiologist renowned for his pioneering research on the relationship between dietary fat and heart disease. His landmark 1986 study, published in the *New England Journal of Medicine*, challenged conventional wisdom and provided strong evidence supporting the benefits of reducing saturated fat intake. Willett’s work significantly influenced public health recommendations and continues to inform dietary guidelines today.",
+      "hyde_ms": 10289.642300005653,
+      "paraphrases": [
+        "I’m researching the work of nutrition epidemiologist Walter Willett.",
+        "Can you provide information on the research conducted by Dr. Walter Willett, a leading expert in dietary patterns and chronic disease?",
+        "I need to investigate the contributions of Walter Willett, a prominent figure in the field of nutrition and public health regarding the impact of food on health."
+      ],
+      "paraphrase_ms": 9945.216599997366
+    },
+    "PLAIN-1088": {
+      "hyde_passage": "Extracorporeal Membrane Oxygenation, or ECMO, is a life-support technique used in critically ill patients. It involves diverting blood from the body to an external oxygenator and roller pump, allowing the heart and lungs to rest and recover while providing oxygenated blood. ECMO is typically employed in severe respiratory or cardiac failure when other treatments have been exhausted.",
+      "hyde_ms": 8688.728599998285,
+      "paraphrases": [
+        "Rewrite the search query below in 3 different ways. Keep the meaning, but vary the wording and vocabulary, including the terms an expert would use.",
+        "Provide three alternative search terms for Extracorporeal Membrane Oxygenation (ECMO), utilizing more specialized terminology suitable for a clinical or biomedical professional.",
+        "Generate three distinct search strings related to ECMO therapy, incorporating advanced medical vocabulary and reflecting the language a critical care specialist would employ."
+      ],
+      "paraphrase_ms": 11573.941800001194
+    },
+    "PLAIN-1098": {
+      "hyde_passage": "Eggnog is a rich, chilled beverage traditionally made with milk, cream, sugar, and spices like nutmeg. Often, alcohol such as rum, brandy, or whiskey is added to create a festive and indulgent treat, particularly popular during the holiday season. Its creamy texture and spiced flavor have made it a beloved classic for generations.",
+      "hyde_ms": 8078.567099997599,
+      "paraphrases": [
+        "I’m looking for recipes and information regarding spiced holiday eggnog.",
+        "Could you provide details on the production and consumption of traditional eggnog, including variations and flavor profiles?",
+        "I need resources on eggnog – specifically, its historical origins, common ingredients, and optimal preparation techniques for a premium product."
+      ],
+      "paraphrase_ms": 9168.80740000488
+    },
+    "PLAIN-1109": {
+      "hyde_passage": "Endocrine disruptors are chemicals that interfere with the body’s hormone system, mimicking or blocking the effects of natural hormones. Exposure to these substances, found in everyday products like plastics and pesticides, can lead to a range of health problems, including reproductive and developmental issues. Ongoing research continues to identify and assess the potential risks posed by these widespread contaminants.",
+      "hyde_ms": 8492.098000002443,
+      "paraphrases": [
+        "I’m researching chemicals that interfere with hormone function.",
+        "I need information on substances known to disrupt the hypothalamic-pituitary-adrenal (HPA) axis and other endocrine pathways.",
+        "Can you provide data on potential endocrine-active contaminants and their impact on reproductive and developmental health?"
+      ],
+      "paraphrase_ms": 9044.719700003043
+    },
+    "PLAIN-1119": {
+      "hyde_passage": "Energy drinks are typically formulated with high levels of caffeine and other stimulants, designed to provide a temporary boost in alertness and performance. However, excessive consumption can lead to negative side effects such as anxiety, insomnia, and heart palpitations due to the intense stimulation they deliver. It’s important to consume these beverages responsibly and be aware of their potential impact on your health.",
+      "hyde_ms": 8719.9088999987,
+      "paraphrases": [
+        "I'm researching high-caffeine beverages and their effects.",
+        "What are the optimal formulations for performance-enhancing energy drinks?",
+        "Please provide a comprehensive analysis of the market for caffeinated energy products, including ingredients and regulatory considerations."
+      ],
+      "paraphrase_ms": 8174.133000000438
+    },
+    "PLAIN-112": {
+      "hyde_passage": "Recent research suggests a potential link between artificial food dyes, particularly Red 40, Yellow 5, and Yellow 6, and hyperactivity in some children with ADHD. While the evidence is not conclusive, several studies have indicated that removing these dyes from a child’s diet may lead to a noticeable reduction in symptoms like restlessness and impulsivity. Further investigation is ongoing to fully understand this complex relationship.",
+      "hyde_ms": 9414.254399998754,
+      "paraphrases": [
+        "The impact of food colorings (dyes) on Attention-Deficit/Hyperactivity Disorder (ADHD)",
+        "Investigating the potential role of artificial food dyes in the manifestation and exacerbation of ADHD symptoms.",
+        "A study of the correlation between dietary pigments – specifically, food dyes – and the neurological presentation of ADHD."
+      ],
+      "paraphrase_ms": 9624.572599997919
+    },
+    "PLAIN-1130": {
+      "hyde_passage": "Ergothioneine is a naturally occurring antioxidant found in various foods and organisms, including humans. It plays a crucial role in protecting cells from damage caused by free radicals, potentially contributing to overall health and longevity. Research suggests ergothioneine may have benefits for conditions involving oxidative stress and inflammation.",
+      "hyde_ms": 7852.826399997866,
+      "paraphrases": [
+        "I'm researching the antioxidant compound known as ergothioneine.",
+        "Could you provide information on ergothioneine, a naturally occurring pyrrole antioxidant?",
+        "I need data regarding the biosynthesis and biological roles of ergothioneine – a potent cellular redox protector."
+      ],
+      "paraphrase_ms": 8658.676899998682
+    },
+    "PLAIN-1141": {
+      "hyde_passage": "Evidence-based medicine (EBM) is a systematic approach to clinical decision-making that integrates the best available research evidence with clinical expertise and patient values. It emphasizes the use of randomized controlled trials and other rigorous studies to guide treatment decisions, moving beyond tradition or personal opinion. Ultimately, EBM strives to provide the most effective and appropriate care for each individual patient.",
+      "hyde_ms": 8811.830900005589,
+      "paraphrases": [
+        "I’m looking for research supporting clinical practice guidelines.",
+        "Can you provide me with information on utilizing data-driven approaches to medical decision-making?",
+        "I need resources detailing the application of rigorous scientific evidence in formulating and evaluating healthcare interventions – essentially, evidence-based medicine."
+      ],
+      "paraphrase_ms": 8744.541100000788
+    },
+    "PLAIN-1151": {
+      "hyde_passage": "Factory farming prioritizes efficiency and profit through intensive animal production, often confining large numbers of animals to small spaces and relying heavily on automated systems. These practices frequently raise significant ethical concerns regarding animal welfare, while also contributing to environmental issues like pollution and greenhouse gas emissions. Ultimately, the scale and methods of factory farming are under increasing scrutiny due to their impact on both animals and the planet.",
+      "hyde_ms": 8959.837499998685,
+      "paraphrases": [
+        "Analyze the operational methods employed in intensive animal agriculture.",
+        "Investigate the protocols and techniques utilized within large-scale livestock production systems.",
+        "Evaluate the current methodologies and standards of practice in industrial animal farming."
+      ],
+      "paraphrase_ms": 7647.467499999038
+    },
+    "PLAIN-1161": {
+      "hyde_passage": "Fava beans, also known as broad beans, are legumes native to the Mediterranean region and parts of Europe and Asia.  They are prized for their distinctive flavor and creamy texture, often enjoyed fresh, dried, or used in dishes like hummus and bean salads.  Historically, fava beans have been a staple crop, though their production can be impacted by pest infestations and adverse weather conditions.",
+      "hyde_ms": 9180.03850000241,
+      "paraphrases": [
+        "I’m looking for information on broad beans.",
+        "What are the optimal cultivation techniques for *Vicia faba*?",
+        "Could you provide details regarding the nutritional profile and culinary applications of fava beans?"
+      ],
+      "paraphrase_ms": 7737.634400000388
+    },
+    "PLAIN-1172": {
+      "hyde_passage": "Fenugreek is a plant native to the Mediterranean and Middle East, valued for its distinctive aroma and flavor. Historically, its seeds have been used as a spice and medicinal herb, often associated with lactation and digestive health. Modern research continues to explore fenugreek's potential benefits, including its impact on blood sugar levels and athletic performance.",
+      "hyde_ms": 8453.393999996479,
+      "paraphrases": [
+        "I’m researching the medicinal properties of *Trigonella foenum-graecum*.",
+        "What is the scientific literature on the bioactive compounds found in fenugreek?",
+        "Can you provide information on the ethnobotanical uses and pharmacological potential of fenugreek?"
+      ],
+      "paraphrase_ms": 9056.976100000611
+    },
+    "PLAIN-1183": {
+      "hyde_passage": "Finland, located in Northern Europe, is renowned for its stunning landscapes, including vast forests and the shimmering Baltic Sea. The country is also celebrated globally for its innovative education system and high quality of life, consistently ranking among the happiest nations.",
+      "hyde_ms": 6881.3458000004175,
+      "paraphrases": [
+        "I’m researching the Nordic nation of Finland.",
+        "Provide information on Finland’s demographics, geography, and political system.",
+        "Analyze Finland’s socioeconomic indicators and its role within the European Union."
+      ],
+      "paraphrase_ms": 5384.550399998261
+    },
+    "PLAIN-1193": {
+      "hyde_passage": "Flaxseed oil is extracted from the seeds of the flax plant and is rich in alpha-linolenic acid, an omega-3 fatty acid. Commonly used in cooking for its mild flavor and healthy fat content, it’s also sometimes taken as a dietary supplement.  The oil’s nutritional benefits have led to its increasing popularity as a potential health booster.",
+      "hyde_ms": 8772.05280000635,
+      "paraphrases": [
+        "I'm researching the properties and applications of linseed oil.",
+        "What are the technical specifications and sourcing options for high-quality flaxseed oil?",
+        "Could you provide information on the nutritional profile and industrial uses of linoleic acid derived from flax?"
+      ],
+      "paraphrase_ms": 8274.898199997551
+    },
+    "PLAIN-12": {
+      "hyde_passage": "Autophagy, the body’s natural recycling process, is increasingly recognized as a key mechanism in extending lifespan. By removing damaged cellular components and regenerating healthy cells, autophagy effectively combats aging and promotes cellular resilience. Research suggests that stimulating autophagy through diet and exercise may hold significant potential for promoting longevity and overall health.",
+      "hyde_ms": 7935.639899995294,
+      "paraphrases": [
+        "Investigating Autophagy's Role in Extending Lifespan",
+        "Exploring Autophagy as a Therapeutic Target for Geroprotection",
+        "Leveraging Autophagy Pathways for Enhanced Longevity Research"
+      ],
+      "paraphrase_ms": 7682.709000000614
+    },
+    "PLAIN-1203": {
+      "hyde_passage": "Folic acid, also known as vitamin B9, is a crucial nutrient vital for cell growth and development.  Adequate intake is particularly important during periods of rapid growth, such as pregnancy, to prevent neural tube defects in the developing fetus.  Most individuals benefit from consuming foods fortified with folic acid or taking a supplement to maintain optimal levels.",
+      "hyde_ms": 8422.531999996863,
+      "paraphrases": [
+        "I'm researching the role of vitamin B9 in pregnancy and overall health.",
+        "Could you provide information on the synthesis and supplementation of folate, specifically focusing on its clinical applications?",
+        "I need data regarding the efficacy of folic acid in preventing neural tube defects and its bioavailability."
+      ],
+      "paraphrase_ms": 8752.237900000182
+    },
+    "PLAIN-1214": {
+      "hyde_passage": "Fosamax is a bisphosphonate medication primarily used to treat osteoporosis, a condition characterized by weakened bones. It works by inhibiting the breakdown of bone tissue, thereby increasing bone density and reducing the risk of fractures.  Patients taking Fosamax should be closely monitored for potential side effects, including jawbone problems and atypical fractures.",
+      "hyde_ms": 8117.500000000291,
+      "paraphrases": [
+        "I’m researching treatments for osteoporosis, specifically focusing on bisphosphonates like Fosamax.",
+        "What are the clinical applications and efficacy data for alendronate (Fosamax) in the management of osteoporotic bone loss?",
+        "Can you provide information on the mechanism of action and established protocols for the use of Fosamax in patients with a high risk of vertebral fractures?"
+      ],
+      "paraphrase_ms": 10468.326100002741
+    },
+    "PLAIN-1225": {
+      "hyde_passage": "Fructose is a simple sugar, specifically a monosaccharide, that is naturally found in fruits and honey. It’s metabolized differently than glucose, primarily in the liver, and is known for its sweet taste and role in providing energy.  Due to its unique metabolic pathway, fructose consumption can have distinct effects on blood sugar levels and overall health.",
+      "hyde_ms": 8552.054899999348,
+      "paraphrases": [
+        "I’m researching the biochemical properties of fructose.",
+        "Could you provide information on the metabolism of hexose sugars, specifically fructose?",
+        "I need data regarding the chemical structure and physiological effects of fructose – a monosaccharide."
+      ],
+      "paraphrase_ms": 16761.39620000322
+    },
+    "PLAIN-123": {
+      "hyde_passage": "Research suggests that the compounds found in citrus fruits, particularly limonene, can stimulate brown fat activity in the body. This increased fat burning generates heat, potentially leading to a noticeable warming effect on exposed skin, including hands.  Incorporating citrus into your diet or applying citrus-based products topically may offer a subtle but comforting warmth.",
+      "hyde_ms": 8721.447999996599,
+      "paraphrases": [
+        "Investigating the potential thermoregulatory effects of citrus compounds on cutaneous temperature.",
+        "Exploring the mechanisms by which citrus extracts could contribute to enhanced hand warmth.",
+        "A study examining the efficacy of citrus-derived substances in mitigating cold-hand symptoms."
+      ],
+      "paraphrase_ms": 8829.798899998423
+    },
+    "PLAIN-1236": {
+      "hyde_passage": "Galactosemia is a rare genetic disorder where the body is unable to properly process galactose, a sugar found in milk and dairy products. This leads to a buildup of galactose in the blood, causing a range of symptoms including nausea, vomiting, and potentially severe neurological damage if left untreated. Individuals with galactosemia must adhere to a strict galactose-free diet to manage the condition effectively.",
+      "hyde_ms": 8948.666900003445,
+      "paraphrases": [
+        "I’m researching individuals with galactosemia – what are the diagnostic criteria and management strategies?",
+        "Could you provide information on the genetic disorder characterized by elevated galactose levels in the blood and urine, commonly known as galactosemia?",
+        "I need a comprehensive overview of galactosemia, including its etiology, clinical manifestations, and available therapeutic interventions – ideally from a metabolic medicine perspective."
+      ],
+      "paraphrase_ms": 10242.376000001968
+    },
+    "PLAIN-1249": {
+      "hyde_passage": "Genetic manipulation involves altering an organism's DNA to modify its characteristics. This can range from introducing new traits to correcting genetic defects, and is increasingly utilized in agriculture and medicine.  Researchers carefully target specific genes to achieve desired outcomes, though ethical considerations surrounding this technology remain a key focus.",
+      "hyde_ms": 7551.0424000021885,
+      "paraphrases": [
+        "I’m researching techniques for altering genes.",
+        "Could you provide information on genome editing methodologies?",
+        "I need resources on directed evolution and genetic modification strategies."
+      ],
+      "paraphrase_ms": 6971.131099999184
+    },
+    "PLAIN-1262": {
+      "hyde_passage": "The Global Burden of Disease (GBD) study is a comprehensive effort to quantify the health loss from diseases, injuries, and risk factors across the globe. Utilizing a wide range of data sources, the study estimates the disability-adjusted life years (DALYs) lost due to specific health conditions, providing crucial insights for public health planning and resource allocation. These findings are vital for understanding global health inequalities and tracking progress towards improving population health.",
+      "hyde_ms": 7922.675900001195,
+      "paraphrases": [
+        "I’m researching the comprehensive health loss data generated by the Global Burden of Disease (GBD) project.",
+        "Could you provide information related to the GBD – the widely-used metric for quantifying health loss and disability worldwide?",
+        "I need data and analysis stemming from the Global Burden of Disease Study, specifically focusing on its assessment of morbidity and mortality across nations."
+      ],
+      "paraphrase_ms": 10087.174000000232
+    },
+    "PLAIN-1275": {
+      "hyde_passage": "Goji berries, native to China, are small, red fruits packed with antioxidants and vitamins. Traditionally used in Chinese medicine, they are now popular worldwide for their potential health benefits, including boosting immunity and improving skin health.  Their slightly sweet and tangy flavor makes them a versatile addition to smoothies, yogurt, or as a snack on their own.",
+      "hyde_ms": 8537.733500001195,
+      "paraphrases": [
+        "What are the nutritional properties of goji berries?",
+        "I'm researching the bioactive compounds found in *Lycium barbarum* (goji berries).",
+        "Provide information on goji berry cultivation and its associated agronomic considerations."
+      ],
+      "paraphrase_ms": 7877.93679999595
+    },
+    "PLAIN-1288": {
+      "hyde_passage": "Grapes are small, pulpy fruits that grow in clusters on vines. They come in a wide variety of colors, including green, red, and purple, and are known for their sweet and juicy flavor.  Typically enjoyed fresh, grapes are also used in juice, wine, and various culinary applications.",
+      "hyde_ms": 7748.384999998962,
+      "paraphrases": [
+        "I'm interested in learning about *Vitis vinifera*, specifically the fruit.",
+        "Provide information regarding the cultivation and varieties of grapes.",
+        "What are the different types of grapes, including their characteristics and uses?"
+      ],
+      "paraphrase_ms": 7854.696499998681
+    },
+    "PLAIN-1299": {
+      "hyde_passage": "Growth promoters are substances added to animal feed to increase the rate of weight gain and improve overall productivity. Commonly used growth promoters include antibiotics, though concerns regarding antibiotic resistance have led to a shift towards alternative strategies. Current research focuses on utilizing nutritional and microbial interventions to achieve similar growth enhancements without relying on traditional pharmaceutical approaches.",
+      "hyde_ms": 7856.264000001829,
+      "paraphrases": [
+        "I’m researching methods to stimulate livestock growth.",
+        "What are the commercially available options for enhancing animal productivity?",
+        "I need information on growth-enhancing agents for agricultural applications – specifically, substances that promote increased biomass and weight gain in livestock."
+      ],
+      "paraphrase_ms": 8302.88819999987
+    },
+    "PLAIN-1309": {
+      "hyde_passage": "Halibut are large flatfish, typically found in cold, deep waters of the North Pacific and Arctic Oceans. These fish are prized for their firm, white flesh and are often prepared baked, pan-fried, or grilled. Their distinctive mottled camouflage allows them to blend seamlessly with the seafloor, aiding in their predatory lifestyle.",
+      "hyde_ms": 8086.031300001196,
+      "paraphrases": [
+        "I’m looking for information on *Hippoglossus* halibut.",
+        "What are the best fishing techniques for catching halibut?",
+        "Provide data on the commercial harvesting and market value of halibut."
+      ],
+      "paraphrase_ms": 7502.909199996793
+    },
+    "PLAIN-1320": {
+      "hyde_passage": "The Harvard Physicians’ Study II, conducted from 1976 to 1997, followed a large cohort of male physicians to investigate the impact of lifestyle factors on cardiovascular disease.  Researchers found a strong correlation between frequent alcohol consumption, particularly heavy drinking, and an increased risk of heart disease, despite the physicians’ generally healthy lifestyles.  Ultimately, the study provided crucial evidence supporting the importance of moderation in alcohol intake for overall health.",
+      "hyde_ms": 10178.071399997862,
+      "paraphrases": [
+        "I’m researching the Harvard Physician’s Study II – could you provide relevant literature or data sets?",
+        "I need information pertaining to the Harvard Medical School’s Physician’s Study II investigation.",
+        "Can you locate studies utilizing the Harvard Physician’s Study II protocol or findings? I’m particularly interested in its clinical application and outcomes."
+      ],
+      "paraphrase_ms": 9941.303300001891
+    },
+    "PLAIN-133": {
+      "hyde_passage": "The observed phenomenon of starving tumors, where they actively suppress angiogenesis to limit their growth, is a complex process driven by the tumor microenvironment.  Specifically, tumors release factors like vascular endothelial growth factor (VEGF) inhibitors, effectively choking off the blood vessels needed to sustain their rapid proliferation.  This targeted deprivation of nutrients and oxygen is a key mechanism tumors utilize to evade immune responses and establish a foothold within the host.",
+      "hyde_ms": 9826.292999998259,
+      "paraphrases": [
+        "Investigate the phenomenon of tumor vascular compromise, where neoplastic cells exhibit insufficient blood vessel perfusion.",
+        "Analyze the mechanisms underlying tumor angiogenesis blockade – specifically, the deprivation of vital nutrients due to disrupted blood supply.",
+        "Explore the pathological consequences of ischemic necrosis within malignant neoplasms, focusing on the disruption of the tumor’s microvasculature."
+      ],
+      "paraphrase_ms": 9675.184499996249
+    },
+    "PLAIN-1331": {
+      "hyde_passage": "Hearing is the physiological process by which sound waves are detected and interpreted by the brain. This complex mechanism involves the transmission of vibrations through the ear canal, the conversion of these vibrations into electrical signals, and ultimately, the conscious perception of sound.  Disruptions to any stage of this process can lead to hearing loss or impairment.",
+      "hyde_ms": 8505.923900003836,
+      "paraphrases": [
+        "audiology services",
+        "vestibular dysfunction assessment",
+        "auditory pathology evaluation"
+      ],
+      "paraphrase_ms": 5609.857700001157
+    },
+    "PLAIN-1342": {
+      "hyde_passage": "Heme iron is a form of iron found primarily in animal-based foods like meat and poultry, offering superior absorption compared to non-heme iron sources. This readily available iron is crucial for oxygen transport within the blood through hemoglobin and myoglobin, playing a vital role in numerous bodily functions.  Its bioavailability makes it a particularly important nutrient for individuals with iron deficiency.",
+      "hyde_ms": 6639.410900002986,
+      "paraphrases": [
+        "Investigate the bioavailability of iron in the form of heme.",
+        "Analyze the properties and utilization of heme iron compounds.",
+        "Explore the biochemical significance of heme iron and its role in iron metabolism."
+      ],
+      "paraphrase_ms": 7328.45670000097
+    },
+    "PLAIN-1353": {
+      "hyde_passage": "A hernia occurs when an organ or tissue squeezes through a weak spot in a surrounding muscle or tissue wall. This creates a bulge that can be visible or palpable, and is often caused by increased pressure in the abdomen. Symptoms can range from mild discomfort to significant pain, depending on the size and type of hernia.",
+      "hyde_ms": 8026.292099995771,
+      "paraphrases": [
+        "I’m researching conditions involving abdominal wall weakness and protrusion – specifically, what constitutes a hernia?",
+        "What are the diagnostic criteria and treatment options for a ventral abdominal hernia?",
+        "I need information on the pathophysiology and surgical management of an inguinal hernia."
+      ],
+      "paraphrase_ms": 8368.51100000058
+    },
+    "PLAIN-1363": {
+      "hyde_passage": "Hiroshima, a city in southwestern Japan, tragically became the target of the first atomic bomb used in warfare on August 6, 1945. The devastating explosion resulted in immense destruction and loss of life, fundamentally altering the landscape and serving as a stark reminder of the destructive power of nuclear weapons.  Today, Hiroshima is a symbol of peace and a center for remembrance and reconciliation.",
+      "hyde_ms": 9207.634099999268,
+      "paraphrases": [
+        "Investigate the events surrounding the atomic bombing of Hiroshima.",
+        "Analyze the historical context and consequences of the 1945 bombing of Hiroshima, Japan.",
+        "Examine the radiological impact and long-term health effects associated with the Hiroshima atomic blast."
+      ],
+      "paraphrase_ms": 8528.753499995219
+    },
+    "PLAIN-1374": {
+      "hyde_passage": "Hormonal dysfunction arises when the body’s endocrine system, responsible for regulating numerous processes through chemical messengers, fails to produce or respond to hormones correctly. This imbalance can manifest in a wide range of symptoms, impacting everything from metabolism and growth to mood and reproductive health. Diagnosis often involves blood tests and imaging to identify the specific hormonal deficiencies or excesses.",
+      "hyde_ms": 8452.155299994047,
+      "paraphrases": [
+        "I’m researching imbalances in hormone regulation.",
+        "I need information on endocrine system dysregulation and its clinical manifestations.",
+        "Could you provide resources regarding aberrant hormonal signaling pathways?"
+      ],
+      "paraphrase_ms": 7204.98580000276
+    },
+    "PLAIN-1387": {
+      "hyde_passage": "Hyperactivity, often characterized by excessive movement and difficulty staying still, is a core symptom of Attention-Deficit/Hyperactivity Disorder (ADHD).  It manifests differently in individuals, ranging from fidgeting and restlessness to impulsivity and difficulty focusing on tasks.  Understanding the nuances of hyperactivity is crucial for effective diagnosis and treatment strategies.",
+      "hyde_ms": 8243.357999999716,
+      "paraphrases": [
+        "I’m researching excessive motor activity and impulsivity – what are the clinical classifications and potential etiologies?",
+        "I’m investigating symptoms of heightened arousal and restlessness; could you provide information on diagnostic criteria for conditions like ADHD and related behavioral disorders?",
+        "I need to understand the neurobiological underpinnings of heightened activity levels and difficulty with sustained attention – what’s the current research on the mechanisms involved?"
+      ],
+      "paraphrase_ms": 10909.124600002542
+    },
+    "PLAIN-1398": {
+      "hyde_passage": "Insulin-like growth factor 1 (IGF-1) is a hormone primarily produced by the liver in response to growth hormone, playing a crucial role in stimulating cell growth and repair. Elevated levels of IGF-1 are often associated with increased bone and muscle mass, while deficiencies can contribute to growth retardation and metabolic disorders.  Further research continues to explore its complex involvement in various physiological processes.",
+      "hyde_ms": 9451.254999999946,
+      "paraphrases": [
+        "What is the role of Insulin-like Growth Factor 1?",
+        "Investigate the physiological significance of IGF-1 levels.",
+        "Analyze the biomarker Insulin-like Growth Factor 1 and its clinical applications."
+      ],
+      "paraphrase_ms": 7757.608499996422
+    },
+    "PLAIN-1409": {
+      "hyde_passage": "Industrial toxins represent a significant environmental concern, stemming from the release of harmful chemicals and pollutants during manufacturing processes. These substances can contaminate air, water, and soil, posing risks to human health and ecological systems.  Effective regulation and responsible industrial practices are crucial to mitigating the detrimental effects of these toxins.",
+      "hyde_ms": 7672.902999998769,
+      "paraphrases": [
+        "hazardous industrial chemicals",
+        "occupational exposure to toxic substances in manufacturing",
+        "environmental contaminants originating from industrial processes"
+      ],
+      "paraphrase_ms": 6270.697300002212
+    },
+    "PLAIN-1419": {
+      "hyde_passage": "Insects represent an incredibly diverse group of arthropods, characterized by their segmented bodies, exoskeletons, and typically six legs.  They play crucial roles in ecosystems worldwide, acting as pollinators, decomposers, and a vital food source for numerous animals.  With an estimated nine out of ten known species being herbivorous, insects are a cornerstone of global biodiversity.",
+      "hyde_ms": 6818.609599999036,
+      "paraphrases": [
+        "I'm researching arthropods, specifically insects.",
+        "I need information on Hexapoda – the insect class.",
+        "Please provide data regarding insect taxonomy and morphology."
+      ],
+      "paraphrase_ms": 6875.97910000477
+    },
+    "PLAIN-1429": {
+      "hyde_passage": "The Iowa Women’s Health Study is a long-term, prospective cohort study that began in 1991, tracking the health of over 800 women aged 60-75. Researchers collect detailed information about participants’ dietary habits, lifestyle factors, and medical history to investigate the effects of these variables on the development of breast and colorectal cancer.  This ongoing study continues to provide valuable insights into the complex relationship between diet, lifestyle, and cancer risk.",
+      "hyde_ms": 8752.143100005924,
+      "paraphrases": [
+        "IWS Study – Investigating the Health of Women in Iowa",
+        "Iowa Women’s Health Longitudinal Research Project",
+        "The Iowa Women’s Health Study: A prospective cohort investigation"
+      ],
+      "paraphrase_ms": 7455.619899999874
+    },
+    "PLAIN-143": {
+      "hyde_passage": "Dental X-rays, when used appropriately with lead shielding and minimal exposure techniques, pose a very low risk to patients. While radiation is involved, the amount received is generally small and significantly outweighed by the benefits of early detection and diagnosis of dental problems. Modern dental practices prioritize patient safety and adhere to strict guidelines to minimize any potential exposure.",
+      "hyde_ms": 8447.876099999121,
+      "paraphrases": [
+        "What are the potential health risks associated with dental radiography?",
+        "Is the use of dental X-ray imaging considered a safe practice from a radiation exposure perspective?",
+        "What is the radiation dose associated with routine dental X-ray examinations, and are there any documented adverse effects?"
+      ],
+      "paraphrase_ms": 8653.336900002614
+    },
+    "PLAIN-1441": {
+      "hyde_passage": "Japan is an island nation located in East Asia, renowned for its rich cultural heritage and technological advancements.  Its history is deeply intertwined with Shinto and Buddhist traditions, while modern Japan is a global leader in innovation and design.  The country’s unique geography and resilient people have shaped a society celebrated for its beauty and complexity.",
+      "hyde_ms": 8255.904600002395,
+      "paraphrases": [
+        "I’m researching Japan – its history, culture, and current affairs.",
+        "Could you provide information regarding the nation of Japan, focusing on its geopolitical landscape and economic indicators?",
+        "I need data and analysis pertaining to Japan; specifically, I’m interested in its demographic trends, technological advancements, and societal structures."
+      ],
+      "paraphrase_ms": 9324.723900004756
+    },
+    "PLAIN-1453": {
+      "hyde_passage": "Junk food, characterized by high levels of sugar, salt, and unhealthy fats, offers little nutritional value and can contribute to various health problems. Frequent consumption of these processed foods is often linked to weight gain, increased risk of chronic diseases, and a decline in overall well-being.  It’s important to prioritize nutrient-rich foods for sustained health and vitality.",
+      "hyde_ms": 9114.481800002977,
+      "paraphrases": [
+        "What are the nutritional drawbacks of highly processed, calorie-dense foods?",
+        "I’m researching the impact of ultra-processed foods on health outcomes – could you provide resources?",
+        "Can you elaborate on the science behind the negative health effects associated with foods high in saturated fat, sugar, and sodium?"
+      ],
+      "paraphrase_ms": 9187.481200002367
+    },
+    "PLAIN-1463": {
+      "hyde_passage": "Kidney beans are legumes native to Central and South America, valued for their distinctive kidney-shaped seeds and hearty flavor.  They are a staple ingredient in many cuisines worldwide, commonly used in stews, chili, and salads due to their high protein and fiber content.  Properly cooked, kidney beans are safe and nutritious, though raw beans contain toxins that must be neutralized through boiling.",
+      "hyde_ms": 9089.311700001417,
+      "paraphrases": [
+        "I’m looking for information on Phaseolus vulgaris, commonly known as kidney beans.",
+        "What are the nutritional profiles and culinary applications of *Phaseolus vulgaris*?",
+        "I need details regarding the cultivation, varieties, and processing of kidney beans."
+      ],
+      "paraphrase_ms": 8187.597000003734
+    },
+    "PLAIN-1473": {
+      "hyde_passage": "Kohlrabi is a versatile vegetable, often mistaken for a cross between a cabbage and a turnip.  Its bulbous stem is edible and boasts a mild, slightly sweet flavor, making it a surprisingly versatile addition to salads, stir-fries, or roasted dishes.  Nutritionally dense, kohlrabi is packed with vitamins and fiber, offering a healthy and delicious option.",
+      "hyde_ms": 9289.384399999108,
+      "paraphrases": [
+        "What is kohlrabi and how do I prepare it?",
+        "Provide information on the cultivation and culinary uses of *Brassica oleracea gongylifera* (kohlrabi).",
+        "I’m researching root vegetables – specifically, details regarding kohlrabi’s nutritional profile and optimal harvesting techniques."
+      ],
+      "paraphrase_ms": 9429.772499999672
+    },
+    "PLAIN-1485": {
+      "hyde_passage": "Lard is rendered pig fat, a traditional cooking fat prized for its high smoke point and flavor. Historically, it was a staple fat in many cuisines, particularly in Europe and North America, and continues to be used in baking and savory dishes today.  Its unique taste and texture contribute richness and depth to a wide variety of recipes.",
+      "hyde_ms": 8223.066300000937,
+      "paraphrases": [
+        "What is rendered pork fat?",
+        "Describe the properties and uses of suet.",
+        "Explain the characteristics of animal tallow and its culinary applications."
+      ],
+      "paraphrase_ms": 7027.27039999445
+    },
+    "PLAIN-1496": {
+      "hyde_passage": "Leeks are a member of the allium family, closely related to onions and garlic, and are characterized by their long, cylindrical stalks and delicate, feathery leaves.  They offer a mild, subtly sweet flavor when cooked, making them a versatile addition to soups, stews, and gratins.  Often used as a garnish, leeks can also be braised or sautéed to bring out their full potential.",
+      "hyde_ms": 7666.883300000336,
+      "paraphrases": [
+        "I’m looking for information on leeks – their cultivation, culinary uses, and nutritional properties.",
+        "Could you provide details regarding *Allium schoenoprasum*, commonly known as leeks?",
+        "I need resources pertaining to the foraging and preparation of leeks, including optimal harvest techniques and flavor profiles."
+      ],
+      "paraphrase_ms": 9391.250100001344
+    }
+  }
+}
